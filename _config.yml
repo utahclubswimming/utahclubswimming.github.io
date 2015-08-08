@@ -1,14 +1,44 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Utah Club Swimming
+email: utahclubswimming@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  An intercollegiate, competitive club swim team at the University of Utah.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://utahclubswimming.github.io" # the base hostname & protocol for your site
+
+# Usernames
+facebook_username:  utahclubswimming
+twitter_username:   utahclubswim
+instagram_username: utahclubswimming
+flickr_username:    utahclubswimming
+github_username:    utahclubswimming
+
+# Pages
+site_home: index.html
+
+# Navigation
+# navigation: [
+#     data:
+#         - top:
+#             - name: 'Home'
+#               url:  '/',
+#     data:
+#         - top:
+#             - name: 'About'
+#               url:  '/about/',
+#     data:
+#         - top:
+#             - name: 'Our Team'
+#               url:  '/team/'
+#         - children:
+#             [
+#                 - name: 'Team'
+#                   url:  '/team/',
+#                 - name: 'Officers'
+#                   url:  '/team/officers/'
+#             ]
+# ]
+
 
 # Build settings
 markdown: kramdown

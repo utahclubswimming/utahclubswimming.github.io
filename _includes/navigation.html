@@ -1,0 +1,62 @@
+<!-- Use class="current" to mark the current node. -->
+<nav id="nav">
+    <ul>
+        <li><a href="{{ site.baseurl }}/">Home</a></li>
+        <li>
+            <a href="{{ site.baseurl }}/about/">About</a>
+            <ul>
+                <li><a href="{{ site.baseurl }}/about/">About the Team</a></li>
+                <li><a href="{{ site.baseurl }}/about/#history">History</a></li>
+                <li><a href="{{ site.baseurl }}/about/#join">How to Join</a></li>
+                <li><a href="{{ site.baseurl }}/sponsors/">Team Sponsors</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="{{ site.baseurl }}/schedule/">Schedule</a>
+            <ul>
+                <li><a href="{{ site.baseurl }}/schedule/">Practice Schedule</a></li>
+                <li><a href="{{ site.baseurl }}/schedule/#meets">Meet Schedule</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="{{ site.baseurl }}/records/">Results</a>
+            <ul>
+                <li><a href="{{ site.baseurl }}/records/">Team Records</a></li>
+                <li><a href="{{ site.baseurl }}/depth/">Depth Chart</a></li>
+                <li><a href="{{ site.baseurl }}/results/">Past Meet Results</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="{{ site.baseurl }}/team/">Our Team</a>
+            <ul>
+                <li><a href="{{ site.baseurl }}/team/">Roster</a></li>
+                <li><a href="{{ site.baseurl }}/officers/">Officers</a></li>
+                <li><a href="{{ site.baseurl }}/marketingboard/">Marketing Board</a></li>
+            </ul>
+        </li>
+        <li><a href="{{ site.baseurl }}/contact/">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- {% if site.navigation %}
+<h2>Navigation</h2>
+<ul>
+    {% for group in site.navigation %}
+        {% assign header = group.top %}
+        <li><a href="{{ header.url }}">{{ header.name }}</a></li>
+        {% if group.children %}
+            {% for child in group.children %}
+                <li><a href="{{ child.url }}">{{ child.name }}</a></li>
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+</ul>
+{% endif %} -->
+
+
+<!-- >>> for group in navigation:
+...     header = group['top']
+...     print("<li><a href={} {}>{}</a></li>".format(header['url'], 'class="active"' if current in header else '', header['name']))
+...     if 'children' in group:
+...             for child in group['children']:
+...                     print("    <li><a href={}>{}</a></li>".format(child['url'], child['name'])) -->
