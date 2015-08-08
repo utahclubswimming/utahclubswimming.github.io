@@ -1,0 +1,107 @@
+---
+layout: default
+title: Schedule
+permalink: /schedule/
+---
+
+<div class="row">
+    <div class="12u">
+        <div class="content">
+
+            <!-- Content -->
+
+                <article class="box page-content">
+
+                    <header>
+                        <h2>Practice Schedule</h2>
+                        <p>When to come swim with us</p>
+                    </header>
+
+                    <section>
+                        <table class="schedule">
+                            <thead>
+                                <tr>
+                                    <th><!-- Blank for a space in the corner. --></th>
+                                    <th><!-- Blank for a space in the corner. --></th>
+                                    {% for entry in site.data.schedule %}
+                                    <th>{{ entry.day }}</th>
+                                    {% endfor %}
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Morning -->
+                                <tr>
+                                    <!-- Morning Times -->
+                                    <th rowspan="3">Morning</th>
+                                    <th>Time</th>
+                                    {% for entry in site.data.schedule %}
+                                    {% assign time = (entry.morning | map: 'time') %}
+                                    <td>{{ time }}</td>
+                                    {% endfor %}
+                                </tr>
+                                <tr>
+                                    <!-- Morning Styles -->
+                                    <th>Style</th>
+                                    {% for entry in site.data.schedule %}
+                                    {% assign style = (entry.morning | map: 'style') %}
+                                    <td>{{ style }}</td>
+                                    {% endfor %}
+                                </tr>
+                                <tr>
+                                    <!-- Morning Leaders -->
+                                    <th>Leader</th>
+                                    {% for entry in site.data.schedule %}
+                                    {% assign leader = (entry.morning | map: 'leader') %}
+                                    <td>{{ leader }}</td>
+                                    {% endfor %}
+                                </tr>
+                                <!-- Evening -->
+                                <tr>
+                                    <!-- Evening Times -->
+                                    <th rowspan="3">Evening</th>
+                                    <th>Time</th>
+                                    {% for entry in site.data.schedule %}
+                                    {% assign time = (entry.evening | map: 'time') %}
+                                    <td>{{ time }}</td>
+                                    {% endfor %}
+                                </tr>
+                                <tr>
+                                    <!-- Evening Styles -->
+                                    <th>Style</th>
+                                    {% for entry in site.data.schedule %}
+                                    {% assign style = (entry.evening | map: 'style') %}
+                                    <td>{{ style }}</td>
+                                    {% endfor %}
+                                </tr>
+                                <tr>
+                                    <!-- Evening Leaders -->
+                                    <th>Leader</th>
+                                    {% for entry in site.data.schedule %}
+                                    {% assign leader = (entry.evening | map: 'leader') %}
+                                    <td>{{ leader }}</td>
+                                    {% endfor %}
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+
+                </article>
+
+            <article class="box page-content">
+
+                <header>
+                    <h2>Meet Schedule</h2>
+                    <p>When we'll be competing</p>
+                </header>
+
+                <section>
+                    <table class="schedule">
+
+                    </table>
+                </section>
+
+            </article>
+
+        </div>
+    </div>
+</div>

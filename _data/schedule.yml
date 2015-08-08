@@ -1,0 +1,42 @@
+- day: Monday
+  morning:
+    - time: 6:00-8:00am
+      leader: Matt Bird
+  evening:
+    - time: 5:30-7:30pm
+      leader: Ethan Beseris
+      style: Something
+- day: Tuesday
+  morning:
+    - time: 6:00-8:00am
+      leader: Ethan Beseris
+      style: Drylands
+  evening:
+    - time: 5:30-7:30pm
+      leader: Pierce Darragh
+- day: Wednesday
+  morning:
+    - time: 6:00-8:00am
+      leader: Jeppesen Feliciano
+      style: IM
+  evening:
+    - time: 5:30-7:30pm
+      leader: Melissa Hofmann
+- day: Thursday
+  morning:
+    - time: 6:00-8:00am
+      leader: Jeppesen Feliciano
+      style: Drylands
+  evening:
+    - time: 5:30-7:30pm
+      leader: Janey Heyman
+      style: Sprints
+- day: Friday
+  morning:
+    - time: 6:00-8:00am
+      leader: Matt Bird
+- day: Saturday
+  morning:
+    - time: 10:00-noon
+      leader: Ethan Beseris
+      style: Team-Building
