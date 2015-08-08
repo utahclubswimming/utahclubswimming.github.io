@@ -1,0 +1,93 @@
+# Team Records
+#
+# Records are stored in a hash.
+# EVERY POSSIBLE EVENT NEEDS A ROW.
+# A full event entry looks like:
+#   - event: {{ Event Name }}
+#     woman_name: {{ Woman Record-holder Name }}
+#     woman_time: {{ Woman Record-holder Time }}
+#     man_name: {{ Man Record-holder Name }}
+#     man_time: {{ Man Record-holder Time }}
+#
+# Any field ommitted will simply be left out of the table automatically.
+# Also note that the spacing must be consistent. Really. Don't break it.
+
+- event: 50 Free
+  woman_name: Al Jamora
+  woman_time: 25.36
+  man_name: Nathan Bramhall
+  man_time: 22.94
+- event: 100 Free
+  woman_name: Melissa Hofmann
+  woman_time: 56.83
+  man_name: Ethan Beseris
+  man_time: 49.51L
+- event: 200 Free
+  woman_name: Aari Lyijynen
+  woman_time: 2:34.08
+  man_name: Matt Bird
+  man_time: 2:06.03
+- event: 500 Free
+  woman_name: Polly Creveling
+  woman_time: 6:02.78
+  man_name: Matt Bird
+  man_time: 6:01.61
+- event: 1000 Free
+- event: 1650 Free
+  man_name: Matt Bird
+  man_time: 20:54.42
+- event: 50 Back
+  woman_name: Melissa Hofmann
+  woman_time: 29.98L
+  man_name: Ethan Beseris
+  man_time: 27.21L
+- event: 100 Back
+  woman_name: Melissa Hofmann
+  woman_time: 1:07.69
+- event: 200 Back
+- event: 50 Breast
+  woman_name: Al Jamora
+  woman_time: 33.94
+  man_name: Jeppesen Feliciano
+  man_time: 30.10
+- event: 100 Breast
+  man_name: Jeppesen Feliciano
+  man_time: 1:06.19
+- event: 200 Breast
+  man_name: Jeppesen Feliciano
+  man_time: 2:39.80
+- event: 50 Fly
+  woman_name: Janey Heyman
+  woman_time: 29.83
+  man_name: Ethan Beseris
+  man_time: 25.31
+- event: 100 Fly
+  man_name: Ethan Beseris
+  man_time: 54.35
+- event: 200 Fly
+- event: 100 IM
+  woman_name: Al Jamora
+  woman_time: 1:05.55
+  man_name: Ben Stewart
+  man_time: 1:03.52
+- event: 200 IM
+  woman_name: Janey Heyman
+  woman_time: 2:34.31
+  man_name: Ethan Beseris
+  man_time: 2:18.01
+- event: 400 IM
+- event: 200 Free Relay
+  woman_name: Hofmann, Heyman, Nguyen, Creveling
+  woman_time: 1:51.90
+  man_name: Darragh, Feliciano, Knowles, Beseris
+  man_time: 1:38.78
+- event: 200 Medley Relay
+  woman_name: Hofmann, Jamora, Heyman, Reynolds*
+  woman_time: 2:02.35
+  man_name: Beseris, Feliciano, Knowles, Darragh
+  man_time: 1:50.85
+- event: 400 Free Relay
+  woman_name: Hofmann, Heyman, Jamora, Reynolds*
+  woman_time: 4:00.62
+  man_name: Beseris, Darragh, Knowles, Bird
+  man_time: 3:42.27
