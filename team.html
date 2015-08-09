@@ -16,15 +16,11 @@ permalink: /team/
                         <p>See all of our current members!</p>
                     </header>
 
+                    {% for members_hash in site.data.members reversed %}
+                    {% assign key = members_hash[0] | capitalize %}
+                    {% assign members = members_hash[1] %}
                     <section>
-                        <h3>Roster</h3>
-                        <p>
-                            Here you can see info on all of our team members. Nifty!
-                        </p>
-                    </section>
-
-                    <section>
-                        <h3>Women's Team</h3>
+                        <h3>{{ key }}'s Team</h3>
                         <table class="roster">
                             <thead>
                                 <tr>
@@ -36,7 +32,6 @@ permalink: /team/
                                 </tr>
                             </thead>
                             <tbody>
-                                {% assign members = site.data.members | sort:"last" | where: "gender", "F" %}
                                 {% for member in members %}
                                 <tr>
                                     <td>{{ member.last }}, {{ member.first }}{% if member.middle %}, {{ member.middle }}{% endif %}</td>
@@ -49,33 +44,7 @@ permalink: /team/
                             </tbody>
                         </table>
                     </section>
-
-                    <section>
-                        <h3>Men's Team</h3>
-                        <table class="roster">
-                            <thead>
-                                <tr>
-                                    <th>Name</th>
-                                    <th>Event(s)</th>
-                                    <th>Year</th>
-                                    <th>Hometown</th>
-                                    <th>Last School</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                {% assign members = site.data.members | sort:"last" | where: "gender", "M" %}
-                                {% for member in members %}
-                                <tr>
-                                    <td>{{ member.last }}, {{ member.first }}{% if member.middle %}, {{ member.middle }}{% endif %}</td>
-                                    <td>{{ member.events }}</td>
-                                    <td>{{ member.year }}</td>
-                                    <td>{{ member.hometown }}</td>
-                                    <td>{{ member.school }}</td>
-                                </tr>
-                                {% endfor %}
-                            </tbody>
-                        </table>
-                    </section>
+                    {% endfor %}
 
                 </article>
 
