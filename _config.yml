@@ -13,6 +13,9 @@ instagram_username: utahclubswimming
 flickr_username:    utahclubswimming
 github_username:    utahclubswimming
 
+# Content locations
+image_url: /images
+
 # Pages
 site_home: index.html
 

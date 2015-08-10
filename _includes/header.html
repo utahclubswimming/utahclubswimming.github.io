@@ -1,7 +1,11 @@
 <header id="header">
     <div class="logo container">
         <div>
-            <h1><a href="{{ site.site_home }}" id="logo">UUCS</a></h1>
+            <!-- This part shows up in the mobile navbar. -->
+            <h1><a href="{{ site.baseurl }}" id="logo">UUCS</a></h1>
+            <!-- The image will not appear on mobile. -->
+            <a href="{{ site.baseurl }}"><img src="{{ site.image_url }}/logos/transparent.png" /></a>
+            <!-- Heading line. -->
             <p>Uniersity of Utah Club Swimming</p>
         </div>
     </div>
