@@ -1,0 +1,37 @@
+---
+layout: default
+title: Officers
+permalink: /team/officers/
+---
+
+<div class="row">
+    <div class="12u">
+        <div class="content">
+
+            <!-- Content -->
+
+                <article class="box page-content">
+
+                    <header>
+                        <h2>Current Officers</h2>
+                        <p>Team leadership positions</p>
+                    </header>
+
+                    <section>
+                        <ul class="officers">
+                            {% for officer in site.data.officers %}
+                            <li>
+                                <img src="{{ site.baseurl }}/images/officer.jpg" />
+                                <h3>{{ officer.name }}</h3>
+                                <h4>{{ officer.position }}</h4>
+                                <p>{{ officer.info }}</p
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </section>
+
+                </article>
+
+        </div>
+    </div>
+</div>
