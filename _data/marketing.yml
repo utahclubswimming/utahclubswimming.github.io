@@ -1,24 +1,37 @@
 - position: Chairman
   name: Josh Parata
+  image: marketing/josh.jpg
   info: >
-    Some info about Josh.
+    As Chairman, Josh is in charge of managing the Marketing Board meetings
+    and ensuring that all tasks are completed in a timely manner.
 - position: Social Media Manager, Web Architect
   name: Pierce Darragh
+  image: marketing/pierce.jpg
   info: >
-    Some info about Pierce.
+    Pierce manages all social media posts and content (Facebook, Instagram,
+    Twitter, etc.). He also built and manages the team website.
 - position: Graphic Designer
   name: Ethan Beseris
+  image: marketing/ethan.png
   info: >
-    Some info about Ethan.
+    Utilizing his detail-oriented nature, Ethan develops all graphics needed by
+    the team – including our Swoop-and-U logo!
 - position: Photographer/Historian
   name: Janey Heyman
+  image: marketing/janey.jpg
   info: >
-    Some info about Janey.
-- position: Member
-  name: Melissa Hofmann
-  info: >
-    Some info about Melissa.
+    Janey has exhibited an aptitude for photography and was elected the team
+    historian. She takes pictures on team adventures and posts them to Flickr.
 - position: Audio/Visual Director
   name: David Skorut
+  image: marketing/david.jpg
   info: >
-    Some info about David.
+    An up-and-coming film and media arts expert, David spends much of his time
+    creating films for local competitions and has taken the duty of team
+    videographer.
+- position: Treasury Liason
+  name: Melissa Hofmann
+  image: marketing/melissa.jpg
+  info: >
+    As the treasurer of the team, Melissa serves as her own representative on
+    the Marketing Board. She ensures the Board doesn't overspend on projects.
