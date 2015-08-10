@@ -1257,11 +1257,11 @@
 
             #header {
                 text-align: center;
-                font-size: 2em;
+                font-size: 3em;
                 font-family: 'Collegiate', 'Open Sans Condensed', sans-serif !important;
                 font-weight: 700;
                 text-transform: uppercase;
-                padding: 5em 0 2em 0;
+                padding: 3em 0 0em 0;
                 background: $header_background;
                 margin: 0 auto;
 
@@ -1280,6 +1280,11 @@
 
                     h1 {
                         display: none;
+                    }
+
+                    sup {
+                        font-size: 50%;
+                        vertical-align: super;
                     }
 
                     img {
