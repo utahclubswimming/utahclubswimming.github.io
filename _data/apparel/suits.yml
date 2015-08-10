@@ -1,0 +1,12 @@
+- name: Women's Thinstraps
+  cost: $60.00
+  image: apparel/suits/women_suit_thinstraps.gif
+- name: Women's Freeback
+  cost: $60.00
+  image: apparel/suits/women_suit_freeback.gif
+- name: Men's Brief
+  cost: $40.00
+  image: apparel/suits/men_suit_brief.gif
+- name: Men's Jammer
+  cost: $40.00
+  image: apparel/suits/men_suit_jammer.gif
