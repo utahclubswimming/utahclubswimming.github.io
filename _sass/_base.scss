@@ -9,6 +9,11 @@
 @import url("images/overlay.png");
 @import url("images/highlight.png");
 
+@font-face {
+    font-family: 'Collegiate';
+    src: url('/fonts/collegiate.ttf');
+}
+
 /*
     TXT by HTML5 UP
     html5up.net | @n33co
@@ -151,8 +156,7 @@
             $header_logo_color:                 $swoop_crimson;
             $header_logo_top_border:            $swoop_crimson_50;
             $header_logo_div_background:        $header_background;
-            $header_logo_text:                  $lightish_gray;
-            $header_logo_p_text:                $lightish_gray;
+            $header_logo_p_text:                $dark_gray;
 
         /* Buttons */
             $button_text:                       $white;
@@ -1254,7 +1258,7 @@
             #header {
                 text-align: center;
                 font-size: 2em;
-                font-family: 'Open Sans Condensed', sans-serif !important;
+                font-family: 'Collegiate', 'Open Sans Condensed', sans-serif !important;
                 font-weight: 700;
                 text-transform: uppercase;
                 padding: 5em 0 2em 0;
