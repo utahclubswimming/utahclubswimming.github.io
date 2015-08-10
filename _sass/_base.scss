@@ -1247,11 +1247,19 @@
                         position: relative;
                         display: inline-block;
                         padding: 0 1.5em 0 1.5em;
-                        top: -0.65em;
+                        top: -1.15em;
                     }
 
                     h1 {
+                        display: none;
+                    }
+
+                    img {
+                        width: auto;
+                        height: 2.3em;
                         display: inline;
+                        vertical-align: middle;
+                        padding-right: 0.7em;
                     }
 
                     p {
