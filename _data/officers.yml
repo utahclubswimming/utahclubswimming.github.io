@@ -1,11 +1,13 @@
 - position: President
   name: Ethan Beseris
+  image: officers/president.png
   info: >
     In addition to being our first president, Ethan is the founder of the Club
     Swim Team at the University of Utah. He has put in countless hours to ensure
     everybody on the team feels involved and strives for their best.
 - position: Vice President
   name: Matt Bird
+  image: officers/default.jpg
   info: >
     The vice president is in charge of all team meet registration and record-
     keeping. Matt helps to decide which meets the team will be attending during
@@ -13,24 +15,28 @@
     as needed.
 - position: Treasurer
   name: Melissa Hofmann
+  image: officers/default.jpg
   info: >
     Melissa has the responsibility of preparing and maintaining our team's
     budget during the season. She serves as our primary point of contact with
     ASUU's representatives regarding all financial matters.
 - position: Secretary
   name: Jeppesen Feliciano
+  image: officers/secretary.jpg
   info: >
     Jeppesen's role as secretary is to keep notes through all officer meetings
     and to draft agendas for upcoming meetings, as well as to help each officer
     keep on top of their respective tasks between meetings.
 - position: Women's Team Captain
   name: Janey Heyman
+  image: officers/womencaptain.jpg
   info: >
     As women's team captain, Janey collaborates with Pierce to organize team
     events. She also assists the other officers with whatever needs they may
     have.
 - position: Men's Team Captain
   name: Pierce Darragh
+  image: officers/mencaptain.jpg
   info: >
     Pierce is the men's team captain, so his responsibility is to work with
     Janey to plan team outings and social gatherings. He also helps with
