@@ -5,7 +5,25 @@ permalink: /apparel/
 ---
 
 <div class="row 200%">
-    {% for item in site.data.apparel %}
+    <div class="12u">
+        <div class="content">
+            <article class="box page-content">
+                <header>
+                    <h2>Team Suits</h2>
+                    <p>What you swim in</p>
+                </header>
+            </article>
+
+            <section>
+                <p>
+                    Our suits this year are custom Agon Swim designs, featuring our name and logo
+                    prominently so your opponents will know who you represent when you beat them
+                    in the water.
+                </p>
+            </section>
+        </div>
+    </div>
+    {% for item in site.data.apparel.suits %}
     <div class="6u 12u(mobile)" id="apparel">
         <div>
             <h3>{{ item.name }}</h3>
@@ -14,16 +32,31 @@ permalink: /apparel/
         </div>
     </div>
     {% endfor %}
+    <div class="12u">
+        <div class="content">
+            <article class="box page-content">
+                <header>
+                    <h2>Team Gear</h2>
+                    <p>Extra things to wear</p>
+                </header>
+            </article>
 
-    <!-- <ul class="apparel">
-        {% for item in site.data.apparel %}
-        <li class="4u 12u(mobile)">
-            <div>
-                <h2>{{ item.name }}</h2>
-                <h3>{{ item.cost }}</h3>
-            </div>
-            <img src="{{ site.image_url }}/{{ item.image }}" />
-        </li>
-        {% endfor %}
-    </ul> -->
+            <section>
+                <p>
+                    With the exception of the caps, all gear pictured below is Under Armour brand. This
+                    is the brand used by other University of Utah teams, and we are excited to be able
+                    to provide such premium equipment at discounted rates for our swimmers.
+                </p>
+            </section>
+        </div>
+    </div>
+    {% for item in site.data.apparel.gear %}
+    <div class="6u 12u(mobile)" id="apparel">
+        <div>
+            <h3>{{ item.name }}</h3>
+            <p>{{ item.cost }}</p>
+            <span class="image fit"><img src="{{ site.image_url }}/{{ item.image }}" /></span>
+        </div>
+    </div>
+    {% endfor %}
 </div>
