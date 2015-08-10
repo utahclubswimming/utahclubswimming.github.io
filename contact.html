@@ -1,0 +1,122 @@
+---
+layout: default
+title: Contact Us
+permalink: /contact/
+---
+
+<div class="row">
+    <div class="12u">
+        <div class="content">
+
+            <!-- Content -->
+
+                <article class="box page-content">
+
+                    <header>
+                        <h2>Contact Us</h2>
+                        <p>Need to get ahold of the team? Look no further!</p>
+                    </header>
+
+                    <section>
+                        <h3>Options</h3>
+                        <p>
+                            The team officers work hard to ensure that all questions are answered
+                            quickly and fully. We are accessible through email (either from your
+                            own account or by filling out the form below) and on most forms of
+                            social media.
+                        </p>
+                    </section>
+
+                </article>
+
+        </div>
+    </div>
+</div>
+<div class="row 200%">
+    <div class="6u 12u(mobile)">
+
+        <!-- Contact Form -->
+            <section>
+                <form method="post" action="#">
+                    <div class="row 50%">
+                        <div class="6u 12u(mobile)">
+                            <input type="text" name="name" id="contact-name" placeholder="Name" />
+                        </div>
+                        <div class="6u 12u(mobile)">
+                            <input type="text" name="email" id="contact-email" placeholder="Email" />
+                        </div>
+                    </div>
+                    <div class="row 50%">
+                        <div class="12u">
+                            <textarea name="message" id="contact-message" placeholder="Message" rows="4"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="12u">
+                            <ul class="actions">
+                                <li><input type="submit" class="style1" value="Send" /></li>
+                                <li><input type="reset" class="style2" value="Reset" /></li>
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+            </section>
+
+    </div>
+    <div class="6u 12u(mobile)">
+
+        <!-- Contact -->
+            <section class="feature-list small">
+                <div class="row">
+                    <div class="6u 12u(mobile)">
+                        <section>
+                            <h3 class="icon fa-home">Mailing Address</h3>
+                            <p>
+                                Utah Club Swimming<br />
+                                1836 Student Life Way<br />
+                                Salt Lake City, UT 84112
+                            </p>
+                        </section>
+                    </div>
+                    <div class="6u 12u(mobile)">
+                        <section>
+                            <h3 class="icon fa-comment">Social</h3>
+                            <p>
+                                {% if site.facebook_username %}
+                                <a href="https://www.facebook.com/{{ site.facebook_username }}">facebook: {{ site.facebook_username }}</a><br />
+                                {% endif %}
+                                {% if site.twitter_username %}
+                                <a href="https://twitter.com/{{ site.twitter_username }}">twitter: @{{ site.twitter_username }}</a><br />
+                                {% endif %}
+                                {% if site.instagram_username %}
+                                <a href="https://instagram.com/{{ site.instagram_username }}">insta: @{{ site.instagram_username }}</a><br />
+                                {% endif %}
+                                {% if site.flickr_username %}
+                                <a href="https://www.flickr.com/photos/{{ site.flickr_username }}">flickr: {{ site.flickr_username }}</a><br />
+                                {% endif %}
+                            </p>
+                        </section>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="6u 12u(mobile)">
+                        <section>
+                            <h3 class="icon fa-envelope">Email</h3>
+                            <p>
+                                <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+                            </p>
+                        </section>
+                    </div>
+                    <div class="6u 12u(mobile)">
+                        <section>
+                            <h3 class="icon fa-phone">Phone</h3>
+                            <p>
+                                Ethan Beseris: (000) 555-0000
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            </section>
+
+    </div>
+</div>
