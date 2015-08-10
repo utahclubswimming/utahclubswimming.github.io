@@ -13,7 +13,7 @@ permalink: /team/
 
                     <header>
                         <h2>Team Roster</h2>
-                        <p>See all of our current members!</p>
+                        <p>Currently active team members</p>
                     </header>
 
                     {% for members_hash in site.data.members reversed %}
@@ -34,7 +34,7 @@ permalink: /team/
                             <tbody>
                                 {% for member in members %}
                                 <tr>
-                                    <td>{{ member.last }}, {{ member.first }}{% if member.middle %}, {{ member.middle }}{% endif %}</td>
+                                    <td>{{ member.last_name }}, {{ member.first_name }}{% if member.middle_initial %} {{ member.middle_initial }}{% endif %}</td>
                                     <td>{{ member.events }}</td>
                                     <td>{{ member.year }}</td>
                                     <td>{{ member.hometown }}</td>

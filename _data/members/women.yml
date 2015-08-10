@@ -1,17 +1,31 @@
-- last: Heyman
-  middle: X
-  first: Janey
-  gender: F
+- last_name: Heyman
+  first_name: Jane Marie
+  middle_initial: C
+  given_name: Janey
   events: Distance Free/IM/Fly
   year: Sophomore
   hometown: Santa Cruz, CA
   school: Saratoga HS
   officer: Women's Team Captain
-- last: Hofmann
-  first: Melissa
-  gender: F
+- last_name: Hofmann
+  first_name: Melissa
+  middle_initial: N
   events: Sprint Free/Back
   year: Junior
   hometown: Salt Lake City, UT
   school: Olympus HS
   officer: Treasurer
+- last_name: Jamora
+  first_name: Alexandra
+  middle_initial: L
+  given_name: Al
+  events: Sprint Free/Back/Breast
+  year: Alumna
+  hometown: Kapolei, HI
+  school: University of Utah
+- last_name: Lee
+  first_name: Nicole
+  events: Distance/Sprint Free
+  year: Sophomore
+  hometown: Guatemala City, Guatemala
+  school: Carol Morgan School
