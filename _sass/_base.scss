@@ -408,6 +408,10 @@
         &.fit {
             display: block;
             width: 100%;
+
+            img {
+                width: 100%;
+            }
         }
 
         &.featured {
@@ -945,6 +949,25 @@
 
         > .label {
             display: none;
+        }
+    }
+
+/* Apparel */
+
+    #apparel {
+        div {
+            background: $white;
+            border-radius: 0.5em;
+
+            h3 {
+                text-align: center;
+                padding: 0.5em 0 0;
+            }
+
+            p {
+                text-align: center;
+                margin-bottom: 0 !important;
+            }
         }
     }
 
@@ -1816,7 +1839,7 @@
         /* Main */
 
             #main {
-                padding: 1em 20px 1em 20px;
+                padding: 3em 20px 1em 20px;
 
                 > .row {
                     padding: 2em 0 2em 0;
