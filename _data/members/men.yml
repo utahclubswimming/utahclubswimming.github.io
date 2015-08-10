@@ -1,18 +1,83 @@
-- last: Beseris
-  first: Ethan
-  given: Ethel
-  gender: M
+- last_name: Beseris
+  first_name: Ethan
+  middle_initial: A
   events: Sprint Free/Fly
   year: Junior
   hometown: Salt Lake City, UT
   school: Skyline HS
   officer: President
-- last: Bird
-  first: Matthew
-  given: Matt
-  gender: M
+- last_name: Bird
+  first_name: Matthew
+  middle_initial: J
+  given_name: Matt
   events: Distance Free/Fly
   year: Senior
   hometown: Draper, UT
   school: Juan Diego Catholic HS
   officer: Vice President
+- last_name: Darragh
+  first_name: Pierce
+  middle_initial: O
+  events: Sprint Free/Fly/Back
+  year: Senior
+  hometown: South Jordan, UT
+  school: Hillcrest HS
+  officer: Men's Team Captain
+- last_name: Feliciano
+  first_name: Jeppesen
+  middle_initial: G
+  events: Breast/IM
+  year: Junior
+  hometown: West Jordan, UT
+  school: Juan Diego Catholic HS
+  officer: Secretary
+- last_name: Jin
+  first_name: Hansheng
+  given_name: Max
+  events: Sprint Free/Breast
+  year: Sophomore
+  hometown: Shanghai, China
+  school: Colorado Rocky Mountain School
+- last_name: Knowles
+  first_name: Jackson
+  middle_initial: A
+  events: Mid-distance Free/Fly
+  year: Sophomore
+  hometown: Moab, UT
+  school: Grand County HS
+- last_name: Noaker
+  first_name: Dylan
+  middle_initial: R
+  events: Distance Free
+  year: Senior
+  hometown: Oakley, UT
+  school: South Summit HS
+- last_name: Parata
+  first_name: Alexander
+  middle_initial: J
+  given_name: Josh
+  events: Sprint Free/Fly
+  year: Senior
+  hometown: Riverton, UT
+  school: Salt Lake Community College
+- last_name: Reynolds
+  first_name: Raymond
+  middle_initial: C
+  given_name: Ray
+  events: IM/Fly
+  year: Sophomore
+  hometown: Little Silver, NJ
+  school: Red Bank Regional HS
+- last_name: Watson
+  first_name: Guy
+  events: Sprint Free/Breast
+  year: Junior
+  hometown: Logan, UT
+  school: Logan HS
+- last_name: Waugh
+  first_name: Eric
+  middle_initial: A
+  events: Sprint Free
+  year: Sophomore
+  hometown: Centennial, CO
+  school: Arapahoe HS
