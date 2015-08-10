@@ -90,13 +90,28 @@ permalink: /schedule/
             <article class="box page-content">
 
                 <header>
-                    <h2>Meet Schedule</h2>
+                    <h2><a name="meets">Meet Schedule</a></h2>
                     <p>When we'll be competing</p>
                 </header>
 
                 <section>
                     <table class="schedule">
-
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Meet</th>
+                                <th>Location</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for meet in site.data.meets %}
+                            <tr>
+                                <td>{{ meet.date }}</td>
+                                <td>{{ meet.name }}</td>
+                                <td>{{ meet.location }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
                     </table>
                 </section>
 
