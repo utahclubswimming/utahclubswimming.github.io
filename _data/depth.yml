@@ -1,0 +1,38 @@
+- event: 50 Free
+  women:
+    - name: Al Jamora
+      time: "25.36"
+    - name: Melissa Hofmann
+      time: "25.58"
+    - name: Polly Creveling
+      time: "27.41"
+    - name: LeAnn Nguyen
+      time: "28.38"
+    - name: Janey Heyman
+      time: "28.72"
+  men:
+    - name: Nate Bramhall
+      time: "22.94"
+    - name: Ethan Beseris
+      time: "23.02"
+    - name: Pierce Darragh
+      time: "24.51"
+    - name: Ben Stewart
+      time: "24.82"
+    - name: Jeppesen Feliciano
+      time: "24.91"
+- event: 100 Free
+  women:
+    - name: Melissa Hofmann
+      time: "56.83"
+  men:
+    - name: Ethan Beseris
+      time: "49.51L"
+    - name: Jackson Knowles
+      time: "55.01"
+    - name: Pierce Darragh
+      time: "55.30"
+    - name: Matt Christensen
+      time: "57.44"
+    - name: Ben Stewart
+      time: "57.67"
