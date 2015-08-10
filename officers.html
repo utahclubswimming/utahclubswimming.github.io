@@ -21,7 +21,7 @@ permalink: /team/officers/
                         <ul class="officers">
                             {% for officer in site.data.officers %}
                             <li>
-                                <img src="{{ site.baseurl }}/images/officer.jpg" />
+                                <img src="{{ site.image_url }}/{{ officer.image }}" />
                                 <h3>{{ officer.name }}</h3>
                                 <h4>{{ officer.position }}</h4>
                                 <p>{{ officer.info }}</p
