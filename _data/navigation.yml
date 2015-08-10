@@ -1,0 +1,41 @@
+- title: Home
+  url: /
+
+- title: About
+  url: /about/
+  sublinks:
+    - title: About the Team
+      url: /about/
+    - title: History
+      url: /about/#history
+    - title: How to Join
+      url: /about/#join
+
+- title: Schedule
+  url: /schedule/
+  sublinks:
+    - title: Practice Schedule
+      url: /schedule/#practice
+    - title: Meet Schedule
+      url: /schedule/#meets
+
+- title: Results
+  url: /records/
+  sublinks:
+    - title: Team Records
+      url: /records/
+    - title: Depth Chart
+      url: /depth/
+
+- title: Our Team
+  url: /team/
+  sublinks:
+    - title: Team Roster
+      url: /team/
+    - title: Officers
+      url: /team/officers/
+    - title: Marketing Board
+      url: /team/marketing/
+
+- title: Contact
+  url: /contact/
