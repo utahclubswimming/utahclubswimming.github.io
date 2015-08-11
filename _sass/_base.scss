@@ -4,6 +4,7 @@
 @charset "UTF-8";
 
 @import url("font-awesome.min.css");
+@import url("http://fonts.googleapis.com/css?family=Source+Code+Pro:400,500");
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic|Open+Sans+Condensed:700");
 @import url("../../images/banner.jpg");
 @import url("images/overlay.png");
@@ -79,6 +80,8 @@
             $header_p_text:                     $lighter_gray;
             $horizontal_rule:                   $really_subdued_reddish;
             $blockquote:                        $really_subdued_reddish;
+            $pre_code_border:                   $light_gray;
+            $pre_code_background:               $white;
 
             /* Main Wrapper */
                 $main_wrapper_background:           $eggshell;
@@ -256,6 +259,12 @@
         )
     ));
 
+/* Set `margin-bottom` to maintain vertical rhythm */
+
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, %vertical-rhythm {
+        margin-bottom: 15px;
+    }
+
 /* Basic */
 
     body {
@@ -375,6 +384,31 @@
             color: $header_p_text;
         }
     }
+
+/* Code formatting */
+
+    pre, code {
+        font-family: 'Source Code Pro', monospace;
+        font-size: 15px;
+        border: 1px solid $pre_code_border;
+        border-radius: 3px;
+        background-color: $pre_code_background;
+    }
+
+    code {
+        padding: 1px 5px;
+    }
+
+    pre {
+        padding: 8px 12px;
+        overflow-x: scroll;
+
+        > code {
+            border: 0;
+            padding-right: 0;
+            padding-left: 0;
+        }
+}
 
 /* Image */
 
