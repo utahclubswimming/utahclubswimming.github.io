@@ -37,33 +37,23 @@
         These are colors that are used frequently throughout.
     */
         /* Neutrals */
-        $white:                             #ffffff;                    /* original: #ffffff */
+        $white:                             #ffffff;
         $off_white:                         #f8f8f8;
         $eggshell:                          #f0f0f0;
         $muted_white:                       #e7e7e7;
         $lighter_gray:                      #c1c1c1;
         $light_gray:                        #b9b9b9;
-        $lightish_gray:                     #888888;                    /* original: #888888 */
+        $lightish_gray:                     #888888;
         $gray:                              #707070;
-        $dark_gray:                         #555555;                    /* original: #555555 */
-        $white_50:                          rgba(255, 255, 255, 0.5);   /* original: rgba(255, 255, 255, 0.5) */
-        $white_95:                          rgba(255, 255, 255, 0.95);  /* original: rgba(255, 255, 255, 0.95) */
+        $dark_gray:                         #555555;
+        $white_50:                          rgba(255, 255, 255, 0.5);
+        $white_95:                          rgba(255, 255, 255, 0.95);
         $gray_95:                           rgba(100, 100, 100, 0.95);
         $dark_gray_95:                      rgba(50, 50, 50, 0.95);
-        $black_0:                           rgba(0, 0, 0, 0);           /* original: rgba(0, 0, 0, 0) */
-        $black_10:                          rgba(0, 0, 0, 0.1);         /* original: rgba(0, 0, 0, 0.1) */
-        $black_25:                          rgba(0, 0, 0, 0.25);        /* original: rgba(0, 0, 0, 0.25) */
-        $black_50:                          rgba(0, 0, 0, 0.5);         /* original: rgba(0, 0, 0, 0.5) */
-
-        /* Original Greens */
-        $subdued_greenish:                  #c1cac5;                    /* original: #c1cac5 */
-        $really_subdued_greenish:           #e7eae8;                    /* original: #e7eae8 */
-        $deep_dark_green:                   #6b7770;                    /* original: #6b7770 */
-        $greenish_white:                    #f2f5f3;                    /* original: f2f5f3 */
-        $olivish_green:                     #7B8780;                    /* original: #7B8780 */
-        $dark_olivish_green:                #575d59;                    /* original: #575d59 */
-        $muted_green:                       #a1cd9b;                    /* original: #a1cd9b */
-        $darker_muted_green:                #b1ddab;                    /* original: #b1ddab */
+        $black_0:                           rgba(0, 0, 0, 0);
+        $black_10:                          rgba(0, 0, 0, 0.1);
+        $black_25:                          rgba(0, 0, 0, 0.25);
+        $black_50:                          rgba(0, 0, 0, 0.5);
 
         /* Reds */
         $swoop_crimson:                     #c32337;
@@ -84,7 +74,7 @@
             $body_background:                   $muted_white;
             $body_text:                         $gray;
             $input_textarea_select_text:        $body_text;
-            $link_color:                        $swoop_crimson;                    /* original: #006376 */
+            $link_color:                        $swoop_crimson;
             $strong:                            $gray;
             $header_p_text:                     $lighter_gray;
             $horizontal_rule:                   $really_subdued_reddish;
@@ -102,15 +92,15 @@
                 $footer_h2_background:              $body_background;
 
         /* Banner */
-            $banner_backround:                  rgba(23, 23, 23, 0.85);     /* original: rgba(21, 28, 23, 0.85) */
+            $banner_backround:                  rgba(23, 23, 23, 0.85);
             $banner_p_text:                     $gray;
             $banner_h2_text:                    $white;
-            $banner_button_text:                #b7b4b4;                    /* original: #b4b7b5 */
-            $banner_button_border:              rgba(93, 87, 87, 0.35);     /* original: rgba(87, 93, 89, 0.35) */
+            $banner_button_text:                #b7b4b4;
+            $banner_button_border:              rgba(93, 87, 87, 0.35);
             $banner_button_border_fill:         $banner_p_text;
-            $banner_button_highlight_text:      #e7e4e4;                    /* original: #e4e7e5 */
-            $banner_button_highlight_border:    $swoop_crimson_50;     /* original: rgba(87, 93, 89, 0.75) */
-            $banner_button_active_border:       $swoop_crimson;       /* original: rgba(97, 103, 99, 1) */
+            $banner_button_highlight_text:      #e7e4e4;
+            $banner_button_highlight_border:    $swoop_crimson_50;
+            $banner_button_active_border:       $swoop_crimson;
             $banner_button_active_text:         $white;
 
         /* Navigation */
@@ -127,7 +117,7 @@
                 $nav_dropdown_background:           $dark_gray;
                 $nav_dropdown_arrow:                $nav_dropdown_background;
                 $nav_dropdwon_filler_text:          $white;
-                $nav_dropdown_text:                 $muted_white; //#D7DAD8;                    /* original: #D7DAD8 */
+                $nav_dropdown_text:                 $muted_white;
                 $nav_dropdown_li_hover_text:        $white;
                 $nav_dropdown_li_hover_background:  $muddy_red;
                 $nav_dropdown_li_active_text:       $nav_dropdown_li_hover_text;
@@ -136,9 +126,9 @@
 
             /* Mobile Navigation */
                 $mobile_nav_titlebar_text:          $white;
-                $mobile_nav_titlebar_background:    $banner_backround;      /* original: rgba(21, 38, 23, 0.8) */
-                $mobile_nav_background:             #353535;                    /* original: #353c37 */
-                $mobile_nav_link_top_border:        rgba(93, 87, 87, 0.15);     /* original: rgba(87, 93, 89, 0.15) */
+                $mobile_nav_titlebar_background:    $banner_backround;
+                $mobile_nav_background:             #353535;
+                $mobile_nav_link_top_border:        rgba(93, 87, 87, 0.15);
                 $mobile_nav_menu_button:            $swoop_crimson;
                 $mobile_nav_menu_button_hamburger:  $white;
                 $mobile_nav_menu_button_active:     $muted_red;
@@ -162,16 +152,16 @@
             $button_text:                       $white;
             $button_background:                 $swoop_crimson;
             $button_alt_background:             $lighter_gray;
-            $button_alt_hover:                  #d0c0c0;                    /* original: #ccd5d0 */
-            $button_alt_active:                 #bab1b1;                    /* original: #b1bab5 */
+            $button_alt_hover:                  #d0c0c0;
+            $button_alt_active:                 #bab1b1;
             $button_donate_background:          $lighter_gray;
             $button_donate_text:                $main_wrapper_background;
             $button_donate_hover:               $swoop_crimson;
             $button_active_background:          $muted_red;
-            $button_hover_background:           #dd9999;                    /* original: #c1edbb */
+            $button_hover_background:           #dd9999;
 
         /* Lists */
-            $list_meta_text:                    #aaa5a5;                    /* original: #a1aaa5 */
+            $list_meta_text:                    #aaa5a5;
             $list_menu_left_border:             $really_subdued_reddish;
 
             /* Divided */
@@ -182,18 +172,18 @@
                 $list_contact_background:           $lighter_gray;
 
             /* Special */
-                $list_special_hover_background:     #b9d2ce;                    /* original: #b9d2ce */
+                $list_special_hover_background:     #b9d2ce;
                 $list_special_link_background:      $lighter_gray;
                 $list_special_link_before_text:     $white;
 
             /* Social Media */
-                $facebook_hover:                    $swoop_crimson;                    /* original: #3C5A98 */
-                $twitter_hover:                     $swoop_crimson;                    /* original: #2DAAE4 */
-                $dribble_hover:                     $swoop_crimson;                    /* original: #C4376B */
-                $linkedin_hover:                    $swoop_crimson;                    /* original: #006599 */
-                $instagram_hover:                   $swoop_crimson;                    /* original: #2E5E86 */
-                $google_plus_hover:                 $swoop_crimson;                    /* original: #DA2713 */
-                $flickr_hover:                      $swoop_crimson;                    /* original: #FD1685 */
+                $facebook_hover:                    $swoop_crimson;
+                $twitter_hover:                     $swoop_crimson;
+                $dribble_hover:                     $swoop_crimson;
+                $linkedin_hover:                    $swoop_crimson;
+                $instagram_hover:                   $swoop_crimson;
+                $google_plus_hover:                 $swoop_crimson;
+                $flickr_hover:                      $swoop_crimson;
                 $comment_hover:                     $swoop_crimson;
 
         /* Forms */
@@ -204,7 +194,7 @@
 
         /* Tables */
             $table_row_top_border:              $really_subdued_reddish;
-            $table_heading_text:                $deep_dark_green;
+            $table_heading_text:                $deep_dark_red;
             $table_thead_background:            $really_subdued_reddish;
             $table_thead_text:                  $white;
 
@@ -225,7 +215,7 @@
                 $table_shared_hover_text_shadow:    $white;
 
         /* Copyright */
-            $copyright_text:                    #978b8b;                    /* original: #8b9790 */
+            $copyright_text:                    #978b8b;
             $copyright_background:              $eggshell;
             $copyright_list_border:             $lighter_gray;
 
