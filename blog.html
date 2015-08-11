@@ -9,7 +9,7 @@ permalink: /blog/
     <article class>
         <header>
             <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-            <p class="meta">Date: {{ post.date }}</p>
+            <p class="meta">{{ post.date | date: "%B %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}</p>
         </header>
 
         <section>
