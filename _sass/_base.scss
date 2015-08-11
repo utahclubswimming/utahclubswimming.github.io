@@ -11,7 +11,7 @@
 
 @font-face {
     font-family: 'Collegiate';
-    src: url('/fonts/collegiate.ttf');
+    src: url('/assets/fonts/collegiate.ttf');
 }
 
 /*
@@ -979,7 +979,7 @@
 
     #banner-wrapper {
         position: relative;
-        background-image: url('../../images/banner.jpg');
+        background-image: url('/assets/images/banner.jpg');
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
