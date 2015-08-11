@@ -37,18 +37,19 @@ permalink: /contact/
 
         <!-- Contact Form -->
             <section>
-                <form method="post" action="#">
+                <form method="post" action="//formspree.io/{{ site.email }}">
+                    <input type="hidden" name="_subject" value="Contact Us Form Submission" />
                     <div class="row 50%">
                         <div class="6u 12u(mobile)">
                             <input type="text" name="name" id="contact-name" placeholder="Name" />
                         </div>
                         <div class="6u 12u(mobile)">
-                            <input type="text" name="email" id="contact-email" placeholder="Email" />
+                            <input type="email" name="_replyto" id="contact-email" placeholder="Email" />
                         </div>
                     </div>
                     <div class="row 50%">
                         <div class="12u">
-                            <textarea name="message" id="contact-message" placeholder="Message" rows="4"></textarea>
+                            <textarea name="message" id="contact-message" placeholder="Message" rows="5"></textarea>
                         </div>
                     </div>
                     <div class="row">
