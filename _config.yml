@@ -4,7 +4,7 @@ email: utahclubswimming@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   An intercollegiate, competitive club swim team at the University of Utah.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://utahclubswimming.github.io" # the base hostname & protocol for your site
+url: "https://utahclubswimming.com" # the base hostname & protocol for your site
 
 # Usernames
 facebook_username:  utahclubswimming
@@ -18,33 +18,6 @@ asset_url: /assets
 image_url: /assets/images
 js_url:    /assets/js
 fonts_url: /assets/fonts
-
-# Pages
-site_home: index.html
-
-# Navigation
-# navigation: [
-#     data:
-#         - top:
-#             - name: 'Home'
-#               url:  '/',
-#     data:
-#         - top:
-#             - name: 'About'
-#               url:  '/about/',
-#     data:
-#         - top:
-#             - name: 'Our Team'
-#               url:  '/team/'
-#         - children:
-#             [
-#                 - name: 'Team'
-#                   url:  '/team/',
-#                 - name: 'Officers'
-#                   url:  '/team/officers/'
-#             ]
-# ]
-
 
 # Build settings
 markdown: kramdown
