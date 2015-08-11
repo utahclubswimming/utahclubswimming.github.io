@@ -4,7 +4,7 @@ email: utahclubswimming@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   An intercollegiate, competitive club swim team at the University of Utah.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://utahclubswimming.github.io" # the base hostname & protocol for your site
+url: "https://utahclubswimming.com" # the base hostname & protocol for your site
 
 # Usernames
 facebook_username:  utahclubswimming
