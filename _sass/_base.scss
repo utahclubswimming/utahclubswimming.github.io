@@ -364,6 +364,10 @@
         margin-bottom: 3em;
     }
 
+    img {
+        max-width: 100%;
+    }
+
 /* Section/Article */
 
     section, article {
@@ -1095,6 +1099,24 @@
                 border-width: 2px;
                 line-height: 1em;
             }
+        }
+    }
+
+/* Blog posts */
+
+    #post-wrapper {
+        ul {
+            list-style: disc;
+            padding-left: 1em;
+            margin-bottom: 1em;
+
+            li {
+                padding-left: 0.5em;
+            }
+        }
+
+        p {
+            margin-bottom: 1em;
         }
     }
 

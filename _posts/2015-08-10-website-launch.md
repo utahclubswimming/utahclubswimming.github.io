@@ -2,7 +2,8 @@
 layout: post
 title: "Utah Club Swimming Website Launch!"
 date: 2015-08-10 20:58:38
-author: pierce_darragh
+author: Pierce Darragh
+image: /blog/website_launch.png
 ---
 Welcome to the brand-new home of the University of Utah Club Swim Team! We're
 very excited to be establishing our presence on the Internet in such a dynamic
