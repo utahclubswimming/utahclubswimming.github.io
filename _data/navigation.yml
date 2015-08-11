@@ -11,6 +11,9 @@
     - title: How to Join
       url: /about/#join
 
+- title: Blog
+  url: /blog/
+
 - title: Schedule
   url: /schedule/
   sublinks:
