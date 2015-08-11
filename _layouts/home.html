@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    {% include navigation.html %}
+    <body class="homepage">
+        <div id="page-wrapper">
+            {% include header.html %}
+            <!-- Banner -->
+                <div id="banner-wrapper">
+                    <section id="banner">
+                        <h2>University of Utah Club Swim Team</h2>
+                        <p>An intercollegiate, competitive club swim team at the University of Utah.</p>
+                        <a href="{{ site.baseurl }}/about/" class="button">Dive in</a>
+                    </section>
+                </div>
+
+            <!-- Main -->
+                <div id="main-wrapper">
+                    <div id="main" class="container">
+                        {{ content }}
+                    </div>
+                </div>
+            {% include footer.html %}
+        </div>
+        {% include scripts.html %}
+    </body>
+</html>
