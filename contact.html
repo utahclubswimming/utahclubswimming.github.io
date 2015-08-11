@@ -39,6 +39,7 @@ permalink: /contact/
             <section>
                 <form method="post" action="//formspree.io/{{ site.email }}">
                     <input type="hidden" name="_subject" value="Contact Us Form Submission" />
+                    <input type="hidden" name="_next" value="{{ site.baseurl }}/contact/success/" />
                     <div class="row 50%">
                         <div class="6u 12u(mobile)">
                             <input type="text" name="name" id="contact-name" placeholder="Name" />
