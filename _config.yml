@@ -14,7 +14,10 @@ flickr_username:    utahclubswimming
 github_username:    utahclubswimming
 
 # Content locations
-image_url: /images
+asset_url: /assets
+image_url: /assets/images
+js_url:    /assets/js
+fonts_url: /assets/fonts
 
 # Pages
 site_home: index.html
