@@ -12,84 +12,38 @@ permalink: /
                 <h2 class="major"><span>Recent Events</span></h2>
                 <div>
                     <div class="row">
+                        {% assign featured_post = site.posts | first %}
                         <div class="9u 12u(mobile)">
                             <div class="content content-left">
-
-                                <!-- Featured Post -->
-                                    <article class="box post">
-                                        <header>
-                                            <h3><a href="#">Cliff Diving at Causey Reservoir</a></h3>
-                                            <p>The team takes a day to jump from high rocks</p>
-                                            <ul class="meta">
-                                                <li class="icon fa-clock-o">July 3, 2015</li>
-                                                <li class="icon fa-comments"><a href="#">8</a></li>
-                                            </ul>
-                                        </header>
-                                        <a href="#" class="image featured"><img src="{{ site.image_url }}/focus-left.jpg" alt="" /></a>
-                                        <p>
-                                            In lieu of practice, the team met up and headed over to local-favorite cliff diving
-                                            spot Causey Reservoir. Team bonding is a frequent occurrence for the Utah Club Swim
-                                            Team, and a holiday is the perfect opportunity to get together and throw yourself
-                                            from a tall rock into water of unknown depths. But did everyone survive...?
-                                        </p>
-                                        <a href="#" class="button">Continue Reading</a>
-                                    </article>
-
+                                <article class="box post">
+                                    <header>
+                                        <h3><a href="{{ featured_post.url }}">{{ featured_post.title }}</a></h3>
+                                        <p class="post-meta">{{ featured_post.date | date: "%b %-d, %Y" }}{% if featured_post.author %} • {{ featured_post.author }}{% endif %}</p>
+                                    </header>
+                                    {% if post.image %}
+                                    <a href="{{ featured_post.url }}" class="image featured"><img src="{{ site.image_url }}/{{ featured_post.image }}" alt="" /></a>
+                                    {% endif %}
+                                    {{ post.excerpt }}
+                                    <a href="{{ featured_post.url }}" class="button">Continue Reading</a>
+                                </article>
                             </div>
                         </div>
                         <div class="3u 12u(mobile)">
                             <div class="sidebar">
-
-                                <!-- Archives -->
-                                    <ul class="divided">
-                                        <li>
-                                            <article class="box post-summary">
-                                                <h3><a href="#">UUCS Wins Another Meet</a></h3>
-                                                <ul class="meta">
-                                                    <li class="icon fa-clock-o">6 hours ago</li>
-                                                    <li class="icon fa-comments"><a href="#">34</a></li>
-                                                </ul>
-                                            </article>
-                                        </li>
-                                        <li>
-                                            <article class="box post-summary">
-                                                <h3><a href="#">Trouble in Paradise?</a></h3>
-                                                <ul class="meta">
-                                                    <li class="icon fa-clock-o">9 hours ago</li>
-                                                    <li class="icon fa-comments"><a href="#">27</a></li>
-                                                </ul>
-                                            </article>
-                                        </li>
-                                        <li>
-                                            <article class="box post-summary">
-                                                <h3><a href="#">Presidential Scandal!</a></h3>
-                                                <ul class="meta">
-                                                    <li class="icon fa-clock-o">Yesterday</li>
-                                                    <li class="icon fa-comments"><a href="#">184</a></li>
-                                                </ul>
-                                            </article>
-                                        </li>
-                                        <li>
-                                            <article class="box post-summary">
-                                                <h3><a href="#">Boy Trapped In Refrigerator Eats Own Foot</a></h3>
-                                                <ul class="meta">
-                                                    <li class="icon fa-clock-o">2 days ago</li>
-                                                    <li class="icon fa-comments"><a href="#">286</a></li>
-                                                </ul>
-                                            </article>
-                                        </li>
-                                        <li>
-                                            <article class="box post-summary">
-                                                <h3><a href="#">Officers Hold Emergency Hearing</a></h3>
-                                                <ul class="meta">
-                                                    <li class="icon fa-clock-o">3 days ago</li>
-                                                    <li class="icon fa-comments"><a href="#">8,086</a></li>
-                                                </ul>
-                                            </article>
-                                        </li>
-                                    </ul>
-                                    <a href="#" class="button alt">Browse Archives</a>
-
+                                <ul class="divided">
+                                    {% for post in site.posts | limit: 6 %}
+                                    {% if forloop.first %}
+                                        <!-- We skip the first post. -->
+                                        {% continue %}
+                                    {% endif %}
+                                    <li>
+                                        <article class="box post-summary">
+                                            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                                            <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}</p>
+                                        </article>
+                                    </li>
+                                    {% endfor %}
+                                </ul>
                             </div>
                         </div>
                     </div>
