@@ -3,6 +3,6 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta name="description" content="{{ site.description }}" />
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}" />
+    <link rel="stylesheet" href="{{ {{ site.asset_url }}/css/main.css" | prepend: site.baseurl }}" />
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
 </head>
