@@ -17,7 +17,7 @@ permalink: /
                                 <article class="box post">
                                     <header>
                                         <h3><a href="{{ featured_post.url }}">{{ featured_post.title }}</a></h3>
-                                        <p class="post-meta">{{ featured_post.date | date: "%b %-d, %Y" }}{% if featured_post.author %} • {{ featured_post.author }}{% endif %}</p>
+                                        <p class="post-meta">{{ featured_post.date | date: "%B %-d, %Y" }}{% if featured_post.author %} • {{ featured_post.author }}{% endif %}</p>
                                     </header>
                                     {% if featured_post.image %}
                                     <a href="{{ featured_post.url }}" class="image featured"><img src="{{ site.image_url }}/{{ featured_post.image }}" alt="" /></a>
@@ -38,7 +38,10 @@ permalink: /
                                     <li>
                                         <article class="box post-summary">
                                             <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-                                            <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}</p>
+                                            <ul class="meta">
+                                                <li class="icon fa-clock-o">{{ post.date | date: "%B %-d, %Y" }}</li>
+                                                {% if post.author %}<li class="icon fa-comment">{{ post.author }}</li>{% endif %}
+                                            </ul>
                                         </article>
                                     </li>
                                     {% endfor %}
