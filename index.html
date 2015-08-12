@@ -12,7 +12,11 @@ permalink: /
                 <div>
                     <div class="row">
                         {% assign featured_post = site.posts | first %}
+                        {% if site.posts.size == 1 %}
+                        <div class="12u">
+                        {% else %}
                         <div class="9u 12u(mobile)">
+                        {% endif %}
                             <div class="content content-left">
                                 <article class="box post">
                                     <header>
