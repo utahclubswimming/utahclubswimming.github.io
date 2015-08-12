@@ -1,0 +1,41 @@
+{% if include.title %}
+    {% assign title = include.title %}
+{% else %}
+    {% assign title = "Coming Soon!" %}
+{% endif %}
+{% if include.popup_title %}
+    {% assign popup_title = include.popup_title %}
+{% else %}
+    {% assign popup_title = "Coming Soon!" %}
+{% endif %}
+{% if include.text %}
+    {% assign text = include.text %}
+{% else %}
+    {% capture text %}
+        You've found a feature that is not yet supported! It's on our radar, so
+        check back often to see when it's arrived.
+    {% endcapture %}
+{% endif %}
+
+{% if include.second_button_text and include.second_button_link %}
+    {% assign second_button = true %}
+{% endif %}
+
+<a href="#coming-soon" class="button big">{{ title }}</a>
+
+<div id="coming-soon" class="modal-popup">
+    <div>
+        <h2>{{ popup_title }}</h2>
+        <p>{{ text }}</p>
+        <ul class="actions">
+            <li>
+                <a href="#close" class="button">Close</a>
+            </li>
+            {% if second_button %}
+            <li>
+                <a href="{{ include.second_button_link }}" class="button alt">{{ include.second_button_text }}</a>
+            </li>
+            {% endif %}
+        </ul>
+    </div>
+</div>
