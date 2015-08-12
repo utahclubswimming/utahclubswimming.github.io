@@ -847,6 +847,10 @@
     table {
         width: 100%;
 
+        tr, td, th {
+            vertical-align: middle;
+        }
+
         tr {
             border-top: solid 2px $table_row_top_border;
 
@@ -867,11 +871,6 @@
             font-weight: 700;
             text-transform: uppercase;
             color: $table_heading_text;
-
-            &.filled {
-                background: $table_thead_background;
-                color: $table_thead_text;
-            }
         }
 
         thead {
