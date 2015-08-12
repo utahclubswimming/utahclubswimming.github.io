@@ -527,6 +527,10 @@
                 background: $button_donate_hover;
             }
         }
+
+        &.no-click {
+            pointer-events: none;
+        }
     }
 
 /* Modal Popups */
@@ -994,6 +998,20 @@
             color: $table_shared_hover_text;
             text-shadow: 0 1px 0 $table_shared_hover_text_shadow;
             background: $table_shared_hover_background;
+        }
+
+        &.forms {
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+
+            th {
+                font-size: 1.75em;
+            }
+
+            td {
+                text-align: right;
+            }
         }
     }
 
@@ -1786,6 +1804,12 @@
                         margin: 0 !important;
                     }
                 }
+            }
+
+        /* Table */
+
+            table {
+                width: 100% !important;
             }
 
         /* Box */
