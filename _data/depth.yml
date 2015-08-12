@@ -36,3 +36,146 @@
       time: "57.44"
     - name: Ben Stewart
       time: "57.67"
+- event: 200 Free
+  women:
+    - name: Aari Lyijynen
+      time: "2:34.08"
+  men:
+    - name: Matt Bird
+      time: "2:06.03"
+    - name: Jackson Knowles
+      time: "2:06.26"
+    - name: Matt Christensen
+      time: "2:26.84"
+    - name: Dylan Noaker
+      time: "2:43.91"
+- event: 500 Free
+  women:
+    - name: Polly Creveling
+      time: "6:02.78"
+    - name: Janey Heyman
+      time: "6:05.54"
+  men:
+    - name: Matt Bird
+      time: "6:01.61"
+    - name: Dylan Noaker
+      time: "7:42.72"
+- event: 1000 Free
+- event: 1650 Free
+  men:
+    - name: Matt Bird
+      time: "20:54.42"
+    - name: Dylan Noaker
+      time: "25:53.40"
+- event: 50 Back
+  women:
+    - name: Melissa Hofmann
+      time: "29.98L"
+    - name: Polly Creveling
+      time: "32.57"
+    - name: LeAnn Nguyen
+      time: "32.73"
+    - name: Aari Lyijynen
+      time: "35.17"
+  men:
+    - name: Ethan Beseris
+      time: "27.21L"
+    - name: Jeppesen Feliciano
+      time: "32.56"
+- event: 100 Back
+  women:
+    - name: Melissa Hofmann
+      time: "1:07.69"
+- event: 200 Back
+- event: 50 Breast
+  women:
+    - name: Al Jamora
+      time: "33.94"
+    - name: LeAnn Nguyen
+      time: "36.49"
+    - name: Janey Heyman
+      time: "37.25"
+  men:
+    - name: Jeppesen Feliciano
+      time: "30.10"
+    - name: Max Jin
+      time: "35.11"
+    - name: Ray Reynolds
+      time: "36.11"
+    - name: Guy Watson
+      time: "36.34"
+- event: 100 Breast
+  men:
+    - name: Jeppesen Feliciano
+      time: "1:06.19"
+    - name: Nate Bramhall
+      time: "1:09.69"
+    - name: Matt Christensen
+      time: "1:14.88"
+    - name: Matt Bird
+      time: "1:15.13"
+    - name: Max Jin
+      time: "1:22.72"
+- event: 200 Breast
+  men:
+    - name: Jeppesen Felicicano
+      time: "2:39.80"
+- event: 50 Fly
+  women:
+    - name: Janey Heyman
+      time: "29.83"
+    - name: Melissa Hofmann
+      time: "31.90"
+    - name: Anne Henkels
+      time: "32.65"
+  men:
+    - name: Ethan Beseris
+      time: "25.31"
+    - name: Jackson Knowles
+      time: "26.92"
+    - name: Matt Bird
+      time: "27.72"
+    - name: Ben Stewart
+      time: "27.89"
+    - name: Pierce Darragh
+      time: "29.55"
+- event: 100 Fly
+  men:
+    - name: Ethan Beseris
+      time: "54.35"
+    - name: Matt Christensen
+      time: "1:02.53"
+- event: 200 Fly
+- event: 100 IM
+  women:
+    - name: Al Jamora
+      time: "1:05.55"
+    - name: Janey Heyman
+      time: "1:07.92"
+    - name: Polly Creveling
+      time: "1:09.82"
+    - name: LeAnn Nguyen
+      time: "1:12.07"
+    - name: Aari Lyijynen
+      time: "1:15.60"
+  men:
+    - name: Ben Stewart
+      time: "1:03.52"
+    - name: Jeppesen Feliciano
+      time: "1:05.44"
+    - name: Pierce Darragh
+      time: "1:07.84"
+    - name: Matt Bird
+      time: "1:10.50"
+    - name: Ray Reynolds
+      time: "1:10.54"
+- event: 200 IM
+  women:
+    - name: Janey Heyman
+      time: "2:34.31"
+  men:
+    - name: Ethan Beseris
+      time: "2:18.01"
+    - name: Jeppesen Feliciano
+      time: "2:25.50"
+- event: 400 IM
