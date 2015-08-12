@@ -199,7 +199,7 @@
             $table_row_top_border:              $really_subdued_reddish;
             $table_heading_text:                $deep_dark_red;
             $table_thead_background:            $really_subdued_reddish;
-            $table_thead_text:                  $white;
+            $table_thead_text:                  $table_heading_text;
 
             /* Records */
                 $table_records_th_left_border:      $really_subdued_reddish;
@@ -867,6 +867,11 @@
             font-weight: 700;
             text-transform: uppercase;
             color: $table_heading_text;
+
+            &.filled {
+                background: $table_thead_background;
+                color: $table_thead_text;
+            }
         }
 
         thead {

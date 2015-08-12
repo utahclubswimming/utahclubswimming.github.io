@@ -2,10 +2,11 @@
   morning:
     - time: 6:00-8:00am
       leader: Matt Bird
+      style: Distance
   evening:
     - time: 5:30-7:30pm
-      leader: Ethan Beseris
-      style: Something
+      leader: Pierce Darragh
+      style: Technique/Stroke
 - day: Tuesday
   morning:
     - time: 6:00-8:00am
@@ -13,7 +14,8 @@
       style: Drylands
   evening:
     - time: 5:30-7:30pm
-      leader: Pierce Darragh
+      leader: Ethan Beseris
+      style: Test Sets
 - day: Wednesday
   morning:
     - time: 6:00-8:00am
@@ -22,6 +24,7 @@
   evening:
     - time: 5:30-7:30pm
       leader: Melissa Hofmann
+      style: Sprints
 - day: Thursday
   morning:
     - time: 6:00-8:00am
@@ -30,11 +33,12 @@
   evening:
     - time: 5:30-7:30pm
       leader: Janey Heyman
-      style: Sprints
+      style: Stroke/IM
 - day: Friday
   morning:
     - time: 6:00-8:00am
       leader: Matt Bird
+      style: Distance
 - day: Saturday
   morning:
     - time: 10:00-noon
