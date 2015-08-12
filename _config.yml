@@ -1,11 +1,18 @@
 # Site settings
 title: Utah Club Swimming
-email: team@utahclubswimming.com
 description: An intercollegiate, competitive club swim team at the University of Utah.
 baseurl: ""
 url: "https://www.utahclubswimming.com"
-permalink: /blog/:year/:month/:day/:title
 timezone: America/Denver
+
+# This determines how blog posts are displayed.
+permalink: /blog/:year/:month/:day/:title
+
+# Point of contact
+# (By default, this is the info listed on the Contact page.)
+contact: Ethan Beseris
+contact_phone: (801) 554-1274
+contact_email: team@utahclubswimming.com
 
 # Usernames
 facebook_username:  utahclubswimming
