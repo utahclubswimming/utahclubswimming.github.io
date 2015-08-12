@@ -32,7 +32,7 @@ permalink: /schedule/
                                 <!-- Morning -->
                                 <tr>
                                     <!-- Morning Times -->
-                                    <th rowspan="3" class="filled">Morning</th>
+                                    <th rowspan="3">Morning</th>
                                     <th>Time</th>
                                     {% for entry in site.data.schedule %}
                                     {% assign time = (entry.morning | map: 'time') %}
@@ -58,7 +58,7 @@ permalink: /schedule/
                                 <!-- Evening -->
                                 <tr>
                                     <!-- Evening Times -->
-                                    <th rowspan="3" class="filled">Evening</th>
+                                    <th rowspan="3">Evening</th>
                                     <th>Time</th>
                                     {% for entry in site.data.schedule %}
                                     {% assign time = (entry.evening | map: 'time') %}
