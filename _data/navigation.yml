@@ -8,8 +8,6 @@
       url: /about/
     - title: History
       url: /about/#history
-    - title: How to Join
-      url: /about/#join
 
 - title: Blog
   url: /blog/
@@ -39,6 +37,14 @@
       url: /team/officers/
     - title: Marketing Board
       url: /team/marketing/
+
+- title: Join
+  url: /join/
+  sublinks:
+    - title: Join the Team
+      url: /join/
+    - title: Forms
+      url: /join/#forms
 
 - title: Contact
   url: /contact/

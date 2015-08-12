@@ -3,11 +3,13 @@
 {% else %}
     {% assign title = "Coming Soon!" %}
 {% endif %}
+
 {% if include.popup_title %}
     {% assign popup_title = include.popup_title %}
 {% else %}
     {% assign popup_title = "Coming Soon!" %}
 {% endif %}
+
 {% if include.text %}
     {% assign text = include.text %}
 {% else %}
@@ -17,14 +19,22 @@
     {% endcapture %}
 {% endif %}
 
-{% if include.second_button_text and include.second_button_link %}
-    {% assign second_button = true %}
+{% if include.size == "small" %}
+    {% assign button_size = "button" %}
+{% else %}
+    {% assign button_size = "button big" %}
 {% endif %}
 
-<a href="#coming-soon" class="button big">{{ title }}</a>
+{% if include.second_button_text and include.second_button_link %}
+    {% assign second_button = true %}
+{% else %}
+    {% assign second_button = false %}
+{% endif %}
 
-<div id="coming-soon" class="modal-popup">
-    <div>
+<a href="#{{ title | slugify }}" class="{{ button_size }} {{ include.class }}">{{ title }}</a>
+
+<div id="{{ title | slugify }}" class="modal-popup">
+    <div class="content">
         <h2>{{ popup_title }}</h2>
         <p>{{ text }}</p>
         <ul class="actions">
