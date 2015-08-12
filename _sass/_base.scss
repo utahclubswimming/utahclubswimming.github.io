@@ -163,6 +163,11 @@
             $button_active_background:          $muted_red;
             $button_hover_background:           #dd9999;
 
+        /* Modal Popup */
+            $modal_overlay_page_background:     $dark_gray_95;
+            $modal_overlay_background:          $eggshell;
+            $modal_overlay_text:                $body_text;
+
         /* Lists */
             $list_meta_text:                    #aaa5a5;
             $list_menu_left_border:             $really_subdued_reddish;
@@ -523,6 +528,38 @@
             }
         }
     }
+
+/* Modal Popups */
+
+.modal-popup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: $modal_overlay_page_background;
+    z-index: 9999;
+    opacity: 0;
+    transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    -webkit-transition: opacity 400ms ease-in;
+    pointer-events: none;
+
+    &:target {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    &> div {
+        width: 50%;
+        position: relative;
+        margin: 10% auto;
+        padding: 2em;
+        border-radius: 0.5em;
+        background: $modal_overlay_background;
+        color: $modal_overlay_text;
+    }
+}
 
 /* List */
 

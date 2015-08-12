@@ -94,7 +94,13 @@ permalink: /about/
 <div class="row">
     <div class="12u">
         <ul class="actions">
-            <li><a href="#" class="button big">Join Mailing List</a></li>
+            {% capture popup_text %}
+                The mailing list feature is not yet completely worked out.
+                Please use the "Contact Us" form to be added in the meantime.
+                Thank you for understanding!
+            {% endcapture %}
+            {% capture second_button_link %}{{ site.baseurl }}/contact/{% endcapture %}
+            <li>{% include coming_soon.html title="Join Mailing List" text=popup_text second_button_text="Contact Us" second_button_link=second_button_link %}</li>
             <li><a href="{{ site.baseurl }}/contact/" class="button alt big">Contact Us</a></li>
         </ul>
     </div>
