@@ -361,7 +361,7 @@
     }
 
     p, ul, ol, dl, table {
-        margin-bottom: 3em;
+        margin-bottom: 2em;
     }
 
     img {
@@ -371,7 +371,7 @@
 /* Section/Article */
 
     section, article {
-        margin-bottom: 6em;
+        margin-bottom: 4em;
 
         > :last-child,
         &:last-child {
@@ -1520,10 +1520,10 @@
 
                 #footer {
                     text-align: center;
-                    padding: 8em 0 8em 0;
+                    padding: 4em 0 4em 0;
                     h2{
                         &.major {
-                            margin: 0 0 1em 0;
+                            margin: 0 0 0.5em 0;
                         }
                     }
                 }
@@ -1531,7 +1531,7 @@
             /* Copyright */
 
                 #copyright {
-                    margin: 4em 0 0 0;
+                    margin: 2.5em 0 0 0;
                 }
 
     }
