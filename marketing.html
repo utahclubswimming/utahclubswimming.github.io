@@ -8,30 +8,30 @@ permalink: /team/marketing/
     <div class="12u">
         <div class="content">
 
-            <!-- Content -->
+            <article class="box page-content">
 
-                <article class="box page-content">
+                <header>
+                    <h2>Current Officers</h2>
+                    <p>Team leadership positions</p>
+                </header>
 
-                    <header>
-                        <h2>Marketing Board</h2>
-                        <p>The group behind the public face of the team</p>
-                    </header>
-
-                    <section>
-                        <ul class="officers">
-                            {% for member in site.data.marketing %}
-                            <li>
-                                <img src="{{ site.image_url }}/{{ member.image }}" />
-                                <h3>{{ member.name }}</h3>
-                                <h4>{{ member.position }}</h4>
-                                <p>{{ member.info }}</p
-                            </li>
-                            {% endfor %}
-                        </ul>
-                    </section>
-
-                </article>
-
+            </article>
         </div>
     </div>
+
+    {% for member in site.data.marketing %}
+    <div class="4u 12u(mobile)">
+        <div class="officer">
+            <span class="image fit"><img src="{{ site.image_url }}/{{ member.image }}" /></span>
+            <h2>{{ member.name }}</h2>
+            <h4>{{ member.position }}</h4>
+            <p>{{ member.info }}</p>
+        </div>
+    </div>
+    {% capture index %}{% cycle 1, 2, 3 %}{% endcapture %}
+    {% if index == "3" %}
+    <div class="12u" style="padding: 0;">
+    </div>
+    {% endif %}
+    {% endfor %}
 </div>

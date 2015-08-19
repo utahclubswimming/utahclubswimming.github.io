@@ -674,51 +674,6 @@
             }
         }
 
-        &.officers {
-            cursor: default;
-            list-style: none;
-            font-size: 0px;
-            margin-left: -2.5%;
-
-            li {
-                display: inline-block;;
-                padding: 10px;
-                margin: 0 0 2.5% 2.5%;
-                background: $white;
-                border: 1px solid $lighter_gray;
-                font-size: 16px;
-                font-size: 1rem;
-                vertical-align: top;
-                width: 30.83%;
-                box-shadow: 0 0 5px $lighter_gray;
-                box-sizing: border-box;
-                -moz-box-sizing: border-box;
-                -webkit-box-sizing: border-box;
-
-                img {
-                    max-width: 100%;
-                    height: auto;
-                    margin: 0 0 10px;
-                }
-
-                h3 {
-                    margin: 0 0 5px;
-                }
-
-                h4 {
-                    font-size: 1em;
-                    line-height: 1.3em;
-                    color: $lightish_gray;
-                }
-
-                p {
-                    font-size: 0.9em;
-                    line-height: 1.5em;
-                    color: $lightish_gray;
-                }
-            }
-        }
-
         &.special {
             cursor: default;
 
@@ -1120,6 +1075,14 @@
                 color: $banner_button_active_text;
                 border-color: $banner_button_active_border;
             }
+        }
+    }
+
+/* Personal Bios */
+
+    .officer {
+        h2 {
+            padding-top: 0.5em;
         }
     }
 
@@ -1913,6 +1876,22 @@
 
                 .homepage & {
                     padding-top: 0;
+                }
+            }
+
+        /* Personal Bios */
+
+            .officer {
+                border-bottom: 5px solid $swoop_crimson;
+                margin-bottom: 1.5em;
+                text-align: center;
+
+                h2 {
+                    padding-top: 0.5em;
+                }
+
+                p {
+                    text-align: left;
                 }
             }
 
