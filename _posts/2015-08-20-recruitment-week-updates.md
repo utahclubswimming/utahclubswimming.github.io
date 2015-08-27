@@ -5,7 +5,7 @@ date: 2015-08-20 14:05:00
 author: Pierce Darragh
 image: /blog/recruitment2015-short.png
 ---
-The recruitment week schedule has been changed somewhat! The principle difference is that we have swapped the Wednesday and Thursday activities, and Thursday's barbecue is now specifically a tailgate event to celebrate the first home football game of the season. Here's the updated flyer:
+The recruitment week schedule has been changed somewhat! The principle difference is that we have swapped the Wednesday and Thursday activities, and Thursday's barbecue is now specifically a tailgate event to celebrate the first home football game of the season. Additionally, the Wednesday hike has been moved up to 5:30pm. Here's the updated flyer:
 
 [![Recruitment Week Updates]({{ site.image_url }}/blog/recruitment2015.jpg)]({{ site.image_url }}/blog/recruitment2015.jpg)
 
