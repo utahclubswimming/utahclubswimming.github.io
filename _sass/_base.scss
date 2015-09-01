@@ -960,7 +960,24 @@
             background: $table_shared_hover_background;
         }
 
-        &.forms {
+        &.dues {
+            thead {
+                th {
+                    text-align: center;
+                    font-size: 2em;
+                }
+            }
+
+            th {
+                font-size: 1em;
+            }
+
+            td {
+                font-size: 1.25em;
+            }
+        }
+
+        &.forms, &.dues {
             width: 70%;
             margin-left: auto;
             margin-right: auto;
