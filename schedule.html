@@ -8,94 +8,69 @@ permalink: /schedule/
     <div class="12u">
         <div class="content">
 
-            <!-- Content -->
+            <article class="box page-content">
 
-                <article class="box page-content">
+                <header>
+                    <h2>Practice Schedule</h2>
+                    <p>When to come swim with us</p>
+                </header>
 
-                    <header>
-                        <h2>Practice Schedule</h2>
-                        <p>When to come swim with us</p>
-                    </header>
+                <section>
+                    <p>
+                        We meet at the
+                        <a href="http://campusrec.utah.edu/facilities/">George S. Eccles Student Life Center</a>,
+                        located just below Legacy Bridge and north of the Marriott
+                        Honors Community. You can find us on the pool deck a few
+                        minutes before the scheduled start time of each swim practice.
+                    </p>
+                </section>
 
-                    <section>
-                        <p>
-                            We meet at the
-                            <a href="http://campusrec.utah.edu/facilities/">George S. Eccles Student Life Center</a>,
-                            located just below Legacy Bridge and north of the Marriott
-                            Honors Community. You can find us on the pool deck a few
-                            minutes before the scheduled start time of each swim practice.
-                        </p>
-                    </section>
+            </article>
 
-                    <section>
-                        <table class="schedule">
-                            <thead>
-                                <tr>
-                                    <th><!-- Blank for a space in the corner. --></th>
-                                    <th><!-- Blank for a space in the corner. --></th>
-                                    {% for entry in site.data.schedule %}
-                                    <th>{{ entry.day }}</th>
-                                    {% endfor %}
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <!-- Morning -->
-                                <tr>
-                                    <!-- Morning Times -->
-                                    <th rowspan="3">Morning</th>
-                                    <th>Time</th>
-                                    {% for entry in site.data.schedule %}
-                                    {% assign time = (entry.morning | map: 'time') %}
-                                    <td>{{ time }}</td>
-                                    {% endfor %}
-                                </tr>
-                                <tr>
-                                    <!-- Morning Styles -->
-                                    <th>Style</th>
-                                    {% for entry in site.data.schedule %}
-                                    {% assign style = (entry.morning | map: 'style') %}
-                                    <td>{{ style }}</td>
-                                    {% endfor %}
-                                </tr>
-                                <tr>
-                                    <!-- Morning Leaders -->
-                                    <th>Leader</th>
-                                    {% for entry in site.data.schedule %}
-                                    {% assign leader = (entry.morning | map: 'leader') %}
-                                    <td>{{ leader }}</td>
-                                    {% endfor %}
-                                </tr>
-                                <!-- Evening -->
-                                <tr>
-                                    <!-- Evening Times -->
-                                    <th rowspan="3">Evening</th>
-                                    <th>Time</th>
-                                    {% for entry in site.data.schedule %}
-                                    {% assign time = (entry.evening | map: 'time') %}
-                                    <td>{{ time }}</td>
-                                    {% endfor %}
-                                </tr>
-                                <tr>
-                                    <!-- Evening Styles -->
-                                    <th>Style</th>
-                                    {% for entry in site.data.schedule %}
-                                    {% assign style = (entry.evening | map: 'style') %}
-                                    <td>{{ style }}</td>
-                                    {% endfor %}
-                                </tr>
-                                <tr>
-                                    <!-- Evening Leaders -->
-                                    <th>Leader</th>
-                                    {% for entry in site.data.schedule %}
-                                    {% assign leader = (entry.evening | map: 'leader') %}
-                                    <td>{{ leader }}</td>
-                                    {% endfor %}
-                                </tr>
-                            </tbody>
-                        </table>
-                    </section>
+        </div>
+    </div>
 
-                </article>
+    {% for schedule in site.data.schedule %}
+    {% assign morning = schedule.morning %}
+    {% assign mt = (morning | map: "time") %}
+    {% assign ml = (morning | map: "leader") %}
+    {% assign ms = (morning | map: "style") %}
+    {% assign evening = schedule.evening %}
+    {% assign et = (morning | map: "time") %}
+    {% assign el = (morning | map: "leader") %}
+    {% assign es = (morning | map: "style") %}
+    {% if forloop.first %}
+    <div class="2u 12u(mobile)">
+    {% else %}
+    <div class="2u 12u(mobile)" style="padding-left: 0;">
+    {% endif %}
+        <div class="schedule">
+            <table class="schedule">
+                <thead>
+                    <th>{{ schedule.day }}</th>
+                    <th class="mobile-hidden"></th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Time</th>
+                        <td>{{ mt }}</td>
+                    </tr>
+                    <tr>
+                        <th>Leader</th>
+                        <td>{{ ml }}</td>
+                    </tr>
+                    <tr>
+                        <th>Style</th>
+                        <td>{{ ms }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    {% endfor %}
+
+    <div class="12u">
+        <div class="content">
 
             <article class="box page-content">
 

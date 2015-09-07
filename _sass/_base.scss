@@ -881,6 +881,23 @@
 
         &.schedule {
             table-layout: fixed;
+
+            thead {
+
+                th {
+
+                    &.mobile-hidden {
+                        display: none;
+                    }
+                }
+            }
+
+            tbody {
+
+                th {
+                    display: none;
+                }
+            }
         }
 
         &.records {
@@ -1795,6 +1812,16 @@
 
             table {
                 width: 100% !important;
+
+                &.schedule {
+
+                    tbody {
+
+                        th {
+                            display: inline;
+                        }
+                    }
+                }
             }
 
         /* Box */
