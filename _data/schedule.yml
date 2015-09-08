@@ -1,8 +1,4 @@
 - day: Monday
-  morning:
-    - time: 6:00-8:00am
-      leader: Matt Bird
-      style: Distance
   evening:
     - time: 5:30-7:30pm
       leader: Pierce Darragh
@@ -11,16 +7,12 @@
   morning:
     - time: 6:00-8:00am
       leader: Ethan Beseris
-      style: Drylands
+      style: Test Set
   evening:
     - time: 5:30-7:30pm
       leader: Ethan Beseris
-      style: Test Sets
+      style: Drylands
 - day: Wednesday
-  morning:
-    - time: 6:00-8:00am
-      leader: Jeppesen Feliciano
-      style: IM
   evening:
     - time: 5:30-7:30pm
       leader: Melissa Hofmann
@@ -29,18 +21,8 @@
   morning:
     - time: 6:00-8:00am
       leader: Jeppesen Feliciano
-      style: Drylands
+      style: Stroke & IM
   evening:
     - time: 5:30-7:30pm
-      leader: Janey Heyman
-      style: Stroke & IM
-- day: Friday
-  morning:
-    - time: 6:00-8:00am
-      leader: Matt Bird
-      style: Distance
-- day: Saturday
-  morning:
-    - time: 10:00-noon
       leader: Ethan Beseris
-      style: Team-Building
+      style: Drylands
