@@ -990,6 +990,27 @@
                 text-align: right;
             }
         }
+
+        &.contact {
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 1.25em;
+
+            td {
+                &.position {
+                    text-align: right;
+                }
+            }
+
+            a {
+                color: $lightish_gray;
+
+                &:hover {
+                    color: $swoop_crimson;
+                }
+            }
+        }
     }
 
 /* Box */
@@ -1105,6 +1126,10 @@
     .officer {
         h2 {
             padding-top: 0.5em;
+        }
+
+        a:hover {
+            color: $swoop_crimson;
         }
     }
 
