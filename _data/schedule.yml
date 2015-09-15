@@ -26,3 +26,8 @@
     - time: 5:30-7:30pm
       leader: Ethan Beseris
       style: Drylands
+- day: Friday
+  morning:
+    - time: 6:00-8:00am
+      leader: Matt Bird
+      style: Distance
