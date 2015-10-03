@@ -23,9 +23,17 @@
   year: Alumna
   hometown: Kapolei, HI
   school: University of Utah
-- last_name: Lee
-  first_name: Nicole
-  events: Distance/Sprint Free
+- last_name: Chong
+  first_name: Elena
+  middle_initial: ML
+  events: Mid-distance Free, Distance Free
+  year: Graduate
+  hometown: Orlando, FL
+  school: Calvin College
+- last_name: Hoang
+  first_name: Ina
+  middle_initial: L
+  events: Mid-distance Free, Breast
   year: Sophomore
-  hometown: Guatemala City, Guatemala
-  school: Carol Morgan School
+  hometown: Salt Lake City, UT
+  school: Hillcrest HS

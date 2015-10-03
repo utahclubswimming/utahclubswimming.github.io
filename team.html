@@ -18,7 +18,7 @@ permalink: /team/
 
                     {% for members_hash in site.data.members reversed %}
                     {% assign key = members_hash[0] | capitalize %}
-                    {% assign members = members_hash[1] %}
+                    {% assign members = members_hash[1] | sort:"last_name" %}
                     <section>
                         <h3>{{ key }}'s Team</h3>
                         <table class="roster">
