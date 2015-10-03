@@ -60,14 +60,6 @@
   year: Senior
   hometown: Riverton, UT
   school: Salt Lake Community College
-- last_name: Reynolds
-  first_name: Raymond
-  middle_initial: C
-  given_name: Ray
-  events: IM/Fly
-  year: Sophomore
-  hometown: Little Silver, NJ
-  school: Red Bank Regional HS
 - last_name: Watson
   first_name: Guy
   events: Sprint Free/Breast
@@ -81,3 +73,38 @@
   year: Sophomore
   hometown: Centennial, CO
   school: Arapahoe HS
+- last_name: Roller
+  first_name: Jaxon
+  middle_initial: J
+  events: Mid-distance Free, Breast
+  year: Sophomore
+  hometown: Murray, UT
+  school: Murray HS
+- last_name: Buckendorf
+  first_name: Jonathon
+  middle_initial: E
+  events: Mid-distance Free, Fly
+  year: Junior
+  hometown: Stansbury Park, UT
+  school: Stansbury HS
+- last_name: Arevalo-Rivers
+  first_name: Jose
+  middle_initial: G
+  events: Distance Free, Breast
+  year: Senior
+  hometown: Santa Tecla, El Salvador
+  school: Salt Lake Community College
+- last_name: Hise
+  first_name: Samuel
+  middle_initial: A
+  events: Sprint Free/Fly
+  year: Senior
+  hometown: Austin, TX
+  school: East HS
+- last_name: Morgan
+  first_name: Connor
+  middle_initial: J
+  events: Sprint Free/Back
+  year: Freshman
+  hometown: Salt Lake City, UT
+  school: Judge Memorial HS
