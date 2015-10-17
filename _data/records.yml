@@ -34,6 +34,8 @@
   man_time: "6:01.61"
 - event: 1000 Free
 - event: 1650 Free
+  woman_name: Megan Dearden
+  woman_time: "22:07.77"
   man_name: Matt Bird
   man_time: "20:54.42"
 - event: 50 Back
@@ -42,15 +44,19 @@
   man_name: Ethan Beseris
   man_time: "27.21L"
 - event: 100 Back
-  woman_name: Melissa Hofmann
-  woman_time: "1:07.69"
+  woman_name: Al Jamora
+  woman_time: "1:07.15"
+  man_name: Connor Morgan
+  man_time: "58.91"
 - event: 200 Back
 - event: 50 Breast
   woman_name: Al Jamora
   woman_time: "33.94"
   man_name: Jeppesen Feliciano
-  man_time: "30.10"
+  man_time: "29.70"
 - event: 100 Breast
+  woman_name: Katierose McMahon
+  woman_time: "1:31.49"
   man_name: Jeppesen Feliciano
   man_time: "1:06.19"
 - event: 200 Breast
@@ -68,8 +74,8 @@
 - event: 100 IM
   woman_name: Al Jamora
   woman_time: "1:05.55"
-  man_name: Ben Stewart
-  man_time: "1:03.52"
+  man_name: Connor Morgan
+  man_time: "1:01.97"
 - event: 200 IM
   woman_name: Janey Heyman
   woman_time: "2:34.31"

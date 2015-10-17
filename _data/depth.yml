@@ -1,181 +1,149 @@
 - event: 50 Free
   women:
-    - name: Al Jamora
-      time: "25.36"
     - name: Melissa Hofmann
-      time: "25.58"
-    - name: Polly Creveling
-      time: "27.41"
-    - name: LeAnn Nguyen
-      time: "28.38"
+      time: "27.60"
     - name: Janey Heyman
-      time: "28.72"
+      time: "29.72"
+    - name: Ina Hoang
+      time: "31.11"
   men:
-    - name: Nate Bramhall
-      time: "22.94"
-    - name: Ethan Beseris
-      time: "23.02"
     - name: Pierce Darragh
-      time: "24.51"
-    - name: Ben Stewart
-      time: "24.82"
-    - name: Jeppesen Feliciano
-      time: "24.91"
+      time: "25.71"
+    - name: Jackson Knowles
+      time: "24.87"
+    - name: Sam Hise
+      time: "25.98"
+    - name: Jonathan Buckendorf
+      time: "26.61"
+    - name: Matt Bird
+      time: "28.11"
 - event: 100 Free
   women:
     - name: Melissa Hofmann
-      time: "56.83"
+      time: "1:02.44"
+    - name: Ina Hoang
+      time: "1:07.75"
   men:
-    - name: Ethan Beseris
-      time: "49.51L"
-    - name: Jackson Knowles
-      time: "55.01"
+    - name: Connor Morgan
+      time: "53.70"
+    - name: Jonathan Buckendorf
+      time: "58.30"
     - name: Pierce Darragh
-      time: "55.30"
-    - name: Matt Christensen
-      time: "57.44"
-    - name: Ben Stewart
-      time: "57.67"
-- event: 200 Free
-  women:
-    - name: Aari Lyijynen
-      time: "2:34.08"
-  men:
-    - name: Matt Bird
-      time: "2:06.03"
+      time: "58.76"
     - name: Jackson Knowles
-      time: "2:06.26"
-    - name: Matt Christensen
-      time: "2:26.84"
-    - name: Dylan Noaker
-      time: "2:43.91"
+      time: "1:00.14"
+    - name: Cameron Quackenbush
+      time: "1:00.56"
+- event: 200 Free
 - event: 500 Free
-  women:
-    - name: Polly Creveling
-      time: "6:02.78"
-    - name: Janey Heyman
-      time: "6:05.54"
-  men:
-    - name: Matt Bird
-      time: "6:01.61"
-    - name: Dylan Noaker
-      time: "7:42.72"
 - event: 1000 Free
 - event: 1650 Free
+  women:
+    - name: Megan Dearden
+      time: "22:07.77"
+    - name: Elena Chong
+      time: "22:12.24"
   men:
-    - name: Matt Bird
-      time: "20:54.42"
     - name: Dylan Noaker
-      time: "25:53.40"
+      time: "27:56.83"
 - event: 50 Back
   women:
+    - name: Al Jamora
+      time: "32.08"
+    - name: Elena Chong
+      time: "32.93"
     - name: Melissa Hofmann
-      time: "29.98L"
-    - name: Polly Creveling
-      time: "32.57"
-    - name: LeAnn Nguyen
-      time: "32.73"
-    - name: Aari Lyijynen
-      time: "35.17"
+      time: "33.57"
   men:
-    - name: Ethan Beseris
-      time: "27.21L"
-    - name: Jeppesen Feliciano
-      time: "32.56"
+    - name: Sam Hise
+      time: "34.32"
 - event: 100 Back
   women:
     - name: Melissa Hofmann
       time: "1:07.69"
+- event: 100 Back
+  women:
+    - name: Al Jamora
+      time: "1:07.15"
+    - name: Megan Dearden
+      time: "1:13.78"
+  men:
+    - name: Connor Morgan
+      time: "58.91"
+    - name: Ethan Beseris
+      time: "1:03.44"
+    - name: Ian Pradhan
+      time: "1:10.03"
 - event: 200 Back
 - event: 50 Breast
   women:
-    - name: Al Jamora
-      time: "33.94"
-    - name: LeAnn Nguyen
-      time: "36.49"
-    - name: Janey Heyman
-      time: "37.25"
+    - name: Ina Hoang
+      time: "42.31"
   men:
     - name: Jeppesen Feliciano
-      time: "30.10"
-    - name: Max Jin
-      time: "35.11"
-    - name: Ray Reynolds
-      time: "36.11"
-    - name: Guy Watson
-      time: "36.34"
-- event: 100 Breast
-  men:
-    - name: Jeppesen Feliciano
-      time: "1:06.19"
-    - name: Nate Bramhall
-      time: "1:09.69"
-    - name: Matt Christensen
-      time: "1:14.88"
+      time: "29.70"
+    - name: Jaxon Roller
+      time: "31.97"
     - name: Matt Bird
-      time: "1:15.13"
-    - name: Max Jin
-      time: "1:22.72"
-- event: 200 Breast
+      time: "34.62"
+    - name: Guy Watson
+      time: "37.12"
+    - name: Kevin Hemmersmeier
+      time: "38.35"
+- event: 100 Breast
+  women:
+    - name: Katierose McMahon
+      time: "1:31.49"
+    - name: Maddie Walters
+      time: "1:34.12"
   men:
-    - name: Jeppesen Felicicano
-      time: "2:39.80"
+    - name: Kevin Hemmersmeier
+      time: "1:25.24"
+- event: 200 Breast
 - event: 50 Fly
   women:
+    - name: Al Jamora
+      time: "30.69"
     - name: Janey Heyman
-      time: "29.83"
-    - name: Melissa Hofmann
-      time: "31.90"
-    - name: Anne Henkels
-      time: "32.65"
+      time: "31.17"
+    - name: Katierose McMahon
+      time: "34.95"
   men:
     - name: Ethan Beseris
-      time: "25.31"
+      time: "26.54"
+    - name: Jonathan Buckendorf
+      time: "27.61"
     - name: Jackson Knowles
-      time: "26.92"
-    - name: Matt Bird
-      time: "27.72"
-    - name: Ben Stewart
-      time: "27.89"
-    - name: Pierce Darragh
-      time: "29.55"
+      time: "27.87"
+    - name: Jaxon Roller
+      time: "28.21"
+    - name: Cameron Quackenbush
+      time: "28.68"
 - event: 100 Fly
   men:
-    - name: Ethan Beseris
-      time: "54.35"
-    - name: Matt Christensen
-      time: "1:02.53"
+    - name: Cameron Quackenbush
+      time: "1:03.63"
 - event: 200 Fly
 - event: 100 IM
   women:
-    - name: Al Jamora
-      time: "1:05.55"
     - name: Janey Heyman
-      time: "1:07.92"
-    - name: Polly Creveling
-      time: "1:09.82"
-    - name: LeAnn Nguyen
-      time: "1:12.07"
-    - name: Aari Lyijynen
-      time: "1:15.60"
+      time: "1:12.57"
+    - name: Elena Chong
+      time: "1:15.53"
+    - name: Katierose McMahon
+      time: "1:19.81"
+    - name: Maddie Walters
+      time: "1:25.96"
   men:
-    - name: Ben Stewart
-      time: "1:03.52"
+    - name: Connor Morgan
+      time: "1:01.97"
     - name: Jeppesen Feliciano
-      time: "1:05.44"
-    - name: Pierce Darragh
-      time: "1:07.84"
-    - name: Matt Bird
-      time: "1:10.50"
-    - name: Ray Reynolds
-      time: "1:10.54"
-- event: 200 IM
-  women:
-    - name: Janey Heyman
-      time: "2:34.31"
-  men:
+      time: "1:05.25"
     - name: Ethan Beseris
-      time: "2:18.01"
-    - name: Jeppesen Feliciano
-      time: "2:25.50"
+      time: "1:05.45"
+    - name: Jaxon Roller
+      time: "1:06.65"
+    - name: Ian Pradhan
+      time: "1:11.50"
+- event: 200 IM
 - event: 400 IM
