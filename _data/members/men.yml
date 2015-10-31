@@ -1,3 +1,10 @@
+- last_name: Arevalo-Rivers
+  first_name: Jose
+  middle_initial: G
+  events: Distance Free, Breast
+  year: Senior
+  hometown: Santa Tecla, El Salvador
+  school: Salt Lake Community College
 - last_name: Beseris
   first_name: Ethan
   middle_initial: A
@@ -15,6 +22,13 @@
   hometown: Draper, UT
   school: Juan Diego Catholic HS
   officer: Vice President
+- last_name: Buckendorf
+  first_name: Jonathon
+  middle_initial: E
+  events: Mid-distance Free, Fly
+  year: Junior
+  hometown: Stansbury Park, UT
+  school: Stansbury HS
 - last_name: Darragh
   first_name: Pierce
   middle_initial: O
@@ -31,6 +45,21 @@
   hometown: West Jordan, UT
   school: Juan Diego Catholic HS
   officer: Secretary
+- last_name: Hemmersmeier
+  first_name: Kevin
+  middle_initial: J
+  given_name: Hemi
+  events: Sprint Free/IM
+  year: Freshman
+  hometown: Draper, UT
+  school: Juan Diego Catholic HS
+- last_name: Hise
+  first_name: Samuel
+  middle_initial: A
+  events: Sprint Free/Fly
+  year: Senior
+  hometown: Austin, TX
+  school: East HS
 - last_name: Jin
   first_name: Hansheng
   given_name: Max
@@ -45,6 +74,13 @@
   year: Sophomore
   hometown: Moab, UT
   school: Grand County HS
+- last_name: Morgan
+  first_name: Connor
+  middle_initial: J
+  events: Sprint Free/Back
+  year: Freshman
+  hometown: Salt Lake City, UT
+  school: Judge Memorial HS
 - last_name: Noaker
   first_name: Dylan
   middle_initial: R
@@ -60,6 +96,20 @@
   year: Senior
   hometown: Riverton, UT
   school: Salt Lake Community College
+- last_name: Quackenbush
+  first_name: Cameron
+  middle_initial: S
+  events: Breast, IM
+  year: Freshman
+  hometown: Salt Lake City, UT
+  school: Olympus HS
+- last_name: Roller
+  first_name: Jaxon
+  middle_initial: J
+  events: Mid-distance Free, Breast
+  year: Sophomore
+  hometown: Murray, UT
+  school: Murray HS
 - last_name: Watson
   first_name: Guy
   events: Sprint Free/Breast
@@ -73,38 +123,3 @@
   year: Sophomore
   hometown: Centennial, CO
   school: Arapahoe HS
-- last_name: Roller
-  first_name: Jaxon
-  middle_initial: J
-  events: Mid-distance Free, Breast
-  year: Sophomore
-  hometown: Murray, UT
-  school: Murray HS
-- last_name: Buckendorf
-  first_name: Jonathon
-  middle_initial: E
-  events: Mid-distance Free, Fly
-  year: Junior
-  hometown: Stansbury Park, UT
-  school: Stansbury HS
-- last_name: Arevalo-Rivers
-  first_name: Jose
-  middle_initial: G
-  events: Distance Free, Breast
-  year: Senior
-  hometown: Santa Tecla, El Salvador
-  school: Salt Lake Community College
-- last_name: Hise
-  first_name: Samuel
-  middle_initial: A
-  events: Sprint Free/Fly
-  year: Senior
-  hometown: Austin, TX
-  school: East HS
-- last_name: Morgan
-  first_name: Connor
-  middle_initial: J
-  events: Sprint Free/Back
-  year: Freshman
-  hometown: Salt Lake City, UT
-  school: Judge Memorial HS

@@ -1,3 +1,17 @@
+- last_name: Chong
+  first_name: Elena
+  middle_initial: ML
+  events: Mid-distance Free, Distance Free
+  year: Graduate
+  hometown: Orlando, FL
+  school: Calvin College
+- last_name: Dearden
+  first_name: Megan
+  middle_initial: C
+  events: Back, IM
+  year: Freshman
+  hometown: Colorado Springs, CO
+  school: Air Academy HS
 - last_name: Heyman
   first_name: Jane Marie
   middle_initial: C
@@ -7,6 +21,13 @@
   hometown: Santa Cruz, CA
   school: Saratoga HS
   officer: Women's Team Captain
+- last_name: Hoang
+  first_name: Ina
+  middle_initial: L
+  events: Mid-distance Free, Breast
+  year: Sophomore
+  hometown: Salt Lake City, UT
+  school: Hillcrest HS
 - last_name: Hofmann
   first_name: Melissa
   middle_initial: N
@@ -23,17 +44,3 @@
   year: Alumna
   hometown: Kapolei, HI
   school: University of Utah
-- last_name: Chong
-  first_name: Elena
-  middle_initial: ML
-  events: Mid-distance Free, Distance Free
-  year: Graduate
-  hometown: Orlando, FL
-  school: Calvin College
-- last_name: Hoang
-  first_name: Ina
-  middle_initial: L
-  events: Mid-distance Free, Breast
-  year: Sophomore
-  hometown: Salt Lake City, UT
-  school: Hillcrest HS
