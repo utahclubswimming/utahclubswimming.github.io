@@ -12,6 +12,13 @@
   year: Freshman
   hometown: Colorado Springs, CO
   school: Air Academy HS
+- last_name: Drane
+  first_name: Cara
+  middle_initial: B
+  events: Sprint Free / Breast
+  year: Junior
+  hometown: Forest, LA
+  school: Southern Utah University
 - last_name: Heyman
   first_name: Jane Marie
   middle_initial: C
@@ -28,6 +35,12 @@
   year: Sophomore
   hometown: Salt Lake City, UT
   school: Hillcrest HS
+- last_name: McMahon
+  first_name: Katierose
+  events: Sprint Free / IM
+  year: Senior
+  hometown: Salt Lake City, UT
+  school: Judge Memorial Catholic HS
 - last_name: Hofmann
   first_name: Melissa
   middle_initial: N
