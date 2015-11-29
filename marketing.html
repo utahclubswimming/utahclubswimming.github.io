@@ -11,8 +11,8 @@ permalink: /team/marketing/
             <article class="box page-content">
 
                 <header>
-                    <h2>Current Officers</h2>
-                    <p>Team leadership positions</p>
+                    <h2>Marketing Board</h2>
+                    <p>The people behind the team's public image</p>
                 </header>
 
             </article>
@@ -20,7 +20,7 @@ permalink: /team/marketing/
     </div>
 
     {% for member in site.data.marketing %}
-    <div class="4u 12u(mobile)">
+    <div class="3u 12u(mobile)">
         <div class="officer">
             <span class="image fit"><img src="{{ site.image_url }}/{{ member.image }}" /></span>
             <h2>{{ member.name }}</h2>
@@ -28,8 +28,8 @@ permalink: /team/marketing/
             <p>{{ member.info }}</p>
         </div>
     </div>
-    {% capture index %}{% cycle 1, 2, 3 %}{% endcapture %}
-    {% if index == "3" %}
+    {% capture index %}{% cycle 1, 2, 3, 4 %}{% endcapture %}
+    {% if index == "4" %}
     <div class="12u" style="padding: 0;">
     </div>
     {% endif %}
