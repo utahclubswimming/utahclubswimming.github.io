@@ -19,6 +19,14 @@
   year: Junior
   hometown: Forest, LA
   school: Southern Utah University
+- last_name: Glomb
+  first_name: Victoria
+  middle_initial: C
+  given_name: Torreigh
+  events: Fly, Breast
+  year: Freshman
+  hometown: Austin, TX
+  school: Lake Travis HS
 - last_name: Heyman
   first_name: Jane Marie
   middle_initial: C
@@ -35,12 +43,6 @@
   year: Sophomore
   hometown: Salt Lake City, UT
   school: Hillcrest HS
-- last_name: McMahon
-  first_name: Katierose
-  events: Sprint Free / IM
-  year: Senior
-  hometown: Salt Lake City, UT
-  school: Judge Memorial Catholic HS
 - last_name: Hofmann
   first_name: Melissa
   middle_initial: N
@@ -57,3 +59,24 @@
   year: Alumna
   hometown: Kapolei, HI
   school: University of Utah
+- last_name: McMahon
+  first_name: Katierose
+  events: Sprint Free / IM
+  year: Senior
+  hometown: Salt Lake City, UT
+  school: Judge Memorial Catholic HS
+- last_name: Momen
+  first_name: Nargess
+  middle_initial: B
+  events: Mid-Distance Free, Breast
+  year: Sophomore
+  hometown: Tehran, Iran
+  school: Narjes
+- last_name: Walters
+  first_name: Madison
+  middle_initial: A
+  given_name: Maddie
+  events: Distance Free
+  year: Junior
+  hometown: Kalispell, MT
+  school: Glacier HS
