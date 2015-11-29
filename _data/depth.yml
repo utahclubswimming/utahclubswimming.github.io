@@ -1,82 +1,112 @@
 - event: 50 Free
   women:
+    - name: Al Jamora
+      time: "26.41"
     - name: Melissa Hofmann
-      time: "27.60"
+      time: "26.70"
+    - name: Katierose McMahon
+      time: "29.53"
     - name: Janey Heyman
       time: "29.72"
     - name: Ina Hoang
       time: "31.11"
   men:
-    - name: Pierce Darragh
-      time: "25.71"
-    - name: Jackson Knowles
-      time: "24.87"
+    - name: Connor Morgan
+      time: "23.76"
+    - name: Ethan Beseris
+      time: "24.23"
     - name: Sam Hise
-      time: "25.98"
-    - name: Jonathan Buckendorf
-      time: "26.61"
-    - name: Matt Bird
-      time: "28.11"
+      time: "24.62"
+    - name: Jeppesen Feliciano
+      time: "24.94"
+    - name: Pierce Darragh
+      time: "25.60"
 - event: 100 Free
   women:
     - name: Melissa Hofmann
-      time: "1:02.44"
+      time: "59.26"
+    - name: Katierose McMahon
+      time: "1:05.44"
     - name: Ina Hoang
       time: "1:07.75"
   men:
     - name: Connor Morgan
-      time: "53.70"
+      time: "52.73"
+    - name: Ethan Beseris
+      time: "53.38"
+    - name: Jackson Knowles
+      time: "56.60"
+    - name: Sam Hise
+      time: "56.61"
     - name: Jonathan Buckendorf
       time: "58.30"
-    - name: Pierce Darragh
-      time: "58.76"
-    - name: Jackson Knowles
-      time: "1:00.14"
-    - name: Cameron Quackenbush
-      time: "1:00.56"
 - event: 200 Free
+  women:
+    - name: Megan Dearden
+      time: "2:11.47"
+  men:
+    - name: Ian Pradhan
+      time: "2:14.91"
 - event: 500 Free
+  women:
+    - name: Megan Dearden
+      time: "5:52.51"
+    - name: Janey Heyman
+      time: "6:41.35"
 - event: 1000 Free
 - event: 1650 Free
   women:
+    - name: Al Jamora
+      time: "21:44.74"
     - name: Megan Dearden
       time: "22:07.77"
     - name: Elena Chong
       time: "22:12.24"
   men:
+    - name: Matt Bird
+      time: "22:29.39"
     - name: Dylan Noaker
       time: "27:56.83"
 - event: 50 Back
   women:
+    - name: Megan Dearden
+      time: "32.91"
     - name: Al Jamora
       time: "32.08"
+    - name: Melissa Hofmann
+      time: "32.89"
     - name: Elena Chong
       time: "32.93"
-    - name: Melissa Hofmann
-      time: "33.57"
   men:
+    - name: Connor Morgan
+      time: "26.91"
     - name: Sam Hise
       time: "34.32"
-- event: 100 Back
-  women:
-    - name: Melissa Hofmann
-      time: "1:07.69"
+    - name: Josh Parata
+      time: "40.26"
 - event: 100 Back
   women:
     - name: Al Jamora
       time: "1:07.15"
     - name: Megan Dearden
-      time: "1:13.78"
+      time: "1:07.26"
   men:
     - name: Connor Morgan
-      time: "58.91"
+      time: "56.76"
     - name: Ethan Beseris
-      time: "1:03.44"
+      time: "1:01.15"
     - name: Ian Pradhan
       time: "1:10.03"
 - event: 200 Back
+  men:
+    - name: Connor Morgan
+      time: "2:09.69"
+    - name: Ian Pradhan
+      time: "2:30.02"
 - event: 50 Breast
   women:
+    - name: Al Jamora
+      time: "34.50"
     - name: Ina Hoang
       time: "42.31"
   men:
@@ -97,15 +127,30 @@
     - name: Maddie Walters
       time: "1:34.12"
   men:
+    - name: Jeppesen Feliciano
+      time: "1:06.09"
+    - name: Connor Morgan
+      time: "1:09.53"
     - name: Kevin Hemmersmeier
       time: "1:25.24"
+    - name: Cameron Quackenbush
+      time: "1:39.54"
 - event: 200 Breast
+  men:
+    - name: Jeppesen Feliciano
+      time: "2:28.47"
+    - name: Kevin Hemmersmeier
+      time: "3:23.94"
 - event: 50 Fly
   women:
     - name: Al Jamora
       time: "30.69"
+    - name: Megan Dearden
+      time: "30.82"
     - name: Janey Heyman
       time: "31.17"
+    - name: Melissa Hofmann
+      time: "32.74"
     - name: Katierose McMahon
       time: "34.95"
   men:
@@ -114,15 +159,22 @@
     - name: Jonathan Buckendorf
       time: "27.61"
     - name: Jackson Knowles
-      time: "27.87"
+      time: "27.81"
     - name: Jaxon Roller
       time: "28.21"
-    - name: Cameron Quackenbush
-      time: "28.68"
+    - name: Connor Morgan
+      time: "28.23"
 - event: 100 Fly
+  women:
+    - name: Janey Heyman
+      time: "1:12.25"
   men:
+    - name: Ethan Beseris
+      time: "58.38"
     - name: Cameron Quackenbush
-      time: "1:03.63"
+      time: "1:02.62"
+    - name: Jeppesen Feliciano
+      time: "1:07.38"
 - event: 200 Fly
 - event: 100 IM
   women:
@@ -131,7 +183,7 @@
     - name: Elena Chong
       time: "1:15.53"
     - name: Katierose McMahon
-      time: "1:19.81"
+      time: "1:17.04"
     - name: Maddie Walters
       time: "1:25.96"
   men:
@@ -143,7 +195,28 @@
       time: "1:05.45"
     - name: Jaxon Roller
       time: "1:06.65"
-    - name: Ian Pradhan
-      time: "1:11.50"
+    - name: Pierce Darragh
+      time: "1:10.56"
 - event: 200 IM
+  women:
+    - name: Megan Dearden
+      time: "2:26.58"
+    - name: Janey Heyman
+      time: "2:39.45"
+    - name: Katierose McMahon
+      time: "2:46.68"
+  men:
+    - name: Connor Morgan
+      time: "2:09.49"
+    - name: Ethan Beseris
+      time: "2:17.10"
+    - name: Cameron Quackenbush
+      time: "2:22.12"
+    - name: Jeppesen Feliciano
+      time: "2:27.82"
+    - name: Kevin Hemmersmeier
+      time: "3:00.38"
 - event: 400 IM
+  women:
+    - name: Megan Dearden
+      time: "5:13.35"
