@@ -23,32 +23,34 @@
   man_name: Ethan Beseris
   man_time: "49.51L"
 - event: 200 Free
-  woman_name: Aari Lyijynen
-  woman_time: "2:34.08"
+  woman_name: Megan Dearden
+  woman_time: "2:11.47"
   man_name: Matt Bird
   man_time: "2:06.03"
 - event: 500 Free
-  woman_name: Polly Creveling
-  woman_time: "6:02.78"
+  woman_name: Megan Dearden
+  woman_time: "5:52.51"
   man_name: Matt Bird
   man_time: "6:01.61"
 - event: 1000 Free
 - event: 1650 Free
-  woman_name: Megan Dearden
-  woman_time: "22:07.77"
+  woman_name: Al Jamora
+  woman_time: "21:44.47"
   man_name: Matt Bird
   man_time: "20:54.42"
 - event: 50 Back
   woman_name: Melissa Hofmann
   woman_time: "29.98L"
-  man_name: Ethan Beseris
-  man_time: "27.21L"
+  man_name: Connor Morgan
+  man_time: "26.91"
 - event: 100 Back
   woman_name: Al Jamora
   woman_time: "1:07.15"
   man_name: Connor Morgan
-  man_time: "58.91"
+  man_time: "56.76"
 - event: 200 Back
+  man_name: Connor Morgan
+  man_time: "2:09.69"
 - event: 50 Breast
   woman_name: Al Jamora
   woman_time: "33.94"
@@ -58,16 +60,18 @@
   woman_name: Katierose McMahon
   woman_time: "1:31.49"
   man_name: Jeppesen Feliciano
-  man_time: "1:06.19"
+  man_time: "1:06.09"
 - event: 200 Breast
   man_name: Jeppesen Feliciano
-  man_time: "2:39.80"
+  man_time: "2:28.47"
 - event: 50 Fly
   woman_name: Janey Heyman
   woman_time: "29.83"
   man_name: Ethan Beseris
   man_time: "25.31"
 - event: 100 Fly
+  woman_name: Janey Heyman
+  woman_time: "1:12.25"
   man_name: Ethan Beseris
   man_time: "54.35"
 - event: 200 Fly
@@ -77,11 +81,13 @@
   man_name: Connor Morgan
   man_time: "1:01.97"
 - event: 200 IM
-  woman_name: Janey Heyman
-  woman_time: "2:34.31"
-  man_name: Ethan Beseris
-  man_time: "2:18.01"
+  woman_name: Megan Dearden
+  woman_time: "2:26.58"
+  man_name: Connor Morgan
+  man_time: "2:09.49"
 - event: 400 IM
+  woman_name: Megan Dearden
+  woman_time: "5:13.35"
 - event: 200 Free Relay
   woman_name: Hofmann, Heyman, Nguyen, Creveling
   woman_time: "1:51.90"
