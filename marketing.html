@@ -22,7 +22,12 @@ permalink: /team/marketing/
     {% for member in site.data.marketing %}
     <div class="3u 12u(mobile)">
         <div class="officer">
-            <span class="image fit"><img src="{{ site.image_url }}/{{ member.image }}" /></span>
+            {% if member.image %}
+                {% capture image %}{{ site.image_url }}/{{ member.image }}{% endcapture %}
+            {% else %}
+                {% capture image %}{{ site.image_url }}/logos/minimal.png{% endcapture %}
+            {% endif %}
+            <span class="image fit"><img src="{{ image }}" /></span>
             <h2>{{ member.name }}</h2>
             <h4>{{ member.position }}</h4>
             <p>{{ member.info }}</p>

@@ -22,7 +22,12 @@ permalink: /team/officers/
     {% for officer in site.data.officers %}
     <div class="4u 12u(mobile)">
         <div class="officer">
-            <span class="image fit"><img src="{{ site.image_url }}/{{ officer.image }}" /></span>
+            {% if officer.image %}
+                {% capture image %}{{ site.image_url }}/{{ officer.image }}{% endcapture %}
+            {% else %}
+                {% capture image %}{{ site.image_url }}/logos/minimal.png{% endcapture %}
+            {% endif %}
+            <span class="image fit"><img src="{{ image }}" /></span>
             <h2>{{ officer.name }}</h2>
             <h4><a class="icon fa-envelope" href="mailto:{{ officer.contact }}"> {{ officer.position }}</a></h4>
             <p>{{ officer.info }}</p>
