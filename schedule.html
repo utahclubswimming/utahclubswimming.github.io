@@ -50,19 +50,19 @@ permalink: /schedule/
                                     {% endfor %}
                                 </tr>
                                 <tr>
-                                    <!-- Morning Styles -->
-                                    <th>Style</th>
-                                    {% for entry in site.data.schedule %}
-                                    {% assign style = (entry.morning | map: 'style') %}
-                                    <td>{{ style }}</td>
-                                    {% endfor %}
-                                </tr>
-                                <tr>
                                     <!-- Morning Leaders -->
                                     <th>Leader</th>
                                     {% for entry in site.data.schedule %}
                                     {% assign leader = (entry.morning | map: 'leader') %}
                                     <td>{{ leader }}</td>
+                                    {% endfor %}
+                                </tr>
+                                <tr>
+                                    <!-- Morning Styles -->
+                                    <th>Style</th>
+                                    {% for entry in site.data.schedule %}
+                                    {% assign style = (entry.morning | map: 'style') %}
+                                    <td>{{ style }}</td>
                                     {% endfor %}
                                 </tr>
                                 <!-- Evening -->
@@ -76,19 +76,19 @@ permalink: /schedule/
                                     {% endfor %}
                                 </tr>
                                 <tr>
-                                    <!-- Evening Styles -->
-                                    <th>Style</th>
-                                    {% for entry in site.data.schedule %}
-                                    {% assign style = (entry.evening | map: 'style') %}
-                                    <td>{{ style }}</td>
-                                    {% endfor %}
-                                </tr>
-                                <tr>
                                     <!-- Evening Leaders -->
                                     <th>Leader</th>
                                     {% for entry in site.data.schedule %}
                                     {% assign leader = (entry.evening | map: 'leader') %}
                                     <td>{{ leader }}</td>
+                                    {% endfor %}
+                                </tr>
+                                <tr>
+                                    <!-- Evening Styles -->
+                                    <th>Style</th>
+                                    {% for entry in site.data.schedule %}
+                                    {% assign style = (entry.evening | map: 'style') %}
+                                    <td>{{ style }}</td>
                                     {% endfor %}
                                 </tr>
                             </tbody>
