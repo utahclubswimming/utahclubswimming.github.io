@@ -5,6 +5,13 @@
   year: Graduate
   hometown: Orlando, FL
   school: Calvin College
+  bio: >
+    Elena started competitively swimming when she was a freshman in high school.
+    She first began her water-career as a synchronized swimmer when she was 8
+    years old. Elena competed on a Division III collegiate team for 3 years in
+    Grand Rapids, Michigan as a mid-distance and distance free-styler. While she
+    took 3 years off of swimming, she attends the University of Utah as a PhD
+    student and is excited to get back into the pool.
 - last_name: Dearden
   first_name: Megan
   middle_initial: C
@@ -12,6 +19,11 @@
   year: Freshman
   hometown: Colorado Springs, CO
   school: Air Academy HS
+  majors:
+    - Biomedical Engineering
+  minors:
+    - Spanish
+    - Math
 - last_name: Drane
   first_name: Cara
   middle_initial: B
@@ -27,6 +39,10 @@
   year: Freshman
   hometown: Austin, TX
   school: Lake Travis HS
+  bio: >
+    Victoria was thrown into the water by her father when she was only 18 months
+    old. She started competing at the age of 6 and has had a passion for swim
+    ever since. 
 - last_name: Heyman
   first_name: Jane Marie
   middle_initial: C
@@ -36,6 +52,11 @@
   hometown: Santa Cruz, CA
   school: Saratoga HS
   officer: Women's Team Captain
+  bio: >
+    Janey’s swim career started with the challenge: “I bet you can’t swim to
+    that lane line” and since then she’s been hooked on the sport.  Along with
+    swimming in pools, Janey also enjoys open water swimming, river rafting,
+    hiking, camping, and climbing, among other outdoor activities.
 - last_name: Hoang
   first_name: Ina
   middle_initial: L
@@ -43,6 +64,13 @@
   year: Sophomore
   hometown: Salt Lake City, UT
   school: Hillcrest HS
+  bio: >
+    Ina has enjoyed swimming for as long as she can remember, but she can also
+    remember she likes eating more. Which led her to pursue competitive
+    swimming, and ultimately with the Utah Club Swim Team. Besides that though,
+    she also likes playing with cats even if they like to parkour off of her to
+    get away. So when she's not chasing cats, she'll be with the team who won't
+    climb on her, and she's more than thrilled to be a part of a team again.
 - last_name: Hofmann
   first_name: Melissa
   middle_initial: N
@@ -51,6 +79,12 @@
   hometown: Salt Lake City, UT
   school: Olympus HS
   officer: Treasurer
+  bio: >
+    Melissa began swimming at the age of 8 and loves everything that has to do
+    with water. As a stereotypical swimmer, Melissa cannot run. Therefore, when
+    the zombie apocalypse comes she will be the first one caught. When Melissa
+    is not swimming she enjoys reading, binge watching Netflix, and playing
+    guitar. She doesn’t enjoy doing any of these things while swimming.
 - last_name: Jamora
   first_name: Alexandra
   middle_initial: L
@@ -59,12 +93,26 @@
   year: Alumna
   hometown: Kapolei, HI
   school: University of Utah
+  bio: >
+    Al has been swimming since a young age and competed throughout her life.
+    In high school she participated in swimming, water polo, and dabbled in
+    cross country. She later walked on to the University of Utah swim team and
+    stuck with it till graduation. She currently resides in Salt Lake City
+    working for Victory Packaging and enjoys Utah’s great outdoors.
 - last_name: McMahon
   first_name: Katierose
   events: Sprint Free / IM
   year: Senior
   hometown: Salt Lake City, UT
   school: Judge Memorial Catholic HS
+  bio: >
+    Katierose is a Social Work major who has used swimming as a way to keep
+    active, make friends, and enjoy competition ever since she was a young girl.
+    Her dad put her in the pool to learn how to swim when she was 6 months old,
+    and it caught on quickly. After some years she took a break from swimming
+    and attempted diving, where at the age of 12, was ranked 11th in the North
+    West age division Conference. However, her heart wasn't entirely in diving,
+    so she returned to swimming.
 - last_name: Momen
   first_name: Nargess
   middle_initial: B
@@ -72,6 +120,9 @@
   year: Sophomore
   hometown: Tehran, Iran
   school: Narjes
+  bio: >
+    Nargess is studying Nutrition Science. She started swimming since she was 5.
+    She enjoys watching movies, playing tennis, yoga, painting, and cooking.
 - last_name: Walters
   first_name: Madison
   middle_initial: A
@@ -80,3 +131,9 @@
   year: Junior
   hometown: Kalispell, MT
   school: Glacier HS
+  bio: >
+    Madison began swimming at the age of eight, and competed ever since. She
+    swam for both her High School and Club Swim Team for many years. She loves
+    to be in the water, and pursue her passion for the sport. Swimming has
+    always been a foundation in her life and she wishes to pursue it her entire
+    life with coaching and competing in Master's competition.

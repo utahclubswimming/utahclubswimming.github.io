@@ -1,0 +1,15 @@
+{% assign member = include.member %}
+
+<p>{{ member }}</p>
+
+<h2>{{ member.first_name }}{% if member.middle_initial %} {{ member.middle_initial }}{% endif %}{% if member.given_name %} "{{ member.given_name }}"{% endif %} {{ member.last_name }}</h2>
+<p>{{ member.year }} from {{ member.hometown }}.</p>
+{% if member.majors %}
+<p>Studying {{ member.majors[0] }}{% if member.minors %} with{% if member.minors.size == 2 %} minors in {{ member.minors[0] }} and {{ member.minors[1] }}{% elsif member.minors.size > 2 %} minors in {{ member.minors[0] }}{% for minor in member.minors %}{% unless forloop.first %}{% if forloop.last %} and {{ minor }}{% else %}, {{ minor }}{% endif %}{% endunless %}{% endfor %}{% else %} a minor in {{ member.minors.size[0] }}{% endif %}{% endif %}.</p>
+{% endif %}
+{% if member.school %}
+<p>Previously studied at {{ member.school }}.
+{% endif %}
+{% if member.events %}
+<p>Events: {{ member.events }}.</p>
+{% endif %}
