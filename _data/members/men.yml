@@ -28,6 +28,10 @@
   year: Senior
   hometown: Draper, UT
   school: Juan Diego Catholic HS
+  majors:
+    - Exercise & Sports Science
+  minors:
+    - Nutrition
   officer: Vice President
   bio: >
     Matt was always attracted to the water, and would usually be the first one
@@ -87,6 +91,8 @@
   year: Freshman
   hometown: Draper, UT
   school: Juan Diego Catholic HS
+  majors:
+    - Mathematics
   bio: >
     Kevin is also a Cross Country runner. He played football for 9 years prior
     to swimming and running, and is a math major planning on a Ph.D. Kevin
@@ -99,6 +105,11 @@
   year: Senior
   hometown: Austin, TX
   school: East HS
+  majors:
+    - Economics
+  minors:
+    - Business
+    - Nutrition
   bio: >
     Sam started swimming at the age of 4, but didn't start competitive swimming
     until his sophomore year of high school, after breaking his collar bone
@@ -112,6 +123,8 @@
   year: Junior
   hometown: Sandy, UT
   school: Juan Diego Catholic HS
+  majors:
+    - Computer Science
   bio: >
     Philipp started swimming when he was 5 and has loved it ever since. When
     he’s not speeding through the water, he loves to ski, hike, and nap. Phil
@@ -186,6 +199,11 @@
   year: Junior
   hometown: Portland, OR
   school: East HS
+  majors:
+    - Mechanical Engineering
+  minors:
+    - Spanish
+    - Mathematics
   bio: >
     Ian loves the water. Water sports like swimming, water polo, and kayaking
     have been a big part of his life for the last seven years. But that doesn't
@@ -197,6 +215,10 @@
   year: Freshman
   hometown: Salt Lake City, UT
   school: Olympus HS
+  majors:
+    - Environmental Sustainability
+  minors:
+    - Ecology and Legacy
 - last_name: Roller
   first_name: Jaxon
   middle_initial: J

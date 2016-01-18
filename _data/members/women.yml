@@ -31,6 +31,10 @@
   year: Junior
   hometown: Forest, LA
   school: Southern Utah University
+  majors:
+    - Biology
+  minors:
+    - Chemistry
 - last_name: Glomb
   first_name: Victoria
   middle_initial: C
@@ -93,12 +97,28 @@
   year: Alumna
   hometown: Kapolei, HI
   school: University of Utah
+  majors:
+    - English
+  minors:
+    - Arabic
   bio: >
     Al has been swimming since a young age and competed throughout her life.
     In high school she participated in swimming, water polo, and dabbled in
     cross country. She later walked on to the University of Utah swim team and
     stuck with it till graduation. She currently resides in Salt Lake City
     working for Victory Packaging and enjoys Utah’s great outdoors.
+  academic_highlights:
+    - Pac 12 Women’s Honorable Mention All-Academic
+    - English Student Advisory Committee Vice-Chair
+    - Attendee/participant of National University Model Arab League Conference
+    - Student Athlete Mentor
+    - Attendee/recipient of NCAA Career in Sports Forum
+    - University of Utah Residential Hall Association Social Justice & Marketing Board Member
+  athletic_highlights:
+    - "2014-2015":
+      - Three-time individual state champion in the 2015 Utah Masters State Championships
+      - Team Record Holder in 50 free, 50 Breast, 100 IM
+      - Member of the Team Record 400 free and 200 Medley Relay
 - last_name: McMahon
   first_name: Katierose
   events: Sprint Free / IM
@@ -131,6 +151,12 @@
   year: Junior
   hometown: Kalispell, MT
   school: Glacier HS
+  majors:
+    - Political Science
+    - Sociology
+    - Economics
+  minors:
+    - Business
   bio: >
     Madison began swimming at the age of eight, and competed ever since. She
     swam for both her High School and Club Swim Team for many years. She loves

@@ -5,6 +5,22 @@ permalink: /testing/
 member: jose
 ---
 
-{% assign info = site.data.members.men[0] %}
+{% assign info = site.data.members.women[7] %}
 
-{{ info }}
+<p>{{ info }}</p>
+
+<p>{{ info.athletic_highlights }}</p>
+
+<ul>
+{% for hash in info.athletic_highlights %}
+    {% for group in hash %}
+        <li>{{ group[0] }}
+            <ul>
+            {% for highlight in group[1] %}
+                <li>{{ highlight }}</li>
+            {% endfor %}
+            </ul>
+        </li>
+    {% endfor %}
+{% endfor %}
+</ul>
