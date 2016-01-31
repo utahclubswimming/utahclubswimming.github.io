@@ -1,11 +1,9 @@
 {% assign member = include.member %}
 
-<!-- <p>{{ member }}</p> -->
-
 {% capture member_lower_name %}{{ member.first_name | downcase }}{% if member.middle_initial %}-{{ member.middle_initial | downcase }}{% endif %}-{{ member.last_name | downcase }}{% endcapture %}
 
 <div class="12u">
-    <div class="content">
+    <div class="content profile">
 
         <article class="box personal profile">
             {% if member.headshot %}
@@ -41,7 +39,7 @@
 </div>
 
 <div class="6u 12u(mobile)">
-    <div class="content">
+    <div class="content profile">
 
         <!-- Athletic Highlights -->
 
@@ -74,7 +72,7 @@
 </div>
 
 <div class="6u 12u(mobile)">
-    <div class="content">
+    <div class="content profile">
 
         <!-- Academic Highlights -->
 
@@ -100,7 +98,7 @@
 </div>
 
 <div class="12u">
-    <div class="content">
+    <div class="content profile">
 
         <!-- Personal Bio -->
 
