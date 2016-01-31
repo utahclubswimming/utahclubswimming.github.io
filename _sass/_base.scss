@@ -1121,6 +1121,12 @@
         }
     }
 
+    .sponsor {
+        h2 {
+            text-align: center;
+        }
+    }
+
 /* Personal Bios */
 
     .officer {
@@ -1923,6 +1929,20 @@
 
                 .homepage & {
                     padding-top: 0;
+                }
+            }
+
+            .sponsor {
+                border-bottom: 5px solid $swoop_crimson;
+                margin-bottom: 1.5em;
+                text-align: center;
+
+                h2 {
+                    padding-top: 0.5em;
+                }
+
+                p {
+                    text-align: left;
                 }
             }
 
