@@ -22,7 +22,7 @@ permalink: /sponsors/
     </div>
 
     {% for sponsor in site.data.sponsors %}
-    <div class="4u 12u(mobile)">
+    <div class="6u 12u(mobile)">
         <div class="sponsor">
             <h2>{{ sponsor.name }}</h2>
             {% if sponsor.logo %}
@@ -36,8 +36,8 @@ permalink: /sponsors/
             {% endif %}
         </div>
     </div>
-    {% capture index %}{% cycle 1, 2, 3 %}{% endcapture %}
-    {% if index == "3" %}
+    {% capture index %}{% cycle 1, 2 %}{% endcapture %}
+    {% if index == "2" %}
     <div class="12u" style="padding: 0;">
     </div>
     {% endif %}
