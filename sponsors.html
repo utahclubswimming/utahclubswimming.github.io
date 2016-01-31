@@ -1,0 +1,45 @@
+---
+layout: default
+title: Sponsors
+permalink: /sponsors/
+---
+<div class="row">
+    <div class="12u">
+        <div class="content">
+
+            <!-- Content -->
+
+                <article class="box page-content">
+
+                    <header>
+                        <h2>Sponsors</h2>
+                        <p>People who help fund our team</p>
+                    </header>
+
+                </article>
+
+        </div>
+    </div>
+
+    {% for sponsor in site.data.sponsors %}
+    <div class="4u 12u(mobile)">
+        <div class="sponsor">
+            <h2>{{ sponsor.name }}</h2>
+            {% if sponsor.logo %}
+                {% if sponsor.url %}
+                <a href="http://www.google.com">
+                {% endif %}
+                    <span class="image fit"><img src="{{ site.image_url }}/{{ sponsor.logo }}" /></span>
+                {% if sponsor.url %}
+                </a>
+                {% endif %}
+            {% endif %}
+        </div>
+    </div>
+    {% capture index %}{% cycle 1, 2, 3 %}{% endcapture %}
+    {% if index == "3" %}
+    <div class="12u" style="padding: 0;">
+    </div>
+    {% endif %}
+    {% endfor %}
+</div>
