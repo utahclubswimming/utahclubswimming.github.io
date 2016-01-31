@@ -948,6 +948,12 @@
             }
         }
 
+        &.roster {
+            tr.clickable-row {
+                cursor: pointer;
+            }
+        }
+
         /* Shared styles */
         &.roster tbody:hover td, &.records tbody:hover td {
             opacity: 0.65;
@@ -1330,6 +1336,44 @@
                     ul {
                         &.meta {
                             margin: 0 0 0.5em 0;
+                        }
+                    }
+                }
+
+                &.personal {
+                    header {
+                        margin: 0 0 1em 0;
+                    }
+
+                    h2 {
+                        font-size: 2.5em;
+                        margin: 0 0 0.5em 0;
+                    }
+
+                    header {
+                        > p {
+                            font-size: 1.65em;
+                            margin: 0 0 0.5em 0;
+                        }
+                    }
+
+                    ul {
+                        list-style: disc;
+                        margin-left: 1.5em;
+                    }
+
+                    &.profile {
+                        padding: 2em;
+                        float: left;
+
+                        img {
+                            max-width: 20%;
+                            float: right;
+                            margin: 0 3em;
+                        }
+
+                        ul {
+                            list-style: none;
                         }
                     }
                 }
@@ -1904,6 +1948,36 @@
                         margin: 0 0 3em 0;
                     }
                 }
+
+                &.personal {
+                    header {
+                        margin: 0 0 0.75em 0;
+                    }
+
+                    h2 {
+                        font-size: 2.25em;
+                        line-height: 1.25em;
+                        margin: 0 0 0.5em 0;
+                    }
+
+                    header {
+                        > p {
+                            font-size: 1.65em;
+                            margin: 0 0 0.5em 0;
+                        }
+                    }
+
+                    ul {
+                        list-style: disc;
+                        margin-left: 1.5em;
+                    }
+
+                    &.profile {
+                        ul {
+                            list-style: none;
+                        }
+                    }
+                }
             }
 
         /* Sidebar + Content */
@@ -1928,6 +2002,10 @@
                 padding-top: 3em;
 
                 .homepage & {
+                    padding-top: 0;
+                }
+
+                &.profile {
                     padding-top: 0;
                 }
             }
