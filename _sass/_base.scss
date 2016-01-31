@@ -948,6 +948,12 @@
             }
         }
 
+        &.roster {
+            tr.clickable-row {
+                cursor: pointer;
+            }
+        }
+
         /* Shared styles */
         &.roster tbody:hover td, &.records tbody:hover td {
             opacity: 0.65;
