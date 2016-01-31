@@ -30,7 +30,8 @@ permalink: /team/
                             </thead>
                             <tbody>
                                 {% for member in site.data.members.women %}
-                                <tr>
+                                {% capture member_lower_name %}{{ member.first_name | downcase }}{% if member.middle_initial %}-{{ member.middle_initial | downcase }}{% endif %}-{{ member.last_name | downcase }}{% endcapture %}
+                                <tr class="clickable-row" data-href="members/{{ member_lower_name }}.html">
                                     <td>{{ member.last_name }}, {{ member.first_name }}{% if member.middle_initial %} {{ member.middle_initial }}{% endif %}</td>
                                     <td>{{ member.events }}</td>
                                     <td>{{ member.year }}</td>
@@ -56,7 +57,8 @@ permalink: /team/
                             </thead>
                             <tbody>
                                 {% for member in site.data.members.men %}
-                                <tr>
+                                {% capture member_lower_name %}{{ member.first_name | downcase }}{% if member.middle_initial %}-{{ member.middle_initial | downcase }}{% endif %}-{{ member.last_name | downcase }}{% endcapture %}
+                                <tr class="clickable-row" data-href="members/{{ member_lower_name }}.html">
                                     <td>{{ member.last_name }}, {{ member.first_name }}{% if member.middle_initial %} {{ member.middle_initial }}{% endif %}</td>
                                     <td>{{ member.events }}</td>
                                     <td>{{ member.year }}</td>

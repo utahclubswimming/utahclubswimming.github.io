@@ -1,0 +1,120 @@
+{% assign member = include.member %}
+
+{% capture member_lower_name %}{{ member.first_name | downcase }}{% if member.middle_initial %}-{{ member.middle_initial | downcase }}{% endif %}-{{ member.last_name | downcase }}{% endcapture %}
+
+<div class="12u">
+    <div class="content profile">
+
+        <article class="box personal profile">
+            {% if member.headshot %}
+                <img src="{{ site.image_url }}/{{ member.headshot }}" />
+            {% else %}
+                <img src="{{ site.image_url }}/logos/minimal.png" />
+            {% endif %}
+
+            <header>
+                <h2>{{ member.first_name }}{% if member.middle_initial %} {{ member.middle_initial }}{% endif %}{% if member.given_name %} "{{ member.given_name }}"{% endif %} {{ member.last_name }}</h2>
+                <p>{{ member.year }} from {{ member.hometown }}</p>
+            </header>
+
+            <section>
+                <ul>
+                    {% if member.majors %}
+                    <li>{% if member.year == "Alumna" or member.year == "Alum" or member.year == "Alumnus" %}Graduated with a degree in {% else %}Studying {% endif %}{{ member.majors[0] }}{% if member.majors.size == 2 %} and {{ member.majors[1] }}{% elsif member.majors.size > 2 %}{% for major in member.majors %}{% unless forloop.first %}{% if forloop.last %}, and {{ major }}{% else %}, {{ major }}{% endif %}{% endunless %}{% endfor %}{% endif %}{% if member.minors %} with{% if member.minors.size == 2 %} minors in {{ member.minors[0] }} and {{ member.minors[1] }}{% elsif member.minors.size > 2 %} minors in {{ member.minors[0] }}{% for minor in member.minors %}{% unless forloop.first %}{% if forloop.last %}, and {{ minor }}{% else %}, {{ minor }}{% endif %}{% endunless %}{% endfor %}{% else %} a minor in {{ member.minors[0] }}{% endif %}{% endif %}.</li>
+                    {% endif %}
+
+                    {% if member.school %}
+                    <li>Previously studied at {{ member.school }}.</li>
+                    {% endif %}
+
+                    {% if member.events %}
+                    <li>Swims {{ member.events }}.</li>
+                    {% endif %}
+                </ul>
+            </section>
+
+        </article>
+
+    </div>
+</div>
+
+<div class="6u 12u(mobile)">
+    <div class="content profile">
+
+        <!-- Athletic Highlights -->
+
+        {% if member.athletic_highlights %}
+        <article class="box personal">
+
+            <header>
+                <h4>Athletic Highlights</h4>
+            </header>
+
+            <section>
+                <ul>
+                {% for hash in member.athletic_highlights %}
+                    {% for group in hash %}
+                        <li><strong>{{ group[0] }}</strong>
+                            <ul>
+                            {% for highlight in group[1] %}
+                                <li>{{ highlight }}</li>
+                            {% endfor %}
+                            </ul>
+                        </li>
+                    {% endfor %}
+                {% endfor %}
+                </ul>
+            </section>
+
+        </article>
+        {% endif %}
+    </div>
+</div>
+
+<div class="6u 12u(mobile)">
+    <div class="content profile">
+
+        <!-- Academic Highlights -->
+
+        {% if member.academic_highlights %}
+        <article class="box personal">
+
+            <header>
+                <h4>Academic Highlights</h4>
+            </header>
+
+            <section>
+                <ul>
+                {% for highlight in member.academic_highlights %}
+                    <li>{{ highlight }}</li>
+                {% endfor %}
+                </ul>
+            </section>
+
+        </article>
+        {% endif %}
+
+    </div>
+</div>
+
+<div class="12u">
+    <div class="content profile">
+
+        <!-- Personal Bio -->
+
+        {% if member.bio %}
+        <article class="box personal">
+
+            <header>
+                <h4>Personal Bio</h4>
+            </header>
+
+            <section>
+                <p>{{ member.bio }}</p>
+            </section>
+
+        </article>
+        {% endif %}
+
+    </div>
+</div>
