@@ -30,7 +30,7 @@ permalink: /team/
                             </thead>
                             <tbody>
                                 {% for member in site.data.members.women %}
-                                {% capture member_lower_name %}{{ member.first_name | downcase }}{% if member.middle_initial %}-{{ member.middle_initial | downcase }}{% endif %}-{{ member.last_name | downcase }}{% endcapture %}
+                                {% capture member_lower_name %}{{ member.first_name | downcase | replace: ' ', '-' }}{% if member.middle_initial %}-{{ member.middle_initial | downcase | replace: ' ', '-' }}{% endif %}-{{ member.last_name | downcase | replace: ' ', '-' }}{% endcapture %}
                                 <tr class="clickable-row" data-href="members/{{ member_lower_name }}.html">
                                     <td>{{ member.last_name }}, {{ member.first_name }}{% if member.middle_initial %} {{ member.middle_initial }}{% endif %}</td>
                                     <td>{{ member.events }}</td>
@@ -57,7 +57,7 @@ permalink: /team/
                             </thead>
                             <tbody>
                                 {% for member in site.data.members.men %}
-                                {% capture member_lower_name %}{{ member.first_name | downcase }}{% if member.middle_initial %}-{{ member.middle_initial | downcase }}{% endif %}-{{ member.last_name | downcase }}{% endcapture %}
+                                {% capture member_lower_name %}{{ member.first_name | downcase | replace: ' ', '-' }}{% if member.middle_initial %}-{{ member.middle_initial | downcase | replace: ' ', '-' }}{% endif %}-{{ member.last_name | downcase | replace: ' ', '-' }}{% endcapture %}
                                 <tr class="clickable-row" data-href="members/{{ member_lower_name }}.html">
                                     <td>{{ member.last_name }}, {{ member.first_name }}{% if member.middle_initial %} {{ member.middle_initial }}{% endif %}</td>
                                     <td>{{ member.events }}</td>
