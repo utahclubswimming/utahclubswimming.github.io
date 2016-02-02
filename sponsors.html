@@ -22,12 +22,11 @@ permalink: /sponsors/
     </div>
 
     {% for sponsor in site.data.sponsors %}
-    <div class="6u 12u(mobile)">
+    <div class="4u 12u(mobile)">
         <div class="sponsor">
-            <h2>{{ sponsor.name }}</h2>
             {% if sponsor.logo %}
                 {% if sponsor.url %}
-                <a href="http://www.google.com">
+                <a href="{{ sponsor.url }}">
                 {% endif %}
                     <span class="image fit"><img src="{{ site.image_url }}/{{ sponsor.logo }}" /></span>
                 {% if sponsor.url %}
@@ -36,8 +35,8 @@ permalink: /sponsors/
             {% endif %}
         </div>
     </div>
-    {% capture index %}{% cycle 1, 2 %}{% endcapture %}
-    {% if index == "2" %}
+    {% capture index %}{% cycle 1, 2, 3 %}{% endcapture %}
+    {% if index == "3" %}
     <div class="12u" style="padding: 0;">
     </div>
     {% endif %}
