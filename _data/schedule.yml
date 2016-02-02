@@ -6,8 +6,7 @@
 - day: Tuesday
   morning:
     - time: 6:00-8:00am
-      leader: Jeppesen Feliciano
-      style: IM / Mid
+      leader: Pierce Darragh
   evening:
     - time: 5:30-7:30pm
       leader: Ethan Beseris
@@ -28,7 +27,8 @@
 - day: Friday
   morning:
     - time: 6:00-8:00am
-      leader: Pierce Darragh
+      leader: Jeppesen Feliciano
+      style: IM/Mid
 - day: Saturday
   morning:
     - time: 8:00-10:00am
