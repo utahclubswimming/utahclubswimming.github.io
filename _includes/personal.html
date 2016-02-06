@@ -38,12 +38,12 @@
     </div>
 </div>
 
+{% if member.athletic_highlights %}
 <div class="6u 12u(mobile)">
     <div class="content profile">
 
         <!-- Athletic Highlights -->
 
-        {% if member.athletic_highlights %}
         <article class="box personal">
 
             <header>
@@ -67,16 +67,16 @@
             </section>
 
         </article>
-        {% endif %}
     </div>
 </div>
+{% endif %}
 
+{% if member.academic_highlights %}
 <div class="6u 12u(mobile)">
     <div class="content profile">
 
         <!-- Academic Highlights -->
 
-        {% if member.academic_highlights %}
         <article class="box personal">
 
             <header>
@@ -92,10 +92,10 @@
             </section>
 
         </article>
-        {% endif %}
 
     </div>
 </div>
+{% endif %}
 
 <div class="12u">
     <div class="content profile">
