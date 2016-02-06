@@ -31,6 +31,10 @@
                     <li>Swims {{ member.events }}.</li>
                     {% endif %}
                 </ul>
+                <!-- Personal Bio -->
+                {% if member.bio %}
+                <p>{{ member.bio }}</p>
+                {% endif %}
             </section>
 
         </article>
@@ -96,25 +100,3 @@
     </div>
 </div>
 {% endif %}
-
-<div class="12u">
-    <div class="content profile">
-
-        <!-- Personal Bio -->
-
-        {% if member.bio %}
-        <article class="box personal">
-
-            <header>
-                <h4>Personal Bio</h4>
-            </header>
-
-            <section>
-                <p>{{ member.bio }}</p>
-            </section>
-
-        </article>
-        {% endif %}
-
-    </div>
-</div>
