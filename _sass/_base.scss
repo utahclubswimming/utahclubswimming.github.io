@@ -381,6 +381,11 @@
         &:last-child {
             margin-bottom: 0;
         }
+
+        &.cover-photo {
+            padding-bottom: 3em;
+            border-bottom: solid 1em $swoop_crimson;
+        }
     }
 
     header {
