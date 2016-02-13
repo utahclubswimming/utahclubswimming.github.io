@@ -29,6 +29,8 @@
       time: "59.26"
     - name: Katierose McMahon
       time: "1:05.44"
+    - name: Janey Heyman
+      time: "1:07.24"
     - name: Ina Hoang
       time: "1:07.75"
   men:
@@ -38,10 +40,10 @@
       time: "53.24"
     - name: Philipp Hojnacki
       time: "54.23"
+    - name: Sam Hise
+      time: "56.42"
     - name: Jackson Knowles
       time: "56.60"
-    - name: Sam Hise
-      time: "56.61"
 - event: 200 Free
   women:
     - name: Megan Dearden
@@ -51,6 +53,8 @@
       time: "2:00.72"
     - name: Jonathan Buckendorf
       time: "2:03.19"
+    - name: Jackson Knowles
+      time: "2:08.46"
     - name: Ian Pradhan
       time: "2:14.91"
 - event: 500 Free
@@ -86,10 +90,10 @@
   women:
     - name: Megan Dearden
       time: "31.92"
+    - name: Melissa Hofmann
+      time: "31.95"
     - name: Al Jamora
       time: "32.08"
-    - name: Melissa Hofmann
-      time: "32.89"
     - name: Elena Chong
       time: "32.93"
     - name: Janey Heyman
@@ -97,12 +101,14 @@
   men:
     - name: Connor Morgan
       time: "26.91"
+    - name: Ethan Beseris
+      time: "29.80"
     - name: Ian Pradhan
       time: "32.13"
     - name: Sam Hise
       time: "34.32"
-    - name: Josh Parata
-      time: "40.26"
+    - name: Guy Watson
+      time: "35.83"
 - event: 100 Back
   women:
     - name: Al Jamora
@@ -110,7 +116,7 @@
     - name: Megan Dearden
       time: "1:07.26"
     - name: Janey Heyman
-      time: "1:18.20"
+      time: "1:17.10"
   men:
     - name: Connor Morgan
       time: "56.76"
@@ -139,7 +145,7 @@
     - name: Jaxon Roller
       time: "31.97"
     - name: Matt Bird
-      time: "34.62"
+      time: "33.09"
     - name: Guy Watson
       time: "37.12"
     - name: Kevin Hemmersmeier
@@ -148,6 +154,8 @@
   women:
     - name: Al Jamora
       time: "1:18.53"
+    - name: Megan Dearden
+      time: "1:25.92"
     - name: Katierose McMahon
       time: "1:31.49"
     - name: Maddie Walters
@@ -190,7 +198,7 @@
     - name: Philipp Hojnacki
       time: "26.76"
     - name: Jonathan Buckendorf
-      time: "27.61"
+      time: "27.59"
     - name: Jackson Knowles
       time: "27.81"
     - name: Jaxon Roller
@@ -205,7 +213,7 @@
       time: "1:20.00"
   men:
     - name: Ethan Beseris
-      time: "58.38"
+      time: "57.97"
     - name: Cameron Quackenbush
       time: "1:01.21"
     - name: Jeppesen Feliciano
@@ -213,6 +221,8 @@
 - event: 200 Fly
 - event: 100 IM
   women:
+    - name: Megan Dearden
+      time: "1:11.76"
     - name: Janey Heyman
       time: "1:12.57"
     - name: Elena Chong
