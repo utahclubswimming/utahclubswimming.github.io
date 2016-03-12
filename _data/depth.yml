@@ -37,22 +37,26 @@
     - name: Connor Morgan
       time: "52.73"
     - name: Ethan Beseris
-      time: "53.24"
+      time: "52.96"
     - name: Philipp Hojnacki
       time: "54.23"
+    - name: Jeppesen Feliciano
+      time: "55.37"
     - name: Sam Hise
-      time: "56.42"
-    - name: Jackson Knowles
-      time: "56.60"
+      time: "55.69"
 - event: 200 Free
   women:
     - name: Megan Dearden
       time: "2:11.47"
+    - name: Janey Heyman
+      time: "2:25.16"
   men:
     - name: Connor Morgan
-      time: "2:00.72"
+      time: "1:59.62"
+    - name: Ethan Beseris
+      time: "2:00.41"
     - name: Jonathan Buckendorf
-      time: "2:03.19"
+      time: "2:02.64"
     - name: Jackson Knowles
       time: "2:08.46"
     - name: Ian Pradhan
@@ -62,10 +66,12 @@
     - name: Megan Dearden
       time: "5:52.51"
     - name: Janey Heyman
-      time: "6:41.35"
+      time: "6:33.50"
     - name: Melissa Hofmann
       time: "6:49.00"
   men:
+    - name: Connor Morgan
+      time: "5:38.15"
     - name: Sam Hise
       time: "5:59.77"
     - name: Jeppesen Feliciano
@@ -103,18 +109,20 @@
       time: "26.91"
     - name: Ethan Beseris
       time: "29.80"
+    - name: Sam Hise
+      time: "30.70"
+    - name: Jeppesen Feliciano
+      time: "32.06"
     - name: Ian Pradhan
       time: "32.13"
-    - name: Sam Hise
-      time: "34.32"
-    - name: Guy Watson
-      time: "35.83"
 - event: 100 Back
   women:
     - name: Al Jamora
       time: "1:07.15"
     - name: Megan Dearden
       time: "1:07.26"
+    - name: Melissa Hofmann
+      time: "1:09.97"
     - name: Janey Heyman
       time: "1:17.10"
   men:
@@ -124,6 +132,8 @@
       time: "1:01.15"
     - name: Ian Pradhan
       time: "1:10.03"
+    - name: Jeppesen Feliciano
+      time: "1:11.71"
 - event: 200 Back
   women:
     - name: Megan Dearden
@@ -145,11 +155,11 @@
     - name: Jaxon Roller
       time: "31.97"
     - name: Matt Bird
-      time: "33.09"
-    - name: Guy Watson
-      time: "37.12"
-    - name: Kevin Hemmersmeier
-      time: "38.35"
+      time: "32.01"
+    - name: Connor Morgan
+      time: "33.58"
+    - name: Cameron Quackenbush
+      time: "34.52"
 - event: 100 Breast
   women:
     - name: Al Jamora
@@ -165,12 +175,12 @@
       time: "1:06.09"
     - name: Connor Morgan
       time: "1:09.53"
+    - name: Matt Bird
+      time: "1:11.45"
     - name: Cameron Quackenbush
       time: "1:14.60"
     - name: Ethan Beseris
       time: "1:16.47"
-    - name: Kevin Hemmersmeier
-      time: "1:25.24"
 - event: 200 Breast
   women:
     - name: Megan Dearden
@@ -178,6 +188,8 @@
   men:
     - name: Jeppesen Feliciano
       time: "2:28.47"
+    - name: Cameron Quackenbush
+      time: "2:36.87"
     - name: Kevin Hemmersmeier
       time: "3:19.21"
 - event: 50 Fly
@@ -221,6 +233,8 @@
 - event: 200 Fly
 - event: 100 IM
   women:
+    - name: Al Jamora
+      time: "1:08.76"
     - name: Megan Dearden
       time: "1:11.76"
     - name: Janey Heyman
@@ -229,8 +243,6 @@
       time: "1:15.53"
     - name: Katierose McMahon
       time: "1:17.04"
-    - name: Maddie Walters
-      time: "1:25.96"
   men:
     - name: Connor Morgan
       time: "59.51"
@@ -240,8 +252,8 @@
       time: "1:05.25"
     - name: Ethan Beseris
       time: "1:05.45"
-    - name: Jaxon Roller
-      time: "1:06.59"
+    - name: Jonathan Buckendorf
+      time: "1:06.33"
 - event: 200 IM
   women:
     - name: Megan Dearden
@@ -257,10 +269,10 @@
       time: "2:17.10"
     - name: Cameron Quackenbush
       time: "2:22.12"
+    - name: Matt Bird
+      time: "2:27.40"
     - name: Jeppesen Feliciano
       time: "2:27.82"
-    - name: Kevin Hemmersmeier
-      time: "3:00.38"
 - event: 400 IM
   women:
     - name: Megan Dearden
