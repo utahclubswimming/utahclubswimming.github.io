@@ -64,26 +64,28 @@
   man_name: Jeppesen Feliciano
   man_time: "1:06.09"
 - event: 200 Breast
-  woman_name: Megan Dearden
-  woman_time: "2:59.94"
+  woman_name: Xandra Pryor
+  woman_time: "2:48.71"
   man_name: Jeppesen Feliciano
   man_time: "2:28.47"
 - event: 50 Fly
   woman_name: Janey Heyman
   woman_time: "29.83"
-  man_name: Ethan Beseris
-  man_time: "25.31"
+  man_name: Jarom Chamberlain
+  man_time: "25.04"
 - event: 100 Fly
-  woman_name: Janey Heyman
-  woman_time: "1:12.25"
+  woman_name: Xandra Pryor
+  woman_time: "1:07.55"
   man_name: Ethan Beseris
   man_time: "54.35"
 - event: 200 Fly
+  woman_name: Melissa Hofmann
+  woman_time: "2:52.32"
 - event: 100 IM
   woman_name: Al Jamora
   woman_time: "1:05.55"
-  man_name: Connor Morgan
-  man_time: "59.51"
+  man_name: Jarom Chamberlain
+  man_time: "57.56"
 - event: 200 IM
   woman_name: Megan Dearden
   woman_time: "2:26.58"
@@ -92,6 +94,8 @@
 - event: 400 IM
   woman_name: Megan Dearden
   woman_time: "5:13.35"
+  man_name: Connor Morgan
+  man_time: "4:55.52"
 - event: 200 Free Relay
   woman_name: Dearden, Jamora, McMahon, Hofmann
   woman_time: "1:50.73"
@@ -100,13 +104,15 @@
 - event: 200 Medley Relay
   woman_name: Hofmann, Jamora, Heyman, Reynolds
   woman_time: "2:02.35"
-  man_name: Morgan, Feliciano, Beseris, Hise
-  man_time: "1:46.57"
+  man_name: Morgan, Feliciano, Chamberlain, Beseris
+  man_time: "1:45.79"
 - event: 400 Free Relay
   woman_name: Hofmann, Heyman, Jamora, Reynolds
   woman_time: "4:00.62"
   man_name: Beseris, Darragh, Knowles, Bird
   man_time: "3:42.27"
 - event: 400 Medley Relay
-  man_name: Morgan, Feliciano, Beseris, Bird
-  man_time: "3:57.20"
+  woman_name: Hofmann, Pryor, Heyman, McMahon
+  woman_time: "4:55.83"
+  man_name: Morgan, Feliciano, Chamberlain, Beseris
+  man_time: "3:53.75"
