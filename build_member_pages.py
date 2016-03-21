@@ -74,6 +74,7 @@ def process_roster(roster, members):
     for i in xrange(len(members)):
         member = members[i]
         filename = filepath_for_member(member)
+        print("Processing {} member {}: {}".format(roster, i, filename))
         if not os.path.isfile(filename):
             # Create the file.
             touch(filename)

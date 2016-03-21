@@ -1,0 +1,39 @@
+- last_name: Chong
+  first_name: Elena
+  middle_initial: ML
+  events: Mid-distance Free, Distance Free
+  year: Graduate
+  hometown: Orlando, FL
+  school: Calvin College
+  bio: >
+    Elena started competitively swimming when she was a freshman in high school.
+    She first began her water-career as a synchronized swimmer when she was 8
+    years old. Elena competed on a Division III collegiate team for 3 years in
+    Grand Rapids, Michigan as a mid-distance and distance free-styler. While she
+    took 3 years off of swimming, she attends the University of Utah as a PhD
+    student and is excited to get back into the pool.
+  headshot: members/elena-ml-chong.jpg
+- last_name: Momen
+  first_name: Nargess
+  middle_initial: B
+  events: Mid-Distance Free, Breast
+  year: Sophomore
+  hometown: Tehran, Iran
+  school: Narjes
+  bio: >
+    Nargess is studying Nutrition Science. She started swimming since she was 5.
+    She enjoys watching movies, playing tennis, yoga, painting, and cooking.
+  headshot: members/nargess-b-momen.jpg
+- last_name: Glomb
+  first_name: Victoria
+  middle_initial: C
+  given_name: Torreigh
+  events: Fly, Breast
+  year: Freshman
+  hometown: Austin, TX
+  school: Lake Travis HS
+  bio: >
+    Victoria was thrown into the water by her father when she was only 18 months
+    old. She started competing at the age of 6 and has had a passion for swim
+    ever since.
+  headshot: members/victoria-c-glomb.jpg
