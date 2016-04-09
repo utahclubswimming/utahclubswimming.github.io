@@ -24,7 +24,7 @@ permalink: /team/marketing/
     </div>
 
     {% for member in site.data.marketing %}
-    <div class="3u 12u(mobile)">
+    <div class="4u 12u(mobile)">
         <div class="officer">
             {% if member.image %}
                 {% capture image %}{{ site.image_url }}/{{ member.image }}{% endcapture %}
@@ -33,11 +33,11 @@ permalink: /team/marketing/
             {% endif %}
             <span class="image fit"><img src="{{ image }}" /></span>
             <h2>{{ member.name }}</h2>
-            <h4>{{ member.position }}</h4>
+            <h4>{% if member.contact %}<a class="icon fa-envelope" href="mailto:{{ member.contact }}">{% endif %}{{ member.position }}{% if member.contact %}</a>{% endif %}</h4>
             <p>{{ member.info }}</p>
         </div>
     </div>
-    {% capture index %}{% cycle 1, 2, 3, 4 %}{% endcapture %}
+    {% capture index %}{% cycle 1, 2, 3 %}{% endcapture %}
     {% if index == "4" %}
     <div class="12u" style="padding: 0;">
     </div>
