@@ -33,7 +33,7 @@ permalink: /team/officers/
             {% endif %}
             <span class="image fit"><img src="{{ image }}" /></span>
             <h2>{{ officer.name }}</h2>
-            <h4><a class="icon fa-envelope" href="mailto:{{ officer.contact }}"> {{ officer.position }}</a></h4>
+            <h4>{% if officer.contact %}<a class="icon fa-envelope" href="mailto:{{ officer.contact }}">{% endif %}{{ officer.position }}{% if officer.contact %}</a>{% endif %}</h4>
             <p>{{ officer.info }}</p>
         </div>
     </div>
