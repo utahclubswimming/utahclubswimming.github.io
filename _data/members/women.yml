@@ -1,3 +1,25 @@
+- last_name: Brown
+  first_name: Alexis
+  middle_initial: J
+  events: Mid-Distance Free, Distance Free
+  year: Sophomore
+  hometown: Woods Cross, UT
+  school: Woods Cross HS
+  majors:
+    - Graphic Design
+  bio: >
+    Alexis is married to the most handsome guy in the world. She loves cats and
+    has two, one named Nelli and the other Skittles. She loves art. She likes
+    playing video games sometimes. She loves eating pistachio ice cream, going
+    to the beach, hiking, just being outside, skiing, snowboarding and anything
+    Disney!
+  athletic_highlights:
+    - "High School":
+      - Part of winning state team freshman year
+      - 5th in the 500 free at state twice
+      - 7th or 8th in the 200 free pretty much all 4 years
+      - four-time varsity team member
+      - 2014 team captain
 - last_name: Dearden
   first_name: Megan
   middle_initial: C
@@ -136,3 +158,7 @@
     West age division Conference. However, her heart wasn't entirely in diving,
     so she returned to swimming.
   headshot: members/katierose-mcmahon.jpg
+- last_name: Pryor
+  first_name: Alexandra
+  given_name: Xandra
+  year: Sophomore

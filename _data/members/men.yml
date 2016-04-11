@@ -77,6 +77,24 @@
     Jonathon started swimming my freshman year of high school and fell in love
     with the sport, and hasn’t stopped swimming since.
   headshot: members/jonathon-e-buckendorf.jpg
+- last_name: Chamberlain
+  first_name: Jarom
+  middle_initial: L
+  events: Sprint Free, Fly
+  year: Freshman
+  hometown: Salt Lake City, UT
+  school: University of Utah
+  majors:
+    - Metallurgical Engineering
+  bio: >
+    I began swimming when I was very young, and began competing competitively in
+    elementary school.
+  athletic_highlights:
+    - "High School":
+      - Utah Swim Conference Champion 100 Fly
+      - Utah High School State Champion 100 Fly
+      - SLSTC Record Holder 100 Fly and 100 IM
+      - Wisconsin Sectional Top Ten 100 Fly
 - last_name: Darragh
   first_name: Pierce
   middle_initial: O
@@ -85,6 +103,10 @@
   hometown: South Jordan, UT
   school: Hillcrest HS
   officer: Men's Team Captain
+  majors:
+    - Computer Science
+  minors:
+    - Linguistics
   bio: >
     It wasn't until high school that Pierce began swimming competitively, but he
     was instantly hooked by the sport and camaraderie he found there. After high
@@ -107,6 +129,29 @@
       - Academic all-region
       - Senior team captain
   headshot: members/pierce-o-darragh.jpg
+- last_name: Esquivel
+  first_name: John
+  events: Sprint Free
+  year: Freshman
+  hometown: Brownsville, TX
+  school: St. Joseph Academy
+  majors:
+    - Biology
+    - Pre-Med
+  minors:
+    - French
+  bio: >
+    Attended Saint Joseph Academy in Brownsville, Texas. Majoring in Biology-Pre
+    Med, and minoring in French. High school swimming captain from 2014-2015.
+  academic_highlights:
+    - 2014 History Competition in San Antonio, Texas
+    - 2015 State History Competition at Waco, Texas
+    - 4th place Texas state, 10th national Concours National de Français
+  athletic_highlights:
+    - "High School":
+      - 2014 and 2015 4th place 200 yard relay regionals
+      - 8th place in 100 butterfly regionals in San Antonio, Texas
+      - 2013-2015 Texas state championships competitor
 - last_name: Feliciano
   first_name: Jeppesen
   middle_initial: G
