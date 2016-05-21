@@ -15,57 +15,57 @@
 - event: 50 Free
   woman_name: Al Jamora
   woman_time: "25.36"
-  man_name: Nathan Bramhall
-  man_time: "22.94"
+  man_name: Ethan Beseris
+  man_time: "22.75"
 - event: 100 Free
   woman_name: Melissa Hofmann
   woman_time: "56.83"
-  man_name: Ethan Beseris
-  man_time: "49.51L"
+  man_name: Jarom Chamberlain
+  man_time: "48.81"
 - event: 200 Free
   woman_name: Megan Dearden
   woman_time: "2:11.47"
-  man_name: Connor Morgan
-  man_time: "1:59.62"
+  man_name: Ethan Beseris
+  man_time: "1:56.10"
 - event: 500 Free
   woman_name: Megan Dearden
   woman_time: "5:52.51"
-  man_name: Connor Morgan
-  man_time: "5:38.15"
+  man_name: Cameron Quackenbush
+  man_time: "5:32.68"
 - event: 1000 Free
 - event: 1650 Free
   woman_name: Megan Dearden
   woman_time: "21:14.18"
   man_name: Matt Bird
-  man_time: "20:29.39"
+  man_time: "20:54.42"
 - event: 50 Back
   woman_name: Melissa Hofmann
-  woman_time: "29.98L"
+  woman_time: "29.98"
   man_name: Connor Morgan
-  man_time: "26.91"
+  man_time: "25.59"
 - event: 100 Back
-  woman_name: Al Jamora
-  woman_time: "1:07.15"
+  woman_name: Melissa Hofmann
+  woman_time: "1:05.79"
   man_name: Connor Morgan
-  man_time: "56.76"
+  man_time: "54.20"
 - event: 200 Back
   woman_name: Megan Dearden
   woman_time: "2:26.51"
   man_name: Connor Morgan
-  man_time: "2:09.69"
+  man_time: "1:56.69"
 - event: 50 Breast
   woman_name: Al Jamora
   woman_time: "33.94"
   man_name: Jeppesen Feliciano
-  man_time: "29.70"
+  man_time: "28.97"
 - event: 100 Breast
-  woman_name: Al Jamora
-  woman_time: "1:18.53"
+  woman_name: Xandra Pryor
+  woman_time: "1:13.31"
   man_name: Jeppesen Feliciano
-  man_time: "1:06.09"
+  man_time: "1:04.60"
 - event: 200 Breast
   woman_name: Xandra Pryor
-  woman_time: "2:48.71"
+  woman_time: "2:37.63"
   man_name: Jeppesen Feliciano
   man_time: "2:28.47"
 - event: 50 Fly
@@ -75,44 +75,49 @@
   man_time: "25.04"
 - event: 100 Fly
   woman_name: Xandra Pryor
-  woman_time: "1:07.55"
+  woman_time: "1:02.92"
   man_name: Ethan Beseris
   man_time: "54.35"
 - event: 200 Fly
-  woman_name: Melissa Hofmann
-  woman_time: "2:52.32"
-- event: 100 IM
-  woman_name: Al Jamora
-  woman_time: "1:05.55"
+  woman_name: Xandra Pryor
+  woman_time: "2:33.94"
   man_name: Jarom Chamberlain
-  man_time: "57.56"
+  man_time: "2:06.86"
+- event: 100 IM
+  woman_name: Xandra Pryor
+  woman_time: "1:03.71"
+  man_name: Jarom Chamberlain
+  man_time: "55.30"
 - event: 200 IM
-  woman_name: Megan Dearden
-  woman_time: "2:26.58"
+  woman_name: Xandra Pryor
+  woman_time: "2:24.22"
   man_name: Connor Morgan
-  man_time: "2:09.49"
+  man_time: "2:04.41"
 - event: 400 IM
   woman_name: Megan Dearden
   woman_time: "5:13.35"
   man_name: Connor Morgan
   man_time: "4:55.52"
 - event: 200 Free Relay
-  woman_name: Dearden, Jamora, McMahon, Hofmann
-  woman_time: "1:50.73"
-  man_name: Darragh, Feliciano, Knowles, Beseris
-  man_time: "1:38.78"
-- event: 200 Medley Relay
-  woman_name: Hofmann, Jamora, Heyman, Reynolds
-  woman_time: "2:02.35"
-  man_name: Morgan, Feliciano, Chamberlain, Beseris
-  man_time: "1:45.79"
+  woman_name: Hofmann, McMahon, Heyman, Pryor
+  woman_time: "1:50.48"
+  man_name: Hise, Morgan, Chamberlain, Beseris
+  man_time: "1:33.71"
 - event: 400 Free Relay
-  woman_name: Hofmann, Heyman, Jamora, Reynolds
-  woman_time: "4:00.62"
-  man_name: Beseris, Darragh, Knowles, Bird
-  man_time: "3:42.27"
+  woman_name: Pryor, McMahon, Heyman, Hofmann
+  woman_time: "4:03.13"
+  man_name: Some Guys (unrecorded)
+  man_time: "3:32.09"
+- event: 800 Free Relay
+  man_name: Bird, Morgan, Quackenbush, Hise
+  man_time: "7:53.37"
+- event: 200 Medley Relay
+  woman_name: Hofmann, Pryor, Heyman, McMahon
+  woman_time: "2:03.86"
+  man_name: Morgan, Feliciano, Chamberlain, Beseris
+  man_time: "1:40.85"
 - event: 400 Medley Relay
   woman_name: Hofmann, Pryor, Heyman, McMahon
-  woman_time: "4:55.83"
+  woman_time: "4:34.79"
   man_name: Morgan, Feliciano, Chamberlain, Beseris
-  man_time: "3:53.75"
+  man_time: "3:42.05"
