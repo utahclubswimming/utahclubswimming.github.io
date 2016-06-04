@@ -11,7 +11,9 @@
 
             <header>
                 <h2>{{ member.first_name }}{% if member.middle_initial %} {{ member.middle_initial }}{% endif %}{% if member.given_name %} "{{ member.given_name }}"{% endif %} {{ member.last_name }}</h2>
-                <p>{{ member.year }} from {{ member.hometown }}</p>
+                {% if member.year %}
+                <p>{{ member.year }} {% if member.hometown %}from {{ member.hometown }}{% endif %}</p>
+                {% endif %}
             </header>
 
             <section>
