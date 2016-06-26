@@ -5,17 +5,26 @@
     <body class="homepage">
         <div id="page-wrapper">
             {% include header.html %}
-            <!-- Banner -->
-                <div id="banner-wrapper">
-                    <section id="banner">
-                        <h2>University of Utah Club Swim Team</h2>
-                        <p>An intercollegiate, competitive club swim team at the University of Utah.</p>
-                        <ul class="actions">
-                            <li><a href="{{ site.baseurl }}/about/" class="button">Learn More</a></li>
-                            <li><a href="{{ site.baseurl }}/join/" class="button">Dive In</a></li>
-                        </ul>
-                    </section>
-                </div>
+
+            <!-- Slideshow Banner -->
+            <script>
+                imageSources = [
+                    "/assets/images/frontpage_banners/diving.jpg",
+                    "/assets/images/frontpage_banners/ensign_silhouettes.jpg",
+                    "/assets/images/frontpage_banners/relay_bw.jpg",
+                ]
+            </script>
+            <div id="banner-wrapper">
+                <section id="banner">
+                    <h2>University of Utah Club Swim Team</h2>
+                    <p>An intercollegiate, competitive club swim team at the University of Utah.</p>
+                    <ul class="actions">
+                        <li><a href="{{ site.baseurl }}/about/" class="button">Learn More</a></li>
+                        <li><a href="{{ site.baseurl }}/join/" class="button">Dive In</a></li>
+                    </ul>
+                </section>
+            </div>
+            <script src="{{ site.js_url }}/slideshow.js"></script>
 
             <!-- Main -->
                 <div id="main-wrapper">
