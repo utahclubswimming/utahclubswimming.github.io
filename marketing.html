@@ -15,9 +15,9 @@ permalink: /team/marketing/
                     <p>The people behind the team's public image</p>
                 </header>
 
-                <section class="cover-photo">
+                <!-- <section class="cover-photo">
                     <img src="{{ site.image_url }}/marketing/2015-16-marketing-group-photo.jpg" />
-                </section>
+                </section> -->
 
             </article>
         </div>
@@ -33,12 +33,12 @@ permalink: /team/marketing/
             {% endif %}
             <span class="image fit"><img src="{{ image }}" /></span>
             <h2>{{ member.name }}</h2>
-            <h4>{% if member.contact %}<a class="icon fa-envelope" href="mailto:{{ member.contact }}">{% endif %}{{ member.position }}{% if member.contact %}</a>{% endif %}</h4>
+            <h4>{% if member.contact %}<a class="icon fa-envelope" href="mailto:{{ member.contact }}"> {% endif %}{{ member.position }}{% if member.contact %}</a>{% endif %}</h4>
             <p>{{ member.info }}</p>
         </div>
     </div>
     {% capture index %}{% cycle 1, 2, 3 %}{% endcapture %}
-    {% if index == "4" %}
+    {% if index == "3" %}
     <div class="12u" style="padding: 0;">
     </div>
     {% endif %}

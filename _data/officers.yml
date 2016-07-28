@@ -5,15 +5,16 @@
   info: >
     In addition to being our first president, Ethan is the founder of the Club
     Swim Team at the University of Utah. He has put in countless hours to ensure
-    everybody on the team feels involved and strives for their best.
+    everybody on the team feels involved and achieves their best.
 - position: Vice President
   contact: vicepresident@utahclubswimming.com
-  name: Matt Bird
+  name: Connor Morgan
+  image: officers/vicepresident.jpg
   info: >
     The vice president is in charge of all team meet registration and record-
-    keeping. Matt helps to decide which meets the team will be attending during
-    the course of each season, and he also is first assistant to the President
-    as needed.
+    keeping. Connor helps to decide which meets the team will be attending
+    during the course of each season, and he also is first assistant to the
+    President as needed.
 - position: Treasurer
   contact: treasurer@utahclubswimming.com
   name: Melissa Hofmann
@@ -30,19 +31,17 @@
     Jeppesen's role as secretary is to keep notes through all officer meetings
     and to draft agendas for upcoming meetings, as well as to help each officer
     keep on top of their respective tasks between meetings.
-- position: Women's Team Captain
-  contact: captain.women@utahclubswimming.com
-  name: Janey Heyman
-  image: officers/womencaptain.jpg
+- position: Marketing Director
+  contact: marketing@utahclubswimming.com
+  name: Megan Dearden
+  image: officers/marketing.jpg
   info: >
-    As women's team captain, Janey collaborates with Pierce to organize team
-    events. She also assists the other officers with whatever needs they may
-    have.
-- position: Men's Team Captain
-  contact: captain.men@utahclubswimming.com
-  name: Pierce Darragh
-  image: officers/mencaptain.jpg
+    Megan oversees the marketing board — a separate entity of student
+    representatives who manage the team's public appearance.
+- position: Team Captain
+  contact: captain@utahclubswimming.com
+  name: Jarom Chamberlain
+  image: officers/captain.jpg
   info: >
-    Pierce is the men's team captain, so his responsibility is to work with
-    Janey to plan team outings and social gatherings. He also helps with
-    whatever any of the officers may need.
+    As the team captain, Jarom's job is to plan team events and bolster team
+    spirit in whatever ways he sees fit.

@@ -1,17 +1,11 @@
-- position: Chairman
+- position: Director
   contact: marketing@utahclubswimming.com
-  name: Josh Parata
-  image: marketing/josh.jpg
+  name: Megan Dearden
+  image: marketing/megan.jpg
   info: >
-    As Chairman, Josh is in charge of managing the Marketing Board meetings
+    As Chairman, Megan is in charge of managing the Marketing Board meetings
     and ensuring that all tasks are completed in a timely manner.
-- position: Social Media Manager, Web Architect
-  contact: webarchitect@utahclubswimming.com
-  name: Pierce Darragh
-  image: marketing/pierce.jpg
-  info: >
-    Pierce manages all social media posts and content (Facebook, Instagram,
-    Twitter, etc.). He also built and manages the team website.
+# - position: Fundraising Coordinator
 - position: Graphic Designer
   contact: design@utahclubswimming.com
   name: Ethan Beseris
@@ -19,22 +13,14 @@
   info: >
     Utilizing his detail-oriented nature, Ethan develops all graphics needed by
     the team – including our Swoop-and-U logo!
-- position: Photographer/Historian
+- position: Photographer
   contact: photography@utahclubswimming.com
-  name: Janey Heyman
-  image: marketing/janey.jpg
+  name: Ina Hoang
+  image: marketing/ina.jpg
   info: >
-    Janey has exhibited an aptitude for photography and was elected the team
-    historian. She takes pictures on team adventures and posts them to Flickr.
-- position: Fundraising & Sponsorship Coordinator
-  contact: fundraising@utahclubswmiming.com
-  name: Melissa Hofmann
-  image: marketing/melissa.jpg
-  info: >
-    As the Fundraising & Sponsorship Coordinator, Melissa is in charge of
-    helping the team to secure more funds during the year through events and
-    reaching out to local businesses.
-- position: Recruitment
+    Ina's responsibility is to catalog team events and adventures. These
+    photographs are used both for graphic design and to keep a team history.
+- position: Recruitment Coordinator
   contact: recruitment@utahclubswimming.com
   name: Sam Hise
   image: marketing/sam.jpg
@@ -42,3 +28,19 @@
     Sam is responsible for managing the team's interactions with potential new
     recruits. He makes sure that people who might be interested get all the
     information they may need.
+- position: Social Media Correspondent
+  contact: socialmedia@utahclubswimming.com
+  name: Melissa Hofmann
+  image: marketing/melissa.jpg
+  info: >
+    Melissa manages all social media posts and content (Facebook, Instagram,
+    Twitter, etc.). This allows for greater outreach to our followers and fans.
+# - position: Videographer
+- position: Website Administrator
+  contact: webarchitect@utahclubswimming.com
+  name: Pierce Darragh
+  image: marketing/pierce.jpg
+  info: >
+    The website administrator's job is to keep the team website updated and
+    running, providing a single point of reference for all things Utah Club
+    Swimming.

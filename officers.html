@@ -11,13 +11,13 @@ permalink: /team/officers/
             <article class="box page-content">
 
                 <header>
-                    <h2>Current Officers</h2>
+                    <h2>Executive Board</h2>
                     <p>Team leadership positions</p>
                 </header>
 
-                <section class="cover-photo">
+                <!-- <section class="cover-photo">
                     <img src="{{ site.image_url }}/officers/2015-16-officers-group-photo.jpg" />
-                </section>
+                </section> -->
 
             </article>
         </div>
@@ -33,7 +33,7 @@ permalink: /team/officers/
             {% endif %}
             <span class="image fit"><img src="{{ image }}" /></span>
             <h2>{{ officer.name }}</h2>
-            <h4>{% if officer.contact %}<a class="icon fa-envelope" href="mailto:{{ officer.contact }}">{% endif %}{{ officer.position }}{% if officer.contact %}</a>{% endif %}</h4>
+            <h4>{% if officer.contact %}<a class="icon fa-envelope" href="mailto:{{ officer.contact }}"> {% endif %}{{ officer.position }}{% if officer.contact %}</a>{% endif %}</h4>
             <p>{{ officer.info }}</p>
         </div>
     </div>
