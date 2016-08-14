@@ -1,0 +1,49 @@
+---
+layout: default
+title: Alumni
+permalink: /team/alumni/
+---
+
+<div class="row">
+    <div class="12u">
+        <div class="content">
+
+            <article class="box page-content">
+
+                <header>
+                    <h2>Alumni</h2>
+                    <p>Former teammates</p>
+                </header>
+
+            </article>
+        </div>
+    </div>
+
+    {% for alum in site.data.alumni %}
+    <div class="12u">
+        <div class="content profile">
+
+            <article class="box personal profile">
+                <!-- Looks for the image "members/first_name-middle_initial-last_name.jpg". -->
+                <img src="{{ site.image_url }}/{{ alum.image }}" alt="No headshot found" onError="this.onerror=null;this.src='{{ site.image_url }}/logos/minimal.png';" />
+
+                <header>
+                    <h2>{{ alum.name }}</h2>
+                </header>
+
+                <section>
+                    <ul>
+                        {% for year in alum.years %}
+                        <li>{{ year }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% if alum.bio %}
+                    <p>{{ alum.bio }}</p>
+                    {% endif %}
+                </section>
+            </article>
+
+        </div>
+    </div>
+    {% endfor %}
+</div>
