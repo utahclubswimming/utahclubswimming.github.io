@@ -30,14 +30,7 @@ permalink: /join/
             </article>
         </div>
         <ul class="actions">
-            {% capture popup_text %}
-                The mailing list feature has not yet been added.
-                Please use the "Contact Us" form to request be added in the meantime.
-                Thank you for understanding!
-            {% endcapture %}
-            {% capture second_button_link %}{{ site.baseurl }}/contact/{% endcapture %}
-            <li>{% include coming_soon.html title="Join Mailing List" text=popup_text second_button_text="Contact Us" second_button_link=second_button_link %}</li>
-            <li><a href="{{ site.baseurl }}/contact/" class="button alt big">Contact Us</a></li>
+            <li><a href="{{ site.baseurl }}/contact/" class="button big">Contact Us</a></li>
         </ul>
     </div>
     <div class="12u">
@@ -49,32 +42,19 @@ permalink: /join/
                     <p>How much it costs</p>
                 </header>
 
+                {% for destination in site.data.dues %}
                 <table class="dues">
                     <thead>
-                        <th colspan="2">To Us</th>
+                        <th colspan="2">{{ destination.destination }}</th>
                     </thead>
+                    {% for due in destination.dues %}
                     <tr>
-                        <th>Full Year (No Meets)</th>
-                        <td>$125</td>
+                        <th>{{ due.reason }}</th>
+                        <td>{{ due.cost }}</td>
                     </tr>
-                    <tr>
-                        <th>Per Semester (No Meets)</th>
-                        <td>$80</td>
-                    </tr>
-                    <tr>
-                        <th>Meet Package</th>
-                        <td>$90</td>
-                    </tr>
+                    {% endfor %}
                 </table>
-                <table class="dues">
-                    <thead>
-                        <th colspan="2">Other</th>
-                    </thead>
-                    <tr>
-                        <th>US Masters Swimming Membership</th>
-                        <td>$45</td>
-                    </tr>
-                </table>
+                {% endfor %}
 
             </article>
         </div>
