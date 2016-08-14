@@ -33,7 +33,8 @@ permalink: /team/
                                 </tr>
                             </thead>
                             <tbody>
-                                {% for member in site.data.members.women %}
+                                {% assign sorted_women = (site.data.members.women | sort: 'last_name') %}
+                                {% for member in sorted_women %}
                                 {% capture member_lower_name %}{{ member.first_name | downcase | replace: ' ', '-' }}{% if member.middle_initial %}-{{ member.middle_initial | downcase | replace: ' ', '-' }}{% endif %}-{{ member.last_name | downcase | replace: ' ', '-' }}{% endcapture %}
                                 <tr class="clickable-row" data-href="members/{{ member_lower_name }}.html">
                                     <td>{{ member.last_name }}, {{ member.first_name }}{% if member.middle_initial %} {{ member.middle_initial }}{% endif %}</td>
@@ -60,7 +61,8 @@ permalink: /team/
                                 </tr>
                             </thead>
                             <tbody>
-                                {% for member in site.data.members.men %}
+                                {% assign sorted_men = (site.data.members.men | sort: 'last_name') %}
+                                {% for member in sorted_men %}
                                 {% capture member_lower_name %}{{ member.first_name | downcase | replace: ' ', '-' }}{% if member.middle_initial %}-{{ member.middle_initial | downcase | replace: ' ', '-' }}{% endif %}-{{ member.last_name | downcase | replace: ' ', '-' }}{% endcapture %}
                                 <tr class="clickable-row" data-href="members/{{ member_lower_name }}.html">
                                     <td>{{ member.last_name }}, {{ member.first_name }}{% if member.middle_initial %} {{ member.middle_initial }}{% endif %}</td>
