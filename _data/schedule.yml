@@ -1,36 +1,38 @@
 - day: Monday
   evening:
-    - time: 5:30-7:30pm
-      leader: Matt Bird
-      style: Freestyle
+    - time: 6:00–8:0pm
+      location: HPER Natatorium
+      style: Swimming
 - day: Tuesday
   morning:
-    - time: 6:00-8:00am
-      leader: Pierce Darragh
+    - time: 6:00–8:00am
+      location: Student Life Center
+      style: Swimming
   evening:
-    - time: 5:30-7:30pm
-      leader: Ethan Beseris
-      style: Drylands
+    - time: 6:00–8:00pm
+      location: Student Life Center
+      style: Dryland
 - day: Wednesday
   evening:
-    - time: 5:30-7:30pm
-      leader: Melissa Hofmann
-      style: Sprints
+    - time: 6:00–8:00pm
+      location: HPER Natatorium
+      style: Swimming
 - day: Thursday
   morning:
-    - time: 6:00-8:00am
-      leader: Janey Heyman
+    - time: 6:00–8:00am
+      location: Student Life Center
+      style: Swimming
   evening:
-    - time: 5:30-7:30pm
-      leader: Matt Bird
-      style: Drylands
+    - time: 6:00–8:00pm
+      location: Student Life Center
+      style: Dryland
 - day: Friday
   morning:
-    - time: 6:00-8:00am
-      leader: Jeppesen Feliciano
-      style: IM/Mid
+    - time: 6:00–8:00am
+      location: Student Life Center
+      style: Swimming
 - day: Saturday
   morning:
-    - time: 8:00-10:00am
-      leader: Ethan Beseris
-      style: Team-building
+    - time: 8:00–10:00am
+      location: Student Life Center
+      style: Swimming (Team-Building)
