@@ -30,13 +30,7 @@ permalink: /join/
             </article>
         </div>
         <ul class="actions">
-            {% capture popup_text %}
-                The mailing list feature has not yet been added.
-                Please use the "Contact Us" form to request be added in the meantime.
-                Thank you for understanding!
-            {% endcapture %}
-            {% capture second_button_link %}{{ site.baseurl }}/contact/{% endcapture %}
-            <li>{% include coming_soon.html title="Join Mailing List" text=popup_text second_button_text="Contact Us" second_button_link=second_button_link %}</li>
+            <li><a href="{{ site.baseurl }}/information/" class="button big">Information Packet</a></li>
             <li><a href="{{ site.baseurl }}/contact/" class="button alt big">Contact Us</a></li>
         </ul>
     </div>
@@ -49,32 +43,27 @@ permalink: /join/
                     <p>How much it costs</p>
                 </header>
 
-                <table class="dues">
-                    <thead>
-                        <th colspan="2">To Us</th>
-                    </thead>
-                    <tr>
-                        <th>Full Year (No Meets)</th>
-                        <td>$125</td>
-                    </tr>
-                    <tr>
-                        <th>Per Semester (No Meets)</th>
-                        <td>$80</td>
-                    </tr>
-                    <tr>
-                        <th>Meet Package</th>
-                        <td>$90</td>
-                    </tr>
-                </table>
-                <table class="dues">
-                    <thead>
-                        <th colspan="2">Other</th>
-                    </thead>
-                    <tr>
-                        <th>US Masters Swimming Membership</th>
-                        <td>$45</td>
-                    </tr>
-                </table>
+                <section>
+                    <p>
+                        Dues may be paid online <a href="{{ site.baseurl }}/store/">here</a> or by check or card in-person by
+                        <a href="mailto:treasurer@utahclubswimming.com">contacting the treasurer</a> and setting up a
+                        time to meet.
+                    </p>
+
+                    {% for destination in site.data.dues %}
+                    <table class="dues">
+                        <thead>
+                        <th colspan="2">{{ destination.destination }}</th>
+                        </thead>
+                        {% for due in destination.dues %}
+                        <tr>
+                            <th>{{ due.reason }}</th>
+                            <td>{{ due.cost }}</td>
+                        </tr>
+                        {% endfor %}
+                    </table>
+                    {% endfor %}
+                </section>
 
             </article>
         </div>
@@ -99,22 +88,22 @@ permalink: /join/
                         Follow the instructions and answer the questions as you go. If you have any concerns,
                         <a href="mailto:vicepresident@utahclubswimming.com">contact the club's vice president</a>.
                     </p>
+
+                    <table class="forms">
+                        {% for form in site.data.forms %}
+                        <tr>
+                            <th>{{ form.name }}</td>
+                            {% if form.url %}
+                            <td><a href="{{ form.url }}" class="button">Get It</a></td>
+                            {% else %}
+                            <td><a href="#" class="button alt no-click">Unavailable</a></td>
+                            {% endif %}
+                        </tr>
+                        {% endfor %}
+                    </table>
                 </section>
 
             </article>
-
-            <table class="forms">
-                {% for form in site.data.forms %}
-                <tr>
-                    <th>{{ form.name }}</td>
-                    {% if form.url %}
-                    <td><a href="{{ form.url }}" class="button">Get It</a></td>
-                    {% else %}
-                    <td><a href="#" class="button alt no-click">Unavailable</a></td>
-                    {% endif %}
-                </tr>
-                {% endfor %}
-            </table>
         </div>
     </div>
 </div>

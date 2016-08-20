@@ -19,13 +19,25 @@ permalink: /schedule/
 
                     <section>
                         <p>
-                            We meet at the
-                            <a href="http://campusrec.utah.edu/facilities/">George S. Eccles Student Life Center</a>,
-                            located just below Legacy Bridge and north of the Marriott
-                            Honors Community. You can find us on the pool deck a few
-                            minutes before the scheduled start time of each swim practice.
+                            Our practices are at the
+                            <a href="http://campusrec.utah.edu/facilities/">George S. Eccles Student Life Center</a> and
+                            the HPER Natatorium (which is also home to the school's NCAA team). Unless otherwise noted,
+                            practices take place in the pool listed below. You can generally find us on the pool deck
+                            about ten minutes in advance of the start of practice. Dryland practices usually meet at the
+                            track in the Student Life Center, but the final location may change depending on the workout
+                            as determined by the day's workout leader (pay attention to our official communications
+                            channels for more info on these).
+                        </p>
+                        <p>
+                            The <a href="https://goo.gl/maps/S4XKemyJQXA2">Student Life Center</a> is located just below
+                            Legacy Bridge and north of the Marriott Honors Community.
+                        </p>
+                        <p>
+                            The <a href="https://goo.gl/maps/c984G3Nu9MB2">HPER Natatorium</a> is to the south and west
+                            of the Student Life Center at the south end of the HPER complex.
                         </p>
                     </section>
+
 
                     <section>
                         <table class="schedule">
@@ -50,13 +62,21 @@ permalink: /schedule/
                                     {% endfor %}
                                 </tr>
                                 <tr>
-                                    <!-- Morning Leaders -->
-                                    <th>Leader</th>
+                                    <!-- Morning Locations -->
+                                    <th>Location</th>
                                     {% for entry in site.data.schedule %}
-                                    {% assign leader = (entry.morning | map: 'leader') %}
-                                    <td>{{ leader }}</td>
+                                    {% assign location = (entry.morning | map: 'location') %}
+                                    <td>{{ location }}</td>
                                     {% endfor %}
                                 </tr>
+                                <!--<tr>-->
+                                    <!--&lt;!&ndash; Morning Leaders &ndash;&gt;-->
+                                    <!--<th>Leader</th>-->
+                                    <!--{% for entry in site.data.schedule %}-->
+                                    <!--{% assign leader = (entry.morning | map: 'leader') %}-->
+                                    <!--<td>{{ leader }}</td>-->
+                                    <!--{% endfor %}-->
+                                <!--</tr>-->
                                 <tr>
                                     <!-- Morning Styles -->
                                     <th>Style</th>
@@ -76,13 +96,21 @@ permalink: /schedule/
                                     {% endfor %}
                                 </tr>
                                 <tr>
-                                    <!-- Evening Leaders -->
-                                    <th>Leader</th>
+                                    <!-- Evening Locations -->
+                                    <th>Location</th>
                                     {% for entry in site.data.schedule %}
-                                    {% assign leader = (entry.evening | map: 'leader') %}
-                                    <td>{{ leader }}</td>
+                                    {% assign location = (entry.evening | map: 'location') %}
+                                    <td>{{ location }}</td>
                                     {% endfor %}
                                 </tr>
+                                <!--<tr>-->
+                                    <!--&lt;!&ndash; Evening Leaders &ndash;&gt;-->
+                                    <!--<th>Leader</th>-->
+                                    <!--{% for entry in site.data.schedule %}-->
+                                    <!--{% assign leader = (entry.evening | map: 'leader') %}-->
+                                    <!--<td>{{ leader }}</td>-->
+                                    <!--{% endfor %}-->
+                                <!--</tr>-->
                                 <tr>
                                     <!-- Evening Styles -->
                                     <th>Style</th>

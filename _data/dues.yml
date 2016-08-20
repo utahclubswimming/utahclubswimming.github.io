@@ -1,0 +1,12 @@
+- destination: To Us
+  dues:
+    - reason: Full Year (No Meets)
+      cost: $226
+    - reason: Per Semester (No Meets)
+      cost: $142
+    - reason: Meet Package
+      cost: $85
+- destination: Other
+  dues:
+    - reason: US Masters Swimming Membership
+      cost: $47
