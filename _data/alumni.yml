@@ -1,16 +1,14 @@
-- name: Elena Chong
-  years:
-    - 2015-16
-  bio: >
-    Elena started competitively swimming when she was a freshman in high school.
-    She first began her water-career as a synchronized swimmer when she was 8
-    years old. Elena competed on a Division III collegiate team for 3 years in
-    Grand Rapids, Michigan as a mid-distance and distance free-styler. While she
-    took 3 years off of swimming, she attends the University of Utah as a PhD
-    student and is excited to get back into the pool.
-  image: alumni/elena-ml-chong.jpg
-
-- name: Jose Arevalo-Rivers
-  years:
-    - 2015-16
-  image: alumni/jose-g-arevalo-rivers.jpg
+- year: 2015-16
+  members:
+    - name: Elena Chong
+      events: Mid-distance Free, Distance Free
+      hometown: Orlando, FL
+    - name: Jose Arevalo-Rivers
+      events: Distance Free, Breast
+      hometown: Santa Tecla, El Salvador
+    - name: Alexandra "Al" Jamora
+      events: Sprint Free/Back/Breast
+      hometown: Kapolei, HI
+    - name: Katierose McMahon
+      events: Sprint Free / IM
+      hometown: Salt Lake City, UT
