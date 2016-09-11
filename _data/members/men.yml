@@ -1,417 +1,760 @@
-- last_name: Arevalo-Rivers
-  first_name: Jose
-  middle_initial: G
-  events: Distance Free, Breast
-  year: Senior
-  hometown: Santa Tecla, El Salvador
-  school: Salt Lake Community College
-  headshot: members/jose-g-arevalo-rivers.jpg
+#- last_name:
+#  first_name:
+#  middle_initial:
+#  given_name:
+#  year:
+#  events:
+#  hometown:
+#  school:
+#  majors:
+#    -
+#  minors:
+#    -
+#  bio: >
+#
+#  academic_highlights:
+#    -
+#  athletic_highlights:
+#    -
+#      -
+#  best_times:
+#    -
+#  headshot:
+
+- last_name: Ajioka
+  first_name: Danesh
+  year: Freshman
+  events: Mid-Distance Free, Distance Free
+  hometown: Salt Lake City, UT
+  school: Highland HS
+  majors:
+    - Kinesiology
+  bio: >
+    Danesh is a very nice person that is very sociable and accepting.
+  academic_highlights:
+    - Lassonde Workshop tool mentor
+  athletic_highlights:
+    - "High School":
+      - Competed in 2 water Polo Junior Olympics
+  best_times:
+    - 5:15 500 free (2016 HS 4A state)
+    - 2:00 200 free (2015 short course senior state)
+
+- last_name: Arlington
+  first_name: Ian
+  middle_initial: A
+  year: Freshman
+  events: Sprint Free, Mid-Distance Free
+  hometown: Burbank, CA
+  school: Burbank HS
+  majors:
+    - Architecture
+  bio: >
+  academic_highlights:
+    - US Army Scholar Athlete Award 2016
+  athletic_highlights:
+    - "High School":
+      - Football MVP 2012
+      - Football MVP 2013
+      - Football Special Teams MVP 2014
+      - Football "Mr Bulldog" Award 2015
+      - Swim MVP 2014
+      - Swim Coaches' Award 2015
+      - Swim MVP 2016
+      - Principal's Excellence Award 2016
+
+- last_name: Beseris
+  first_name: Mathew
+  middle_initial: A
+  year: Freshman
+  events: Sprint Free, Breast
+  hometown: Honolulu, HI
+  school: Skyline HS
+  majors:
+    - Computer Science
+  bio: >
+    Mathew is studying computer science at the U and swam competitively in high school all 4 years. Mathew is currently
+    a holder of the 4A Freestyle relay state record.
+  academic_highlights:
+    - AP Scholar with distinction
+    - 33 AP test credits received
+  athletic_highlights:
+    - "High School":
+      - 4A State Champion
+  best_times:
+    - 50 Freestyle - 21.71 (4A State)
+  headshot:
+
 - last_name: Beseris
   first_name: Ethan
   middle_initial: A
-  events: Sprint Free / Fly
-  year: Junior
-  hometown: Salt Lake City, UT
+  year: Senior
+  events: Sprint Free, Fly
+  hometown: Sandy, UT
   school: Skyline HS
-  officer: President
+  majors:
+    - Biology
+  minors:
+    - Art History
   bio: >
-    Ethan began swimming at the age of 13 and has loved the sport ever since. He
-    trains hard so his younger brother doesn't pass him, but most of all, he
-    enjoys competing and being with his teammates. Ethan also loves to run,
-    which is concerning for a swimmer. His teammates are currently seeking help.
-    When he isn't leading the best team in the world, Ethan enjoys hiking,
-    camping, pasta salad, and being in the outdoors.
+    Ethan began swimming at the age of 13 and has loved the sport ever since. He trains hard so his younger brother
+    doesn't pass him, but most of all, he enjoys competing and being with his teammates. Ethan also loves to run, which
+    is concerning for a swimmer. His teammates are currently seeking help. When he isn't leading the best team in the
+    world, Ethan enjoys hiking, camping, pasta salad, and being in the outdoors.
   academic_highlights:
     - Current member of Honors College
-    - Research Assistant at Utah Department of Physical Therapy
-    - Pre-Physical Therapy student
-    - Former Anatomy Lab Teacher's Aide (Spring 2015)
+    - Dean's List Fall 2013-Spring 2016
   athletic_highlights:
-    - "2014-2015":
+    - "2015-16":
       - Three-time individual state champion in the 2015 Utah Masters State Championships
-      - Member of the state champion 200 Medley Relay at Utah Masters State
-      - Team record holder in 100 free, 100 fly, 50 fly and 200 IM
-    - "High School":
-      - Four-time athletic letter recipient and academic all-region senior year
-      - Second place finishes in the 100 fly, 200 medley relay and 400 freestyle relay at the 2013 Utah High School 4A State Championships
-      - Competed nationwide in the Speedo Championship Series and Far Western Championships in Wisconsin and California, respectfully
-  headshot: members/ethan-a-beseris.jpg
+      - Nominee for 2016 Sport Club Athlete of the Year Award
+  best_times:
+    - 100 fly - 53.43 (2014 Utah High School 4A State)
+    - 100 free - 49.37 (2012 Salt Lake Country Club Swim Conference)
+    - 100 back - 58.51 (2016 ECC National Championships)
+    - 50 free - 22.75 (2016 ECC National Championships)
+
 - last_name: Bird
   first_name: Matthew
-  middle_initial: J
-  given_name: Matt
-  events: Distance Free / Fly
-  year: Senior
-  hometown: Draper, UT
-  school: Juan Diego Catholic HS
+
+- last_name: Boekholder
+  first_name: Ryan
+
+- last_name: Bore
+  first_name: David
+  middle_initial: R
+  year: Freshman
+  events: Sprint Free, Breast
+  hometown: Salt Lake City, UT
+  school: Highland HS
   majors:
-    - Exercise & Sports Science
-  minors:
-    - Nutrition
-  officer: Vice President
+    - Mechanical Engineering
   bio: >
-    Matt was always attracted to the water, and would usually be the first one
-    in and last one out of the pool. He started swimming competitively at the
-    age of 11 at the Life Centre Athletic Club, and has been swimming since.
-    Matt likes all forms of physical activity, but really enjoys getting swoll
-    in the gym. Matt currently helps coach two high school swim teams, one age
-    group club swim team, and organizes/teaches swim lessons whenever he finds
-    the time.
+    David is a good swimmer. He has competed on swim teams since age 11 including Liberty Lightning, Wasatch Front Fish
+    Market, and the Highland High School Team. He loves to swim, and is excited to be a part of the University of Utah
+    Club Swim Team.
   academic_highlights:
-    - Pre-Occupational Therapy student
+    - Senior Class President 2016-2017 Highland High School
+    - Academic Letter 2016
+    - Honors at Entrance Scholarship to the U
+    - National Honor Society Member
+    - AP Scholar with Distinction
   athletic_highlights:
-    - "2014-2015":
-      - First-place state finisher in the 1650 free
-      - Team record holder in 200, 500 and 1650 free
     - "High School":
-      - Captain of Juan Diego Catholic High School swim team
-      - Assistant Coach for Life Centre Athletic Club, Juan Diego Catholic High School and Summit Academy High School
-- last_name: Buckendorf
-  first_name: Jonathon
-  middle_initial: E
-  events: Mid-distance Free / Fly
-  year: Junior
-  hometown: Stansbury Park, UT
-  school: Stansbury HS
-  bio: >
-    Jonathon started swimming my freshman year of high school and fell in love
-    with the sport, and hasn’t stopped swimming since.
-  headshot: members/jonathon-e-buckendorf.jpg
+      - Region V Team Competitor
+  best_times:
+    - 50 Free - 27.32 (HHS at EHS 2015)
+    - 100 Free - 1:03.50 (UHSAA Region V Championships)
+    - 100 Breast - 1:28.96 (HHS Invite 2017)
+
 - last_name: Chamberlain
   first_name: Jarom
   middle_initial: L
-  events: Sprint Free, Fly
-  year: Freshman
+  year: Sophomore
+  events: Fly, IM
   hometown: Salt Lake City, UT
   school: University of Utah
   majors:
     - Metallurgical Engineering
   bio: >
-    I began swimming when I was very young, and began competing competitively in
-    elementary school.
-  athletic_highlights:
-    - "High School":
-      - Utah Swim Conference Champion 100 Fly
-      - Utah High School State Champion 100 Fly
-      - SLSTC Record Holder 100 Fly and 100 IM
-      - Wisconsin Sectional Top Ten 100 Fly
-- last_name: Darragh
-  first_name: Pierce
-  middle_initial: O
-  events: Sprint Free/Fly/Back
-  year: Senior
-  hometown: South Jordan, UT
-  school: Hillcrest HS
-  officer: Men's Team Captain
-  majors:
-    - Computer Science
-  minors:
-    - Linguistics
-  bio: >
-    It wasn't until high school that Pierce began swimming competitively, but he
-    was instantly hooked by the sport and camaraderie he found there. After high
-    school, Pierce took a three-year competitive hiatus but has returned with
-    the intent of beating all his previous best times. Outside of the pool,
-    Pierce enjoys spending time with his teammates, reading, playing guitar, and
-    long walks on the beach. He currently is engaged in a competition with
-    Jeppesen for the title of "Slowest Eater".
+    Jarom has loved to swim for a very long time. He loves competition and improving indvidually and as well as a team.
   academic_highlights:
-    - Recipient of President's Scholarship at the University of Utah
-    - Recipient of National AP Scholar Award
-    - Recipient of National Merit Scholarship
-    - Graduated from International Baccalaureate Diploma Programme
-    - Member of STAC research group under direction of Dr Matt Might
+    - Dean's List
   athletic_highlights:
-    - "2014-2015":
-      - Member of state champion 200 medley relay
     - "High School":
-      - Two-time letter recipient
-      - Academic all-region
-      - Senior team captain
-  headshot: members/pierce-o-darragh.jpg
+      - 4A Swimming State Champ
+      - Conference Champ
+  best_times:
+    - 200 IM 2:00 (Western Sectionals 2013)
+    - 100 fly 52:30 (Western Sectionals 2013)
+    - 100 IM 53.90 (Utah Conference 2012)
+
+- last_name: Darling
+  first_name: Kyle
+  middle_initial: A
+  year: Junior
+  events: Distance Free, Back
+  hometown: West Valley City, UT
+  school: Adams State University
+  majors:
+    - Psychology
+  minors:
+    -
+  bio: >
+    The movie The Guardian started my obsession with swimming. After deciding that he was crazy enough to pursue a
+    future in competitive swimming, he qualified for Sectionals. His future goals include qualifying for Nationals and
+    destroying the competition. Claire Jackson is my #1 fan.
+  academic_highlights:
+    - "I once thought it would be a good idea to take 18 credit hours. Pro tip: Don't."
+  athletic_highlights:
+    - "Pre-U of U":
+      - Former NCAA Division 2 swimmer
+    - "High School":
+      - Former NCAA Division 2 swimmer
+      - 3rd at 5A State Championships in 200 and 500 Free in 2014
+      - Qualified for Sectionals
+      - Voted "Male Athlete of the Year" at Hunter High School in 2014
+  best_times:
+    - 500 free - 4:51.00 2014 Utah High School 5A State
+    - 1000 free - 9:56.89 2015 ST TXLA Speedo Champs
+    - 1650 free - 16:38.57 2014 UT SR State Champs
+    - 100 back - 54.00 2015 ST TXLA Speedo Champs
+    - 200 back - 1:55.31 2015 ST TXLA Speedo Champs
+    - 400 IM - 4:18.00 2015 ST TXLA Speedo Champs
+
 - last_name: Esquivel
   first_name: John
-  events: Sprint Free
-  year: Freshman
+  year: Sophomore
+  events: Sprint Free, Fly
   hometown: Brownsville, TX
-  school: St. Joseph Academy
+  school: Saint Joseph Academy
   majors:
     - Biology
-    - Pre-Med
   minors:
     - French
   bio: >
-    Attended Saint Joseph Academy in Brownsville, Texas. Majoring in Biology-Pre
-    Med, and minoring in French. High school swimming captain from 2014-2015.
+    High School Swimming Captain from 2014-2015, Majoring in Biology/Pre-Medicine and Minoring in French. From
+    Brownsville, Texas, and he's a chill guy.
   academic_highlights:
-    - 2014 History Competition in San Antonio, Texas
-    - 2015 State History Competition at Waco, Texas
-    - 4th place Texas state, 10th national Concours National de Français
+    - French Club, Newman Center Campus Mentor
   athletic_highlights:
     - "High School":
-      - 2014 and 2015 4th place 200 yard relay regionals
-      - 8th place in 100 butterfly regionals in San Antonio, Texas
-      - 2013-2015 Texas state championships competitor
+      - Swimming Captain 2015
+      - Swimming Athelete of the Year 2015
+  best_times:
+    - 50 Free - 6.27 (TAPPS State Meet)
+    - 100 Fly - 1:01:49 (TAPPS State Meet) (Texas Association of Private and Parochial Schools)
+
 - last_name: Feliciano
   first_name: Jeppesen
   middle_initial: G
-  events: Breast / IM
-  year: Junior
+  year: Senior
+  events: Breast, IM
   hometown: West Jordan, UT
   school: Juan Diego Catholic HS
-  officer: Secretary
+  majors:
+    - Mechanical Engineering
   bio: >
-    Jeppesen began competitively swimming in high school.  He is a committed
-    athlete who cherishes the atmosphere of swimming – the competition, the
-    individual challenge, but most of all, the camaraderie.  During his time at
-    the U, he has become an IMer as well as a runner.  To add to the plot
-    twists, Jeppesen (or Pierce) is typically the last one finished at team
-    dinners. During his leisure time, Jeppesen tinkering, making lists of fun
-    things to do, and finding people help him check off those lists.
+    Jeppesen is a senior and a third-year veteran of the team. He competed in age-group and club swimming, and
+    eventually coached for two, consecutive summers following after his high school season. Jeppesen is a committed
+    athlete who thrives in the the competition, individual challenge, and -- most of all -- camaraderie in swimming.
+    During his leisure time, Jeppesen tinkering, making music videos, making lists of fun things to do and recruiting
+    his teammates to check off those lists.
   academic_highlights:
-    - Current member of Honors College
-    - Research Assistant in the Environmental Fluid Mechanics Lab through Department of Mechanical Engineering
-    - Recipient of Honors at Entrance Scholarship
-    - Fall 2013-Spring 2015 Dean's List
+    - Honors College
+    - Research Scholar
+    - Mechanical Engineering Peer Mentor
+    - Undergraduate Research Assistant in the Fluid Dynamics Lab through Department of Mechanical Engineering
     - Public Relations Chair of the Tau Beta Pi, Utah Alpha Chapter
-    - Historian of the Mortar Board, Utah Acorn Chapter
-    - Campus Life Mentor
-    - Member of Engineers Without Borders, University of Utah Chapter
+    - Alumni Chair of the Mortar Board, Utah Acorn Chapter
+    - SeaPerch Mentor
+    - Fall 2013 - Spring 2016 Dean's List
+    - University Campus Life Mentor
+    - First Lego League Mentor"
   athletic_highlights:
-    - "2014-2015":
-      - Member of the state champion 200 Medley Relay at Utah Masters State
-      - Team record holder in 50, 100, and 200 Breaststroke
+    - "2015-16":
+      - 2016 ECC Nationals Qualifier
+    - "Miscellaneous":
+      - 2014 Spartan Race Finisher (Beast, 12+ mi)
+  best_times:
+    - 100 Free - 55.37 (2016 Ski-n-Swim)
+    - 50 Free - 24.91 (2015 Utah State Masters Championships)
+    - 200 Breast - 2:28.47 (2015 South Davis Meet)
+    - 100 Breast - 1:04.50 (2016 ECC Nationals)
+    - 50 Breast - 28.97 (2016 ECC Nationals)
+    - 200 IM - 2:25.50 (2014 South Davis Meet)
+    - 100 IM - 1:04.18 (2016 Northwest Zone Masters Championship)
+
+- last_name: Fordham
+  first_name: Cole
+  middle_initial:
+  year: Freshman
+  events: Sprint Free, Mid-Distance Free
+  hometown: Cedar City, UT
+  school: Canyon View HS
+  majors:
+    - Biology
+  bio: >
+    Cole started swimming a little over a year ago for Canyon View high school and loved it. He has continued swimming
+    with SUU over the summer and hopes to continue a future in swimming with the University of Utah.
+  academic_highlights:
+    - Academic All-Star
+    - Honor Society
+  athletic_highlights:
     - "High School":
-      - Four-time athletic letter recipient and academic all-state senior year
-      - Third place finishes 200 medley relay 2012 and 2013 Utah High School 3A State Championships
-  headshot: members/jeppesen-g-feliciano.jpg
+      - Water Polo 3A 3rd at state
+  best_times:
+    - 50 free 26.7 at a Cedar meet
+
+- last_name: Gaia
+  first_name: Adam
+  middle_initial: R
+  year: Freshman
+  events: Sprint Free, Mid-Distance Free
+  hometown: Salt Lake City, UT
+  school: High School
+  majors:
+    - Mechanical Engineering
+  bio: >
+    Adam is an incoming college freshman. He has been swimming off and on since 6th grade. Adam was captain of this high
+    school swim team his senior year. He plans on joining the U of U club swim team to stay in shape while focusing on
+    his education. Outside of the pool, Adam is an aspiring photographer. He enjoys hiking, longboarding, and skiing.
+  academic_highlights:
+    - High school honor student
+    - AP Calculus BC score of 5
+  athletic_highlights:
+    - "High School":
+      - Went to UT high school 4A state in the 100 free junior and senior years of high school
+      - High school swim team captain
+  best_times:
+    - 100 Free - 51:87 (2016 Utah high school 4A state)
+    - 50 Free - 23:87 (2016 Utah region 6 championship meet)
+
+- last_name: Gallehugh
+  first_name: Edgar
+  middle_initial: L
+  year: Freshman
+  events: Sprint Free
+  hometown: Montrose, CA
+  school: Crescenta HS
+  majors:
+    - Biology
+  minors:
+    - Business
+  bio: >
+    He is tall and tan and also from California. He is a Biology major with a minor in Business. Swim is a large part
+    of his life. In it he has made a lot of friends and memories. In college he still has the drive to swim. It will
+    be something that he will do for many years to come.
+  academic_highlights:
+    - 3.8 cumulative high school GPA
+    - 2 year recipient of school athlete award
+  athletic_highlights:
+    - "High School":
+      - 4 years in varsity high school swim
+      - 3 year varsity swim MVP
+      - 2 year varsity swim captain
+  best_times:
+    - 50 free - 21.25
+    - 100 free - 47.68
+
+- last_name: Garcia
+  first_name: Logan
+
 - last_name: Hemmersmeier
   first_name: Kevin
   middle_initial: J
-  given_name: Hemi
-  events: Sprint Free / IM
-  year: Freshman
-  hometown: Draper, UT
-  school: Juan Diego Catholic HS
+  year: Sophomore
+  events: Mid-Distance Free, Breast
+  hometown: South Jordan, UT
+  school: Olympus HS
   majors:
     - Mathematics
   bio: >
-    Kevin is also a Cross Country runner. He played football for 9 years prior
-    to swimming and running, and is a math major planning on a Ph.D. Kevin
-    decided to swim Breast in the last two weeks of his senior year of high
-    school. 
+    Kevin has swam for 4 years on both his high school team and a summer club team. He swam sprint free to start than
+    learned breast and miss distance free his senior year of high school.
+  athletic_highlights:
+    - "High School":
+      - State Swim Team
+      - State Lacrosse Team
+      - State Cross Country Team
+  best_times:
+    - 50 free - 27:45
+    - 100 free - 58:39
+    - 100 breast - 1:09:xx
+    - 200 free - 2:16:xx
+    - 500 free - 6:45:xx
+    - 100 fly - 1:15:xx
+
 - last_name: Hise
-  first_name: Samuel
+  first_name: Sam
   middle_initial: A
-  events: Sprint Free / Fly
-  year: Senior
-  hometown: Austin, TX
+  year: Extra-year(s) Senior
+  events: Sprint Free, Fly
+  hometown: Salt Lake City, UT
   school: East HS
   majors:
     - Economics
   minors:
-    - Business
     - Nutrition
+    - Business
   bio: >
-    Sam started swimming at the age of 4, but didn't start competitive swimming
-    until his sophomore year of high school, after breaking his collar bone
-    while playing lacrosse his freshman year of high school. He found a passion
-    for the water, so he traded in his helmet and stick for a cap and goggles,
-    and he never looked back.
-  headshot: members/samuel-a-hise.jpg
-- last_name: Hojnacki
-  first_name: Philip
-  middle_initial: G
-  events: Sprint Free / Fly
-  year: Junior
-  hometown: Sandy, UT
-  school: Juan Diego Catholic HS
-  majors:
-    - Computer Science
-  bio: >
-    Philipp started swimming when he was 5 and has loved it ever since. When
-    he’s not speeding through the water, he loves to ski, hike, and nap. Phil
-    look forward to practicing with the team and competing again. 
-- last_name: Jin
-  first_name: Hansheng
-  given_name: Max
-  events: Sprint Free / Breast
-  year: Sophomore
-  hometown: Shanghai, China
-  school: Colorado Rocky Mountain School
   academic_highlights:
-    - Current Member of the University of Utah Honors college
-    - Recipient of 2015-2016 University of Utah Cooper-Hansen Scholarship
-    - Fall 2014- Spring 2015 Dean's List
+    - Dean's List, Spring 2012
+  athletic_highlights:
+    - "High School":
+      - UT 4A State Swimming Relay Alternate 2010
+    - "Miscellaneous":
+      - Red bull Runner Finisher 2015
+  best_times:
+    - 50 Free - 23.73 (EDCC Nationals)
+    - 100 Free - 52.11(EDCC Nationals)
+    - 200 Free - 1:56.93 (EDCC Nationals)
+    - 200 Free Relay - 1:33.71 (Zones 2016)
+    - 800 Free Relay - 7:53.37 (EDCC Nationals)
+
 - last_name: Knowles
   first_name: Jackson
   middle_initial: A
-  events: Mid-distance Free / Fly
-  year: Sophomore
+  year: Junior
+  events: Mid-Distance Free, Fly
   hometown: Moab, UT
   school: Grand County HS
+  majors:
+    - Exercise and Sports Science
+  minors:
+    - Music
   bio: >
-    Jackson has been swimming for the majority of his life; even though he
-    didn’t want to get the top of his head wet when he first started.  He loves
-    the camaraderie that the team has for one another. When not in the pool,
-    Jackson can be found either running, hiking, camping, or hunting in the
+    Jackson has been swimming for the majority of his life; even though he didn’t want to get the top of his head wet
+    when he first started swim lessons.  He started swimming for his high school his junior year when the swim program
+    was first established. When not in the pool, Jackson can be found either running, hiking, camping, or hunting in the
     great outdoors.
   academic_highlights:
     - Recipient of Honors at Entrance Scholarship
-    - Pre-Physical Therapy student
-    - Current member of the University of Utah Marching Band (Drumline)
+    - Current Member of the University of Utah Marching Band (Drumline)
+    - Section Captain of the Cymbal Line
+    - Younglife College Leader
   athletic_highlights:
-    - "2015-2015":
-      - Member of the state champion 200 Medley Relay at Utah Masters State
+    - "Miscellaneous":
+      - Two-time Ragnar Relay Finisher (2015,2016)
     - "High School":
-      - Two-time athletic letter recipient
-      - Academic all-region and state senior year
-      - First place finish in the 100 fly at the 2014 Utah High School 2A State Championships
+      - Two-time athletic letter recipient in swimming
+      - Academic All-Region and All-State senior year in swimming
+      - Team Captain during junior and senior year
+      - First place finish and new state record in the 100 fly at the 2014 Utah High School 2A State Championships
       - Second place finish in the 200 free at the 2014 Utah High School 2A State Championships
-      - Record holder in the 200 Medley Relay, 200 Freestyle, 50 Freestyle, 100 Butterfly, 200 Freestyle Relay, and 400 Freestyle Relay
-  headshot: members/jackson-a-knowles.jpg
+      - Record holder in the 100 Butterfly at Grand County High School
+      - Member of the state champion 200 medley relay at Utah Masters State
+      - Four-time athletic letter recipient in cross country and track
+      - A part of the three-time state champion track team at Grand County High School
+  best_times:
+    - 100 fly - 58.29 (2014 Utah High School 2A State)
+    - 200 free - 2:00.54 (2014 Utah High School 2A State)
+    - 50 free - 24.99 (Lead off for the 200 free relay at the 2014 Utah High School 2A State)
+
 - last_name: Morgan
   first_name: Connor
   middle_initial: J
-  events: Sprint Free / Back
-  year: Freshman
+  year: Sophomore
+  events: Back, IM
   hometown: Salt Lake City, UT
-  school: Judge Memorial HS
+  school: Judge Memorial Catholic HS
+  majors:
+    - Biology
+    - Political Science
   bio: >
-    Connor began swimming when he was seven years old, and he hasn't left the
-    water since. He lives for the sense of family that comes with being on a
-    swim team, and he loves to race against other swimmers and against the
-    clock. Outside of swimming, Connor enjoys biking, climbing, eating,
-    sleeping, and spending time with friends and family.
+    Connor began swimming when he was seven years old, and he hasn't left the water since. He loves spending time with
+    his teammates, racing the clock and other swimmers, and blowing bubble rings.  Outside of swimming, Connor enjoys
+    cycling, climbing, eating, sleeping, and spending time with friends and family.
+  academic_highlights:
+    - Member of the Honors College
+    - Dean's List, Fall 2015 and Spring 2016
+    - Member of Phi Beta Kappa Honor Society
+    - Recipient of President's Scholarship
+    - Attorney General of ASUU
+  athletic_highlights:
+    - "2016-17":
+      - Vice President, Utah Club Swimming
+    - "2015-16":
+      - Utah Club Swimming 2015-2016 Rookie of the Year
+      - 9th Place, 200 Y Back at ECC Nationals
+      - Team Record Holder in 50, 100, 200 Back and in 200, 400 IM
+    - "High School":
+      - MVP and Captain of Judge Memorial Swim Team (2014, 2015)
+  best_times:
+    - 200 Back — 1:56.69 (ECC Nationals)
+    - 100 Back — 54.20 (ECC Nationals)
+    - 50 Back — 25.59 (ECC Nationals)
+    - 200 IM — 2:04.41 (ECC Nationals)
+    - 100 IM — 56.10 (2015 Country Club Conference Championships)
+
 - last_name: Nicolodemos
   first_name: Nathan
-  year: Freshman
-- last_name: Noaker
-  first_name: Dylan
-  middle_initial: R
-  events: Distance Free
-  year: Senior
-  hometown: Oakley, UT
-  school: South Summit HS
-  bio: >
-    Dylan Noaker began swimming at the age of 13. He realized that the
-    combination of full body motion and low­impact made swimming an ideal
-    exercise so he pursued the sport further through his high school team. This
-    combined with his running and cycling compelled him to participate in a few
-    short triathlons. He has continued his triathlon training through his
-    college career and now swims with the University of Utah Club Swim Team.
-  academic_highlights:
-    - Currently studying Computer Science with an Entertainment Arts and Engineering emphasis at the University of Utah
-    - Recipient of Honors at Entrance Scholarship
-    - Recipient of Energy Solutions Scholarship (Fall 2012-Spring 2013)
-  athletic_highlights:
-    - "2010-2011":
-      - 2010 fifth place in 15­-19 age group at Echo Sprint Triathlon
-      - 2010 third place in 15­-19 age group at Bam Race Festival full triathlon
-      - 2011 fourth place in 15­-19 age group at annual Jordanelle Sprint Triathlon
-      - 2011 First place in 15-­19 age group at Echo Sprint triathlon
-- last_name: Parata
-  first_name: Alexander
-  middle_initial: J
-  given_name: Josh
-  events: Sprint Free / Fly
-  year: Senior
+  year: Sophomore
+  events: Sprint Free, Back
   hometown: Riverton, UT
-  school: Salt Lake Community College
+  school: Juan Diego Catholic HS
+  majors:
+    - Materials Science and Engineering
   bio: >
-    Josh has been swimming competitively since the age of 12, and he has enjoyed
-    the journey to swimming with the Utah club team. While his favorite strokes
-    are butterfly and freestyle, he is very challenged at swimming breaststroke,
-    but is hoping to improve. Josh is excited to enjoy his last year as an
-    undergraduate student at the University of Utah, and hopes to make the best
-    of it with great memories alongside his team. On a side note his favorite
-    fruit to eat are pineapples.
+    I've been swimming both recreationally and competitively since I was 10 years old, and although I was on the team
+    last year I didn't go to as many practices and meets as I would have liked. This year I'm feeling significantly more
+    motivated and am ready to compete and have a good time.
   academic_highlights:
-    - Associates Degree: General Studies SLCC 2012
-    - Associate Degree: Surgical Technology SLCC Honors 2012
-    - Dean's List Honor Student Recipient at SLCC 2013
+    - Dean's List
   athletic_highlights:
     - "High School":
-      - Varsity High School Swim Team at Riverton High & Herriman High School
-  headshot: members/alexander-j-parata.jpg
-- last_name: Pradhan
-  first_name: Ian
-  middle_initial: S
-  events: Mid-distance Free
-  year: Junior
-  hometown: Portland, OR
-  school: East HS
-  majors:
-    - Mechanical Engineering
-  minors:
-    - Spanish
-    - Mathematics
-  bio: >
-    Ian loves the water. Water sports like swimming, water polo, and kayaking
-    have been a big part of his life for the last seven years. But that doesn't
-    mean he is like a fish out of water on the land.
-  headshot: members/ian-s-pradhan.jpg
+      - Juan Diego 400 Relay Record Holder
+
+- last_name: Noaker
+  first_name: Dylan
+
+- last_name: Pryor
+  first_name: Nick
+
 - last_name: Quackenbush
   first_name: Cameron
-  middle_initial: S
-  events: Breast, IM
-  year: Freshman
+  year: Sophomore
+  events: Mid-Distance Free, Breast
   hometown: Salt Lake City, UT
   school: Olympus HS
   majors:
     - Environmental Sustainability
+    - Political Science
   minors:
-    - Ecology and Legacy
-  headshot: members/cameron-s-quackenbush.jpg
-- last_name: Roller
-  first_name: Jaxon
-  middle_initial: J
-  events: Mid-distance Free, Breast
-  year: Sophomore
-  hometown: Murray, UT
-  school: Murray HS
+    - Honors Ecology and Legacy
   bio: >
-    Jaxon began swimming at age 10, and since then the Murray Rec Center has
-    become his second home. Since graduating high school, however, Jaxon has
-    migrated to the Student Life Center at the U. He was one of the weird
-    swimmers who swam to swim, not to play water polo. Jaxon also trains for
-    triathlons on his off days from swimming.
-    Jaxon is majoring in Materials Science and Engineering, and Russian, and he
-    is minoring in Environmental and Sustainability Studies. He also enjoys long
-    long major names. He loves everything about the mountains, surfing in the
-    ocean, spending time with his family and friends, and learning as much as he
-    can.
-- last_name: Watson
-  first_name: Guy
-  events: Sprint Free / Breast
-  year: Junior
-  hometown: Logan, UT
-  school: Logan HS
-  bio: >
-    Guy was born and raised in Logan, and although Logan really doesn't have
-    much of a city life, he loved being outdoors, discovering new places in the
-    canyons. When the time came to go to college, he went to the University of
-    Utah, never expecting that he would find some of the best experiences of his
-    life in Salt Lake City. It was his roommate that showed him the world of
-    swimming during his freshman year, and he joined the university club team
-    the next year.
+    Intense training, with an extensive focus upon the phrase "I can't, I have swim practice."
   academic_highlights:
-    - Current member of Honors College
-    - Code monkey at Utah State University’s AggieAir lab
+    - University of Utah Honors College
   athletic_highlights:
-    - "2014-2015":
-      - Participated in first competitive season ever with the Utah Club Swim team (2014-2015)
-  headshot: members/guy-watson.jpg
-- last_name: Waugh
-  first_name: Eric
-  middle_initial: A
-  events: Sprint Free
-  year: Sophomore
-  hometown: Centennial, CO
-  school: Arapahoe HS
+    - "2015-16":
+      - ECC National Championships
+    - "High School":
+      - Utah Senior State 2015
+  best_times:
+    - 500 free - 5:32.0
+    - 100 Fly 59.1
+    - 100 Breast - 1:11
+    - 200 Breast - 2:30.0
+
+- last_name: Raber
+  first_name: Matthew
+  middle_initial: S
+  given_name:
+  year: Freshman
+  events: Mid-Distance Free, Fly
+  hometown: Whitefish Bay, WI
+  school: High School
+  majors:
+    - Biology
+  minors:
+    - Spanish
+  bio: >
+    Sam has been swimming competitively for several club teams for eight years, four of which he also swam for his
+    varsity high school team. Whether it's a morning practice with his current club team or four years (SSTY) or a
+    regular high school practice, Sam meets each practice with the same determination and work ethic. In the same vein,
+    Sam is always setting new goals for himself inside and out of the pool and always attempts to motivate his teammates
+    along the way. Quiet and reserved at first, Sam becomes energetic and talkative once he is comfortable and familiar
+    with his new team.
   academic_highlights:
-    - Dean’s List Fall 2014 - Spring 2015
+    - WFBHS four year honor roll, two year high honor roll (3/4)
+    - AP Scholar Award recipient
+    - USNSCC Color Guard Commander unit 091CRM
+    - USNSCC 2014 Honor Division RTIL
+    - WFBHS 2015 Principal trumpet
   athletic_highlights:
     - "High School":
-      - Qualified for 5A Colorado A-League championship in the 50 Free
-  headshot: members/eric-a-waugh.jpg
+      - 2016 All-State 500free (2nd in state)
+      - 2016 All-State honorable mention 200free (4th in state)
+      - 2015 All-State honorable mention 500free (6th in state)
+      - Swimmer on SSTY 2016 YMCA SCY National Championship team in three events (200 free, 100 fly, 800 free relay)
+      - 2016 Conference Champ 500 free
+      - 2016 D2 Sectionals Champ 500 free
+      - 2016 Conference runner-up 200 free
+      - 2016 D2 Sectionals runner-up 200 free
+      - 2015 D2 Sectionals runner-up 500 free
+  best_times:
+    - 500 free - 4:50.26 (2016 WIAA D2 sectionals)
+    - 200 free - 1:45.10 (2016 13 & O SC State Championship)
+    - 100 free - 48.44 (2016 YMCA State Meet)
+    - 100 fly - 52.90 (2016 13 & O SC State Championship)
+    - 50 free - 22.80 (2016 YMCA Sectionals Meet)
+
+- last_name: Reynolds
+  first_name: Ray
+  year: Junior
+  events: Mid-Distance Free, IM
+  hometown: Little Silver, NJ
+  school: Red Bank Regional HS
+  majors:
+    - Biology
+  minors:
+    - Music
+    - Chemistry
+  bio: >
+    Ray is originally from New Jersey, but moved out to Utah for school and to continue competing in freestyle mogul
+    skiing. He is now a junior studying Biology with hopes of studying medicine in the future. Ray swam in high school
+    and with the u of u club swim team his freshman year. In the summer, he also swims for Sea Bright Ocean Reacue in
+    USLA lifeguard tournaments back in NJ. Ray enjoys to swim IMs and mid distance freestyle events.
+  academic_highlights:
+    - Dean's list
+    - Organic Chemistry TA
+    - Biology TA
+    - Research Assistant in Brown Lab (Department of Pathology)
+    - 3.8 GPA
+
+- last_name: Skorut
+  first_name: Nick
+
+- last_name: Smith
+  first_name: Makai
+  middle_initial: A
+  year: Freshman
+  events: Sprint Free, Breast
+  hometown: St George, UT
+  school: High School
+  majors:
+    - Undeclared
+  athletic_highlights:
+    - "High School":
+      - UT 3A Swimming State Champion
+  best_times:
+    - 100 Free - 47.61
+    - 50 Free - 22.07
+    - 100 Breast - 1:01.60
+
+- last_name: Stewart
+  first_name: Ben
+  year: Senior
+  events: Mid-Distance Free, IM
+  hometown: Providence, UT
+  school: Mountain Crest HS
+  majors:
+    - Mechanical Engineering
+  minors:
+    - Computer Science
+  bio: >
+    Ben is a gigantic nerd that loves robotics, programming, and swimming (not surprisingly). Among academic accolades
+    in high school such as qualifying for the VEX worlds robotics championship and participating in Academic Olympiad,
+    he was state and zone qualifier in multiple events for several years and also part of the 4A record breaking 4x100
+    relay in 2013. He is in his senior year studying mechanical engineering and computer science and is excited to get
+    back in the water.
+  academic_highlights:
+    - Research assistant studying the effects of virtual reality on the acceleration of physical therapy
+  athletic_highlights:
+    - "Miscellaneous":
+      - RAGNAR relay participant
+    - "High School":
+      - 4x100 Freestyle record holder 4A (3:11.93)
+  best_times:
+    - 200 Free - 1:47.88 (Senior State 2013)
+    - 200 IM - 2:04.03 (CVM May invitational 2013)
+    - 100 Fly - 55.23 (Senior State 2013)
+    - 100 Free - 49.25 (UT 4A state 2013)
+
+- last_name: Tew
+  first_name: Austin
+  middle_initial: J
+  year: Extra-year(s) Senior
+  events: Fly, Back
+  hometown: Idaho Falls, ID
+  school: BYU Idaho
+  majors:
+    - Electrical Engineering
+  bio: >
+    Austin has been swimming since he was 11 years old. His favorite stroke is fly.
+  academic_highlights:
+    - B.S. Electrical Engineering BYU-I
+  best_times:
+    - 100 Fly 53.35 2015 BYU-I Winter Championship
+
+- last_name: Valeo
+  first_name: Alexander
+  middle_initial: C
+  year: Freshman
+  events: Fly, Breast
+  hometown: Salt Lake City, UT
+  school: Judge Memorial Catholic HS
+  majors:
+    - Business
+  bio: >
+    Some of the highlights were the experience swimming with the Salt Lake Country Club for 12 years  Another Highlight
+    was being captain of Judges Swim team.
+  academic_highlights:
+    - Debate Award
+  athletic_highlights:
+    - "Miscellaneous":
+      - Dirty Bird Mud Run
+  best_times:
+    - 100 fly - 59.24
+
+- last_name: Wagner
+  first_name: John
+  middle_initial: N
+  year: Freshman
+  events: Mid-Distance Free, Fly
+  hometown: Santa Clarita, CA
+  school: Hart HS
+  majors:
+    - Biomedical Engineering
+  bio: >
+    John only began to take competitive swimming seriously his sophomore year of high school when he joined a club team.
+    He lost weight through extreme self-discipline and managed to keep swimming faster and faster dropping seconds from
+    meet to meet.
+  athletic_highlights:
+    - "High School":
+      - Competed in D1 high school state meet (CIF)
+      - Most valuable swimmer and most improved swimmer in high school
+  best_times:
+    - 100 fly - 53.12 (2016 Foothill League Finals)
+    - 200 free - 1:49.2
+    - 200 fly - 2:00.08 (2015 RMDA Senior Meet)
+    - 500 free - 4:59
+
+- last_name: Watson
+  first_name: Guy
+  middle_initial: A
+  year: Senior
+  events: Sprint Free, Breast
+  hometown: Logan, UT
+  school: Logan HS
+  majors:
+    - Computer Science
+  bio: >
+    Guy Watson is from Logan, Utah, and studying Computer Science here at the University of Utah. In his first year, his
+    roommate dragged him off to the pool one day when stress was building up from too many classes at once. Swimming
+    quickly became a mental and physical release for stress and frustration. When the club was formed, Guy was right on
+    board, and has been working on becoming a better swimmer ever since.
+  academic_highlights:
+    - Resident Advisor
+  best_times:
+    - 50 free - 28
+    - 100 free - 1:01
+    - 50 breast - 36
+
+- last_name: Zhang
+  first_name: Gordon
+  middle_initial: W
+  year: Freshman
+  events: Fly, IM
+  hometown: Salt Lake City, UT
+  school: West HS
+  majors:
+    - Computer Science
+  bio: >
+    Gordon has many hobbies, out of which he has pursued swimming the most. He has been swimming since he was the age of
+    10, and since then made many improvements. He has swam for two USA swimming club teams from elementary to high
+    school, and competed for his high school team, eventually being elected captain.
+  academic_highlights:
+    - West High School Graduate
+    - West High Honor Roll
+  athletic_highlights:
+    - "High School":
+      - West High School Swim Team Captain
+      - West High School Panther Award
+      - West High School Distinguished Athlete
+      - West High School Men's Sports Representative
+  best_times:
+    - 100 fly - 59:91 (2014 Club State)
+    - 200 IM - 2:14.53 (2015 High School Duel Meet)
+    - 50 free - 25:01 (2015 High School State)
+    - 100 free - 54:13 (2015 High School Duel Meet)
+
+- last_name: Ziegler
+  first_name: Devon
+  year: Freshman
+  events: Sprint Free, Breast
+  hometown: Sandy, UT
+  school: Brighton HS
+  majors:
+    - Engineering
+  bio: >
+    Devon is a great athlete. He started swimming in 10th grade and has loved it ever since.
+  academic_highlights:
+    - Graduated with an Honors Diploma
+  athletic_highlights:
+    - "High School":
+      - Water polo goalie
+  best_times:
+    - 50 free - 27 (2016 Utah high school 5A region)
+    - 100 Breast - 1:13 (2016 Utah high school 5A region)

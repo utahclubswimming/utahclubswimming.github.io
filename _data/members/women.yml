@@ -1,164 +1,539 @@
-- last_name: Brown
-  first_name: Alexis
-  middle_initial: J
-  events: Mid-Distance Free, Distance Free
-  year: Sophomore
-  hometown: Woods Cross, UT
-  school: Woods Cross HS
+#- last_name:
+#  first_name:
+#  middle_initial:
+#  given_name:
+#  year:
+#  events:
+#  hometown:
+#  school:
+#  majors:
+#    -
+#  minors:
+#    -
+#  bio: >
+#
+#  academic_highlights:
+#    -
+#  athletic_highlights:
+#    -
+#      -
+#  best_times:
+#    -
+#  headshot:
+
+- last_name: Beguin
+  first_name: Leah
+  middle_initial: D
+  given_name:
+  year: Freshman
+  events: Sprint Free, Mid-Distance Free
+  hometown: Sacramento, CA
+  school: Bella Vista HS
   majors:
-    - Graphic Design
+    - Business - Marketing
+  minors:
+    -
   bio: >
-    Alexis is married to the most handsome guy in the world. She loves cats and
-    has two, one named Nelli and the other Skittles. She loves art. She likes
-    playing video games sometimes. She loves eating pistachio ice cream, going
-    to the beach, hiking, just being outside, skiing, snowboarding and anything
-    Disney!
+    I am a freshman at the U, from California. I've been swimming since I was 7 on a rec swim team which lead to me
+    doing swimming in high school. During high school swim it was swimming for 4 months during the season everyday for 3
+    hours. Since senior yeah though, I have not touched the water.
+  academic_highlights:
+    - Honors list and Scholar Athlete 2014-2016
   athletic_highlights:
     - "High School":
-      - Part of winning state team freshman year
-      - 5th in the 500 free at state twice
-      - 7th or 8th in the 200 free pretty much all 4 years
-      - four-time varsity team member
-      - 2014 team captain
+      - Nor Cal Section Champs (2013-2015)
+  best_times:
+    - (BV:DC) E.g 100 free (59.5)
+    - (BV Champs) 50 free (25.9)
+    - (BV:EC) 100 back (1:10)
+  headshot:
+
+- last_name: Betts
+  first_name: Chloe
+  middle_initial: D
+  year: Freshman
+  events: Back, IM
+  hometown: Salt Lake City, UT
+  school: SLSPA
+  majors:
+    - Pre-med
+    - Geography (GIS)
+    - International Studies (Global Health)
+  bio: >
+    Chloe Betts made her swimming debut at the age of 7 but by the age of 10 she outgrew the swimsuit, stopped swimming,
+    and turned to a life of dance. Chloe attended high school at the Salt Lake School for the Performing Arts with an
+    emphasis in classical ballet and modern dance. Despite numerous hip surgeries, she continued to dance her way
+    through life until she realized all she really wanted to do was get back into the pool. She started swimming with
+    the team summer 2016 and has loved every minute of it. She plans to continue swimming and studying her way through
+    college. Go Utes!
+  academic_highlights:
+    - Crocker Science Scholar
+    - ACCESS Scholar
+    - Bowman Hawkes Scholar
+    - Haslam Scholar
+  athletic_highlights:
+    - "High School":
+      - USF Dance Award Winner
+      - UDEO Superior Dance
+  best_times:
+    - Once I won best 200 breast stroke for girls under the age of eight. But thats all I've got.
+
+- last_name: Buhler
+  first_name: Allison
+  year: Freshman
+  events: Fly, IM
+  hometown: Salt Lake City, UT
+  school: East HS
+  majors:
+    - Undeclared
+  bio: >
+    Ally is a freshman at the University of Utah. She started swimming in high school, and swam all four years of high
+    school. In her spare time she enjoys the outdoors, music, and photography.
+  academic_highlights:
+    - AP Scholar
+    - Honor Roll
+    - Utah Scholar
+  athletic_highlights:
+    - "High School":
+      - Lettered in Swimming for East High School
+  best_times:
+    - 100 fly - 1.25.84
+    - 200 IM - 3.00.81
+    - 100 free - 1.15.98
+    - 100 back - 1.28.07
+
+- last_name: Castillo
+  first_name: Mabel
+  year: Freshman
+  events: Sprint Free
+  hometown: Bountiful
+  school: Bountiful HS
+  majors:
+    - International Studies
+    - Japanese
+  minors:
+    - Korean
+  bio: >
+    Mabel Castillo is a hard worker and she has been swimming for approximately one year. She joined the swim team in
+    her high school in the middle of the season. She specializes in the 50 yard and 100 yard freestyle. Though she is
+    not opposed to trying other events. She did swim the 100 butterfly once. She knows what she is capable of and wants
+    to make it somewhere big in the world of swimming and will stop at nothing to ensure that dream is fulfilled. She
+    will, no doubt, be a great asset to the team and put in her dues to catch up with her more advanced peers and
+    upperclassmen.
+  academic_highlights:
+    - Honors graduate
+    - Exchange student to Japan
+    - Airman in Civil Air Patrol
+    - Excellence award (literature)
+  athletic_highlights:
+    - "High School":
+      - Kendo Prefectural Championships
+      - Fencing Regional Championships
+  best_times:
+    - 50 free - 42.35 (2016 Woods Cross High School 4A)
+    - 100 free - 2:00 (2016 Woods Cross High School 4A)
+
 - last_name: Dearden
   first_name: Megan
   middle_initial: C
+  year: Sophomore
   events: Back, IM
-  year: Freshman
   hometown: Colorado Springs, CO
   school: Air Academy HS
   majors:
     - Biomedical Engineering
-  minors:
-    - Spanish
-    - Math
-  headshot: members/megan-c-dearden.jpg
-- last_name: Drane
-  first_name: Cara
-  middle_initial: B
-  events: Sprint Free / Breast
+  bio: >
+    Megan began swimming competitively at six years old, and she has spent many of her waking (and not so much waking)
+    hours in and around the water. On the team, her bubbly personality earned her the nickname, "Energizer Bunny."
+  academic_highlights:
+    - Dean's List
+  athletic_highlights:
+    - "Miscellaneous":
+      - Marathon Finisher
+  best_times:
+    - 400 IM 5:13 Olympus Holiday Meet
+
+- last_name: DeFilippis
+  first_name: Rachel
+  middle_initial: C
   year: Junior
-  hometown: Forest, LA
-  school: Southern Utah University
+  events: Sprint Free, Mid-Distance Free
+  hometown: Novato, CA
+  school: San Marin HS
   majors:
     - Biology
   minors:
-    - Chemistry
-- last_name: Heyman
-  first_name: Jane Marie
-  middle_initial: C
-  given_name: Janey
-  events: Distance Free/IM/Fly
-  year: Sophomore
-  hometown: Santa Cruz, CA
-  school: Saratoga HS
-  officer: Women's Team Captain
+    - Nutrition
   bio: >
-    Janey’s swim career started with the challenge: “I bet you can’t swim to
-    that lane line” and since then she’s been hooked on the sport.  Along with
-    swimming in pools, Janey also enjoys open water swimming, river rafting,
-    hiking, camping, and climbing, among other outdoor activities.
+    Rachel began competitively swimming as a freshman in high school to waive her P.E. requirement, but quickly fell in
+    love with the sport and the opportunities it offered. After high school, Rachel went on to swim NCAA Division III at
+    California Lutheran University for two years before transferring to the U. When not swimming, Rachel enjoys eating,
+    sleeping and frolicking in the ocean.
+  athletic_highlights:
+    - "California Lutheran University":
+      - Consolation Finalist in 200 FR Relay, 200 IM Relay, 400 FR Relay, 400 IM Relay at 2015 SCIAC Championships
+      - Most Improved Player 2015
+    - "San Marin High School":
+      - 4 year varsity swim team member
+      - 2 year varsity water polo team member
+  best_times:
+    - 50 FR - 27.75 (2015 SCIAC Championships)
+    - 100 FR - 1:02:77 (2016 SCIAC Championships)
+    - 200 FR - 2:16:71 (2015 SCIAC Championships)
+
+- last_name: Feliciano
+  first_name: Hope
+  year: Freshman
+  events: Sprint Free, Mid-Distance Free
+  hometown: West Jordan, UT
+  school: Juan Diego Catholic HS
+  majors:
+    - Exercise and Sport Science
+  bio: >
+    Hope began swimming through KYAT, for a short time, before joining LifeCentre Swimming. She continued to swim all
+    four years in high school. Swimming is a foundation that she believes shaped her work ethic and personality, as a
+    whole.
   academic_highlights:
-    - Current Member of Honors College
-    - Community Engaged Learning Liaison for HONORS 2300 (Spring 2015)
-    - Member of the Urban Ecology and Sustainability Scholars Group 2015-2016
-    - Member of University of Utah Women’s Chorus
-    - Fall 2014 – Spring 2015 Dean’s List
-    - Active member of Alpha Chi Omega
+    - Honor Roll
   athletic_highlights:
     - "High School":
-      - Four-time varsity team member
-      - 2014 Women’s team captain
-  headshot: members/jane-marie-c-heyman.jpg
-- last_name: Hoang
-  first_name: Ina
-  middle_initial: L
-  events: Mid-distance Free, Breast
+      - Utah 3A State Swimming Medalist
+      - Salt Lake Swim League Champion
+  best_times:
+    - 100 Free 58.62 (Utah 3A State Swimming)
+    - 200 Free 2:11.99 (Region 11)
+    - 50 Free 26.92 (Utah 3A State Swimming)
+
+- last_name: Halterman
+  first_name: Aliya
   year: Sophomore
-  hometown: Salt Lake City, UT
-  school: Hillcrest HS
+  events: Sprint Free, Back
+  hometown: Ridgecrest, CA
+  school: Burroughs HS
+  majors:
+    - Pre-nursing
   bio: >
-    Ina has enjoyed swimming for as long as she can remember, but she can also
-    remember she likes eating more. Which led her to pursue competitive
-    swimming, and ultimately with the Utah Club Swim Team. Besides that though,
-    she also likes playing with cats even if they like to parkour off of her to
-    get away. So when she's not chasing cats, she'll be with the team who won't
-    climb on her, and she's more than thrilled to be a part of a team again.
-  headshot: members/ina-l-hoang.jpg
+    Aliya has been swimming since freshman year of high school, specializing in the 50 free, 100 free, and 100 back.
+  academic_highlights:
+    - Just transferred to the U, looking forward to oncoming adventures
+  athletic_highlights:
+    - "Miscellaneous":
+      - Santa Barbara triathlon 4th place
+  best_times:
+    - 50 free - 26.04 (2014 CA CIF)
+    - 100 Free - 56.42 (2014 CA CIF)
+    - 100 back - 1:03.80 (2014 CC JO championships)
+
+- last_name: Hash
+  first_name: Lauren
+  year: Freshman
+  events: Mid-Distance Free, IM
+  hometown: Holladay, UT
+  school: East HS
+  majors:
+    - Undecided
+  bio: >
+    Lauren joined the swim team sophomore year in high school because she thought she knew how to swim, little did she
+    know. After a rough though fun couple of years swimming she thought she would try something new her senior year and
+    she fell in love. The 200 m IM and the 100 Fly were new, exciting and challenging.
+  academic_highlights:
+    - LDSSA Member
+    - Student of the Year - SLC Exchange Club
+    - Regents Scholar
+    - Student of the Month (2) - East High
+    - BYU Management Society Scholar
+    - Athletic Alumni Scholar
+    - National Honors Society Treasurer
+    - Student Senate-Community Service Chairperson
+    - Seminary Student Council
+    - Laurel President
+    - Freshman Basketball Team Captain
+  best_times:
+    - 200 Free - 3:03 (East Meet)
+    - 200 IM - 3:08 (Regions 4A)
+    - 50 Free - 36:55 (City Meet)
+    - 100 Fly - 1:30 (Bonneville)
+    - 100 Free - 1:22 (East Meet)
+    - 100 Back - 1:35 (January Invitational)
+    - 100 Breast - 1:47 (2014-2015)
+
+- last_name: Heyman
+  first_name: Janey
+  middle_initial: C
+  year: Junior
+  events: Fly, IM
+  hometown: Santa Cruz, CA
+  school: Saratoga HS
+  majors:
+    - Parks, Recreation, and Tourism
+  minors:
+    - Environmental and Sustainability Studies
+  bio: >
+    Janey has been swimming competitively for 12 years and is excited to continue swimming with the University of Utah
+    Club Swim Team.
+  academic_highlights:
+    - Dean's List
+    - Urban Ecology and Sustainability Scholar
+    - Undergraduate Student Advisory Committee
+    - Recreation and Parks Society
+  athletic_highlights:
+    - "Miscellaneous":
+      - SF Nike Half Marathon finisher
+      - Alcatraz Invitational finisher
+  best_times:
+    - 100 Fly - 1:01.7 (Central Coast Sectionals 2014)
+    - 200 IM - 2:17.4 (Central Coast Sectionals 2014)
+
 - last_name: Hofmann
   first_name: Melissa
   middle_initial: N
-  events: Sprint Free/Back
-  year: Junior
+  year: Senior
+  events: Sprint Free, Back
   hometown: Salt Lake City, UT
   school: Olympus HS
-  officer: Treasurer
+  majors:
+    - Anthropology
+  minors:
+    - Integrative Human Biology
   bio: >
-    Melissa began swimming at the age of 8 and loves everything that has to do
-    with water. As a stereotypical swimmer, Melissa cannot run. Therefore, when
-    the zombie apocalypse comes she will be the first one caught. When Melissa
-    is not swimming she enjoys reading, binge watching Netflix, and playing
-    guitar. She doesn’t enjoy doing any of these things while swimming.
+    Melissa began swimming at the age of 8 and loves everything that has to do with water. As a stereotypical swimmer,
+    Melissa cannot run. Therefore, when the zombie apocalypse comes she will be the first one caught. When Melissa is
+    not swimming she enjoys reading, binge watching Netflix, and playing guitar. She doesn’t enjoy doing any of these
+    things while swimming.
   academic_highlights:
     - Member of New University Scholars Program
     - Member of National Society of Leadership and Success
-    - Pre-Physical Therapy Student
-    - Former Research Assistant in Utah Department of Epidemiology (Spring 2015)
   athletic_highlights:
-    - "2015-2015":
+    - "College":
       - Individual State Champion at the 2015 Utah Masters State Championships in the 100 Free
       - Team record holder in 100 Free, 50 Back, and 100 Back
     - "High School":
       - Four-time athletic letter recipient
       - Member of State Champion 200 Medley and 400 Freestyle Relays at 2011 Utah High School 4A State Championships
       - Member of School Record-Holding 200 Medley, 200 Freestyle, and 400 Freestyle Relay teams
-  headshot: members/melissa-n-hofmann.jpg
-- last_name: Jamora
-  first_name: Alexandra
-  middle_initial: L
-  given_name: Al
-  events: Sprint Free/Back/Breast
-  year: Alumna
-  hometown: Kapolei, HI
-  school: University of Utah
+  best_times:
+    - 50 Free - 25.23 (2013 Utah High School 4A State)
+    - 100 Free - 55.50 (2013 Utah High School 4A State)
+    - 50 Back - 29.98 (2015 Utah State Masters Championships)
+    - 100 Back - 1:05.79 (2016 East Coast Collegiate Club Nationals)
+
+- last_name: Maloney
+  first_name: Katrina
+  middle_initial: M
+  year: Faculty Member
+  events: Distance Free, Fly
+  hometown: Dover, NH
+  school: Embry Riddle Aeronautical University
   majors:
-    - English
-  minors:
-    - Arabic
+    - Civil Engineering
   bio: >
-    Al has been swimming since a young age and competed throughout her life.
-    In high school she participated in swimming, water polo, and dabbled in
-    cross country. She later walked on to the University of Utah swim team and
-    stuck with it till graduation. She currently resides in Salt Lake City
-    working for Victory Packaging and enjoys Utah’s great outdoors.
-  academic_highlights:
-    - Pac 12 Women’s Honorable Mention All-Academic
-    - English Student Advisory Committee Vice-Chair
-    - Attendee/participant of National University Model Arab League Conference
-    - Student Athlete Mentor
-    - Attendee/recipient of NCAA Career in Sports Forum
-    - University of Utah Residential Hall Association Social Justice & Marketing Board Member
+    Katrina is a Captain in the Air Force currently teaching Aerospace Studies at the University of Utah. She was a
+    Division 1 collegiate athlete at the University of New Hampshire where her diverse capabilities allowed her to swim
+    a range of events from the 50 and 100 freestyle to the 200 butterfly and 1650 freestyle. Most recently she competed
+    in Japan's Masters Nationals where she placed top 3 in all 6 of her events.
   athletic_highlights:
-    - "2014-2015":
-      - Three-time individual state champion in the 2015 Utah Masters State Championships
-      - Team Record Holder in 50 free, 50 Breast, 100 IM
-      - Member of the Team Record 400 free and 200 Medley Relay
-- last_name: McMahon
-  first_name: Katierose
-  events: Sprint Free / IM
-  year: Senior
-  hometown: Salt Lake City, UT
-  school: Judge Memorial Catholic HS
+    - "Pre-U of U":
+      - 3 x Japanese masters national champ
+      - 3 x America East Champion
+
+- last_name: Miller
+  first_name: Catherine
+  middle_initial: A
+  year: Sophomore
+  events: Mid-Distance Free, Breast
+  hometown: Tooele, UT
+  school: Tooele HS
+  majors:
+    - Biology
   bio: >
-    Katierose is a Social Work major who has used swimming as a way to keep
-    active, make friends, and enjoy competition ever since she was a young girl.
-    Her dad put her in the pool to learn how to swim when she was 6 months old,
-    and it caught on quickly. After some years she took a break from swimming
-    and attempted diving, where at the age of 12, was ranked 11th in the North
-    West age division Conference. However, her heart wasn't entirely in diving,
-    so she returned to swimming.
-  headshot: members/katierose-mcmahon.jpg
+    Catherine got into swimming through water polo. Catherine swam competitively for one year in high school, and she
+    loved it! Catherine has played water polo for four years. She has continued playing for the University and hopes to
+    get into better shape through swimming with the club team.
+  academic_highlights:
+    - Graduated with Honors Diploma Tooele High School 2015.
+    - National Honors Society member (2013-2015)
+    - President of MESA (2014-2015)
+  athletic_highlights:
+    - "High School":
+      - Qualified for 3A State first year swimming
+      - Academic All-American 2015 for swimming
+      - 1st place 2016 water polo Summer League
+      - 2016 Utah water polo Conference champion
+  best_times:
+    - 100 breast 1.22 (2015 Utah High School 3A State)
+    - 200 IM 3.00 (2015 Tooele Invitational)
+    - 100 free 1.12 (2015 Tooele Invitational)
+    - 50 free 0.32 (2015 Tooele Purple vs. White meet)
+
+- last_name: Pabst
+  first_name: Cass
+  middle_initial: L
+  year: Junior
+  events: Sprint Free, Breast
+  hometown: Branchburg, NJ
+  school: Salt Lake City Community College
+  majors:
+    - Early Childhood Education & Special Education
+  minors:
+    - Education
+  bio: >
+    I have not swam in about three years but am excited to have a team to practice will and compete with again! I love
+    swimming but feeling a bit rusty!
+  academic_highlights:
+    - Swimming and Peer Leadership
+  athletic_highlights:
+    - "High School":
+      - Varsity swim team as a freshman
+      - Captain of high school swim team
+
+- last_name: Prettyman
+  first_name: Melanie
+  middle_initial: L
+  year: Freshman
+  events: Sprint Free, Mid-Distance Free
+  hometown: Mechanicsville, MD
+  school: Salt Lake School for the Performing Arts
+  majors:
+    - Pre-med/Undeclared
+  bio: >
+    Melanie is a decent swimmer, not amazing in any means. She started swimming her freshman year, her awesome
+    coach/teacher had convinced her to join the team even though she had no experience at all and got her to where she
+    is today. She teaches swim lessons at her local pool and is also a lifeguard and CNA.
+  academic_highlights:
+    - Honor Society
+    - Thespian Society
+    - Athletic Scholar
+  athletic_highlights:
+    - "High School":
+      - Swim Regions 2012-2016
+      - Tennis Regions 2014
+      - Track Regions 2015
+  best_times:
+    - 100 Free - 1:10
+    - 50 Free - 32.57
+  headshot:
+
+- last_name: Price
+  first_name: Bailey
+  middle_initial: C
+  year: Freshman
+  events: Sprint Free, IM
+  hometown: West Haven, UT
+  school: Fremont HS
+  majors:
+    - Nursing
+  minors:
+    - American Sign Language
+  bio: >
+    Bailey has swam for 4 years, throughout high school.
+  academic_highlights:
+    - Received honor cords for sign language for maintaining at least a 3.2 GPA and volunteering at least 10 hours for the Deaf community
+  athletic_highlights:
+    - "High School":
+      - Lettered in swimming 3 years out of 4
+  best_times:
+    - 100 free - 1:01 (2015 Utah High School 5A Region)
+
 - last_name: Pryor
   first_name: Alexandra
-  given_name: Xandra
+
+- last_name: Romanovskaya Robinson
+  first_name: Yekaterina
+  middle_initial: I
+  year: Senior
+  events: Mid-Distance Free, IM
+  hometown: Moscow, Russia
+  school: Academy of Math, Engineering, and Science
+  majors:
+    - Biomedical Engineering
+  bio: >
+    Kate is a 25 year old engineering student and works at a research lab. She swam competitively for 10 years, followed
+    by a decade-long break.
+  athletic_highlights:
+    - "High School":
+      - Medaled in 100 free at High School Regionals freshman year
+      - UT 3A State Swimmer
+
+- last_name: Samaniego
+  first_name: Valerie
   year: Sophomore
+  events: Breast, IM
+  hometown: Pomona, CA
+  school: Lynn University
+  majors:
+    - Athletic Training
+  bio: >
+    Valerie began her swimming career in Freshman year of high school and competed in the state competitions. After
+    graduation she was recruited to go swim for Lynn University in south Florida.
+  athletic_highlights:
+    - "Pre-U of U":
+      - Competed in the Sunshine State Conference
+  best_times:
+    - 100 Breast 1:12:00 (Sunshine State Conference)
+
+- last_name: Sasivarevic
+  first_name: Nadja
+  year: Freshman
+  events: Breast, IM
+  hometown: Sandy, UT
+  school: Brighton HS
+  majors:
+    - Business
+  bio: >
+    Nadja has swam since the third grade. She first started in swim lessons, then moved up to pre-comp, then to
+    competitive swimming. She also swam all throughout high school.
+  academic_highlights:
+    - Business Scholar
+    - 3.8 GPA in high school
+  athletic_highlights:
+    - "High School":
+      - Region champion
+  best_times:
+    - 100 Breast - 1.20
+    - 200 IM - 2.45ish I am not too sure anymore
+    - 100 free - 1.10
+
+- last_name: Stobbie
+  first_name: Belle
+  middle_initial: C
+  given_name:
+  year: Freshman
+  events: Sprint Free, Mid-Distance Free
+  hometown: Darien, CT
+  school: Darien HS
+  majors:
+    - Pre-nursing
+  bio: >
+    I have been swimming for a little over 8 years, year round. I swam for my high school team for 4 years, was captain
+    my senior year. Qualified and placed at States and Opens a couple of years. I swam the 200 free, 100 free, and 200
+    free relay and the 400 free relay
+  academic_highlights:
+    - Interned my local hospitals
+    - Volunteering in my community
+    - Took AP courses in high school
+  athletic_highlights:
+    - "High School":
+      - Triple Crown (FCIAC, STATE, STATE OPENS) Champs for 3 years in a row, winning states senior year
+      - recognized for the All American relay junior year
+  best_times:
+    - 200 free - 1:55.64 (2015 State Opens)
+    - 100 free - 53.77 (2015 State Finals)
+    - 50 free - 25.03 (2015 State Finals)
+
+- last_name: Stoneman
+  first_name: Ainsley
+  year: Sophomore
+  events: Sprint Free, Mid-Distance Free
+  hometown: Salem
+  school: Salem Hills HS
+  majors:
+    - Biology
+    - Chemistry
+  bio: >
+    Ainsley loves to swim. Ainsley loves being part of a team. Therefore, Ainsley loves swim team.
+  academic_highlights:
+    - I haven't failed yet
+  athletic_highlights:
+    - "High School":
+      - Three-time letter recipient
+      - Two-time recipient of Heart of the Skyhawk

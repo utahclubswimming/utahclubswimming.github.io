@@ -99,3 +99,29 @@
     </div>
 </div>
 {% endif %}
+
+{% if member.best_times %}
+<div class="6u 12u(mobile)">
+    <div class="content profile">
+
+        <!-- Best Times -->
+
+        <article class="box personal">
+
+            <header>
+                <h4>Best Times</h4>
+            </header>
+
+            <section>
+                <ul>
+                {% for time in member.best_times %}
+                    <li>{{ time }}</li>
+                {% endfor %}
+                </ul>
+            </section>
+
+        </article>
+
+    </div>
+</div>
+{% endif %}

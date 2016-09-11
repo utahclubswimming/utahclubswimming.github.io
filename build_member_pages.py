@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import os
 import time
@@ -71,7 +71,7 @@ def template_for_member(member, roster, index):
 
 def process_roster(roster, members):
     # Iterate over the members and check that everyone has a page.
-    for i in xrange(len(members)):
+    for i in range(len(members)):
         member = members[i]
         filename = filepath_for_member(member)
         print("Processing {} member {}: {}".format(roster, i, filename))

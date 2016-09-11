@@ -1,0 +1,164 @@
+- last_name: Brown
+  first_name: Alexis
+  middle_initial: J
+  events: Mid-Distance Free, Distance Free
+  year: Sophomore
+  hometown: Woods Cross, UT
+  school: Woods Cross HS
+  majors:
+    - Graphic Design
+  bio: >
+    Alexis is married to the most handsome guy in the world. She loves cats and
+    has two, one named Nelli and the other Skittles. She loves art. She likes
+    playing video games sometimes. She loves eating pistachio ice cream, going
+    to the beach, hiking, just being outside, skiing, snowboarding and anything
+    Disney!
+  athletic_highlights:
+    - "High School":
+      - Part of winning state team freshman year
+      - 5th in the 500 free at state twice
+      - 7th or 8th in the 200 free pretty much all 4 years
+      - four-time varsity team member
+      - 2014 team captain
+- last_name: Dearden
+  first_name: Megan
+  middle_initial: C
+  events: Back, IM
+  year: Freshman
+  hometown: Colorado Springs, CO
+  school: Air Academy HS
+  majors:
+    - Biomedical Engineering
+  minors:
+    - Spanish
+    - Math
+  headshot: members/megan-c-dearden.jpg
+- last_name: Drane
+  first_name: Cara
+  middle_initial: B
+  events: Sprint Free / Breast
+  year: Junior
+  hometown: Forest, LA
+  school: Southern Utah University
+  majors:
+    - Biology
+  minors:
+    - Chemistry
+- last_name: Heyman
+  first_name: Jane Marie
+  middle_initial: C
+  given_name: Janey
+  events: Distance Free/IM/Fly
+  year: Sophomore
+  hometown: Santa Cruz, CA
+  school: Saratoga HS
+  officer: Women's Team Captain
+  bio: >
+    Janey’s swim career started with the challenge: “I bet you can’t swim to
+    that lane line” and since then she’s been hooked on the sport.  Along with
+    swimming in pools, Janey also enjoys open water swimming, river rafting,
+    hiking, camping, and climbing, among other outdoor activities.
+  academic_highlights:
+    - Current Member of Honors College
+    - Community Engaged Learning Liaison for HONORS 2300 (Spring 2015)
+    - Member of the Urban Ecology and Sustainability Scholars Group 2015-2016
+    - Member of University of Utah Women’s Chorus
+    - Fall 2014 – Spring 2015 Dean’s List
+    - Active member of Alpha Chi Omega
+  athletic_highlights:
+    - "High School":
+      - Four-time varsity team member
+      - 2014 Women’s team captain
+  headshot: members/jane-marie-c-heyman.jpg
+- last_name: Hoang
+  first_name: Ina
+  middle_initial: L
+  events: Mid-distance Free, Breast
+  year: Sophomore
+  hometown: Salt Lake City, UT
+  school: Hillcrest HS
+  bio: >
+    Ina has enjoyed swimming for as long as she can remember, but she can also
+    remember she likes eating more. Which led her to pursue competitive
+    swimming, and ultimately with the Utah Club Swim Team. Besides that though,
+    she also likes playing with cats even if they like to parkour off of her to
+    get away. So when she's not chasing cats, she'll be with the team who won't
+    climb on her, and she's more than thrilled to be a part of a team again.
+  headshot: members/ina-l-hoang.jpg
+- last_name: Hofmann
+  first_name: Melissa
+  middle_initial: N
+  events: Sprint Free/Back
+  year: Junior
+  hometown: Salt Lake City, UT
+  school: Olympus HS
+  officer: Treasurer
+  bio: >
+    Melissa began swimming at the age of 8 and loves everything that has to do
+    with water. As a stereotypical swimmer, Melissa cannot run. Therefore, when
+    the zombie apocalypse comes she will be the first one caught. When Melissa
+    is not swimming she enjoys reading, binge watching Netflix, and playing
+    guitar. She doesn’t enjoy doing any of these things while swimming.
+  academic_highlights:
+    - Member of New University Scholars Program
+    - Member of National Society of Leadership and Success
+    - Pre-Physical Therapy Student
+    - Former Research Assistant in Utah Department of Epidemiology (Spring 2015)
+  athletic_highlights:
+    - "2015-2015":
+      - Individual State Champion at the 2015 Utah Masters State Championships in the 100 Free
+      - Team record holder in 100 Free, 50 Back, and 100 Back
+    - "High School":
+      - Four-time athletic letter recipient
+      - Member of State Champion 200 Medley and 400 Freestyle Relays at 2011 Utah High School 4A State Championships
+      - Member of School Record-Holding 200 Medley, 200 Freestyle, and 400 Freestyle Relay teams
+  headshot: members/melissa-n-hofmann.jpg
+- last_name: Jamora
+  first_name: Alexandra
+  middle_initial: L
+  given_name: Al
+  events: Sprint Free/Back/Breast
+  year: Alumna
+  hometown: Kapolei, HI
+  school: University of Utah
+  majors:
+    - English
+  minors:
+    - Arabic
+  bio: >
+    Al has been swimming since a young age and competed throughout her life.
+    In high school she participated in swimming, water polo, and dabbled in
+    cross country. She later walked on to the University of Utah swim team and
+    stuck with it till graduation. She currently resides in Salt Lake City
+    working for Victory Packaging and enjoys Utah’s great outdoors.
+  academic_highlights:
+    - Pac 12 Women’s Honorable Mention All-Academic
+    - English Student Advisory Committee Vice-Chair
+    - Attendee/participant of National University Model Arab League Conference
+    - Student Athlete Mentor
+    - Attendee/recipient of NCAA Career in Sports Forum
+    - University of Utah Residential Hall Association Social Justice & Marketing Board Member
+  athletic_highlights:
+    - "2014-2015":
+      - Three-time individual state champion in the 2015 Utah Masters State Championships
+      - Team Record Holder in 50 free, 50 Breast, 100 IM
+      - Member of the Team Record 400 free and 200 Medley Relay
+- last_name: McMahon
+  first_name: Katierose
+  events: Sprint Free / IM
+  year: Senior
+  hometown: Salt Lake City, UT
+  school: Judge Memorial Catholic HS
+  bio: >
+    Katierose is a Social Work major who has used swimming as a way to keep
+    active, make friends, and enjoy competition ever since she was a young girl.
+    Her dad put her in the pool to learn how to swim when she was 6 months old,
+    and it caught on quickly. After some years she took a break from swimming
+    and attempted diving, where at the age of 12, was ranked 11th in the North
+    West age division Conference. However, her heart wasn't entirely in diving,
+    so she returned to swimming.
+  headshot: members/katierose-mcmahon.jpg
+- last_name: Pryor
+  first_name: Alexandra
+  given_name: Xandra
+  year: Sophomore
