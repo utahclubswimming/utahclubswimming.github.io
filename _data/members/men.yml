@@ -116,9 +116,45 @@
 
 - last_name: Bird
   first_name: Matthew
+  year: Extra-year(s) Senior
+  events: Distance Free, Fly
+  hometown: Draper, UT
+  school: Juan Diego Catholic HS
+  majors:
+    - Exercise Sports Science
+  minors:
+    - Nutrition
+  bio: >
+    Matt started swimming when he was 11 years old, participating in precomp, summer league and high school swimming.
+    Matt loves the sport of swimming, and continues to coach and participate in the sport at local high schools and the
+    university.
+  athletic_highlights:
+    - All state swimmer in 100 breast
+  best_times:
+    - 100 breast 1:05.61 (2011 3a high school state)
 
 - last_name: Boekholder
   first_name: Ryan
+  middle_initial: W
+  year: Freshman
+  events: Sprint Free, Breast
+  hometown: Sandy, UT
+  school: Juan Diego Catholic HS
+  majors:
+    - Biomedical Engineering
+  bio: >
+    Ryan Boekholder enjoys skiing and hiking and spends most of his free time outside or with other people. He fell in
+    love with swimming in freshman year of high school at which point he swam under coach John Moran until transferring
+    to Olympus Aquatics in the summer of 2015.
+  academic_highlights:
+    - Honors college member
+  athletic_highlights:
+    - "High School":
+      - UT 3A state championships
+  best_times:
+    - 50 Freestyle - 23.70 (Utah High School state 2016)
+    - 100 Freestyle - 53.00 (Utah High School state 2016)
+    - 100 Breaststroke - 1.07.00 (Utah High School state 2016)
 
 - last_name: Bore
   first_name: David
@@ -339,6 +375,32 @@
 
 - last_name: Garcia
   first_name: Logan
+  middle_initial: K
+  year: Sophomore
+  events: Mid-Distance Free, Distance Free
+  hometown: Boulder City, NV
+  school: Daniel Boone Area HS
+  majors:
+    - Physics
+  bio: >
+    Logan Garcia is a long distance swimmer with a very diverse team history. Garcia has swam for 8 different club and
+    high school teams stretching across the country. While Garcia is mostly a distance swimmer he has swam every event,
+    having some success in mid distance freestyle and the IMs as well.
+  athletic_highlights:
+    - "High School":
+      - 2015 LA Grand Prix qualifier
+      - 5x YMCA Nationals qualifier
+      - 3x PA District 3 4A swimming qualifier
+      - 2x PA District 3 4A Cross Country Qualifier
+  best_times:
+    - 50 free - 23.59 (2015 MA AP RY Washington Championship)
+    - 100 free - 49.91 (2015 NC AP YMCA Nationals SCY)
+    - 200 free - 1:47.88 (2015 MA AP PA YMCA State Swimming Championships)
+    - 500 free - 4:43.47 (2015 PV AP SPY Winterfest)
+    - 1000 free - 9:45.31 (2015 NC AP YMCA Nationals SCY)
+    - 1650 free - 16:44.14 (2013 MA DSC Tyr Cup Holiday Classic)
+    - 200 IM - 2:02.04 (2014 MA AP PA YMCA States)
+    - 400 IM - 4:16.12 (2014 MA AP PA YMCA States)
 
 - last_name: Hemmersmeier
   first_name: Kevin
@@ -487,9 +549,48 @@
 
 - last_name: Noaker
   first_name: Dylan
+  middle_initial: R
+  year: Extra-year(s) Senior
+  events: Mid-Distance Free, Distance Free
+  hometown: Oakley, UT
+  school: Oakley HS
+  majors:
+    - Computer Science - Entertainment Arts & Engineering
+  bio: >
+    Dylan is an ex-triathlete and cross-country skier. He also swims.
+  athletic_highlights:
+    - "Miscellaneous":
+      - 1st place 18-22 age group Mtn. Dell wasatch citizen's series race.
+  best_times:
+    - 500 free - 8:39
 
 - last_name: Pryor
-  first_name: Nick
+  first_name: Nicholas
+  middle_initial: R
+  given_name: Nick
+  year: Freshman
+  events: Mid-Distance Free, Distance Free
+  hometown: Midvale, UT
+  school: Highland HS
+  majors:
+    - Biomedical Engineering
+  academic_highlights:
+    - Valedictorian - Highland High School
+  athletic_highlights:
+    - "High School":
+      - 4A 3rd place finisher - 200 Free 2016
+      - 4A 2nd place - 500 free
+      - All-State All-American 2016
+  best_times:
+    - 50 free - 23.97 (2015 UT SC senior champs)
+    - 100 free - 50.34 (2015 St TX Speedo Champs)
+    - 200 Free - 1:47.63 (2016 UT 4A )
+    - 500 Free - 4:52.04 (2015 St TX Speed)
+    - 1000 Free - 9:55.82 (2015 St TX Champs)
+    - 1650 Free - 16:38.83 (2015 TX Champs)
+    - 100 Back - 59.48 (2015 St SC Champs)
+    - 200 IM - 2:08.78 (East Dual Meet 12-8-2015)
+    - 100 Fly - 58.76 (East Meet, 12-8-2015)
 
 - last_name: Quackenbush
   first_name: Cameron
@@ -520,7 +621,6 @@
 - last_name: Raber
   first_name: Matthew
   middle_initial: S
-  given_name:
   year: Freshman
   events: Mid-Distance Free, Fly
   hometown: Whitefish Bay, WI
@@ -584,7 +684,30 @@
     - 3.8 GPA
 
 - last_name: Skorut
-  first_name: Nick
+  first_name: Nicholas
+  middle_initial: J
+  given_name: Nick
+  year: Freshman
+  events: Fly, Back
+  hometown: Draper, UT
+  school: Hillcrest HS
+  majors:
+    - Undeclared
+  academic_highlights:
+    - IB Diploma Programme graduate
+    - AP Scholar with Distincton
+  athletic_highlights:
+    - "High School":
+      - Utah State Medalist in men's 100 backstroke in 2015 and 2016
+      - Utah State Finalist in men's 100 fly
+      - Team Captain of High school swim team
+      - Silver level recipient of 2009 Presidential Fitness Award at Alta View Elementary school
+  best_times:
+    - 100 fly - 54.51 (2016 Utah High School 4A State)
+    - 100 back - 55.44 (2016 Utah High School 4A State)
+    - 100 breast - 1:10.51 (2015 Grantsville vs Hillcrest dual meet)
+    - 50 free - 22.39(r) (2016 Junior Varsity Region Championship)
+    - 100 free - 49.26(r) (2016 Junior Varsity Region Championship)
 
 - last_name: Smith
   first_name: Makai
@@ -712,33 +835,33 @@
     - 100 free - 1:01
     - 50 breast - 36
 
-- last_name: Zhang
-  first_name: Gordon
-  middle_initial: W
-  year: Freshman
-  events: Fly, IM
-  hometown: Salt Lake City, UT
-  school: West HS
-  majors:
-    - Computer Science
-  bio: >
-    Gordon has many hobbies, out of which he has pursued swimming the most. He has been swimming since he was the age of
-    10, and since then made many improvements. He has swam for two USA swimming club teams from elementary to high
-    school, and competed for his high school team, eventually being elected captain.
-  academic_highlights:
-    - West High School Graduate
-    - West High Honor Roll
-  athletic_highlights:
-    - "High School":
-      - West High School Swim Team Captain
-      - West High School Panther Award
-      - West High School Distinguished Athlete
-      - West High School Men's Sports Representative
-  best_times:
-    - 100 fly - 59:91 (2014 Club State)
-    - 200 IM - 2:14.53 (2015 High School Duel Meet)
-    - 50 free - 25:01 (2015 High School State)
-    - 100 free - 54:13 (2015 High School Duel Meet)
+#- last_name: Zhang
+#  first_name: Gordon
+#  middle_initial: W
+#  year: Freshman
+#  events: Fly, IM
+#  hometown: Salt Lake City, UT
+#  school: West HS
+#  majors:
+#    - Computer Science
+#  bio: >
+#    Gordon has many hobbies, out of which he has pursued swimming the most. He has been swimming since he was the age of
+#    10, and since then made many improvements. He has swam for two USA swimming club teams from elementary to high
+#    school, and competed for his high school team, eventually being elected captain.
+#  academic_highlights:
+#    - West High School Graduate
+#    - West High Honor Roll
+#  athletic_highlights:
+#    - "High School":
+#      - West High School Swim Team Captain
+#      - West High School Panther Award
+#      - West High School Distinguished Athlete
+#      - West High School Men's Sports Representative
+#  best_times:
+#    - 100 fly - 59:91 (2014 Club State)
+#    - 200 IM - 2:14.53 (2015 High School Duel Meet)
+#    - 50 free - 25:01 (2015 High School State)
+#    - 100 free - 54:13 (2015 High School Duel Meet)
 
 - last_name: Ziegler
   first_name: Devon

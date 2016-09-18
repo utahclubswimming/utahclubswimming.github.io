@@ -204,25 +204,25 @@
     - 200 Free 2:11.99 (Region 11)
     - 50 Free 26.92 (Utah 3A State Swimming)
 
-- last_name: Halterman
-  first_name: Aliya
-  year: Sophomore
-  events: Sprint Free, Back
-  hometown: Ridgecrest, CA
-  school: Burroughs HS
-  majors:
-    - Pre-nursing
-  bio: >
-    Aliya has been swimming since freshman year of high school, specializing in the 50 free, 100 free, and 100 back.
-  academic_highlights:
-    - Just transferred to the U, looking forward to oncoming adventures
-  athletic_highlights:
-    - "Miscellaneous":
-      - Santa Barbara triathlon 4th place
-  best_times:
-    - 50 free - 26.04 (2014 CA CIF)
-    - 100 Free - 56.42 (2014 CA CIF)
-    - 100 back - 1:03.80 (2014 CC JO championships)
+#- last_name: Halterman
+#  first_name: Aliya
+#  year: Sophomore
+#  events: Sprint Free, Back
+#  hometown: Ridgecrest, CA
+#  school: Burroughs HS
+#  majors:
+#    - Pre-nursing
+#  bio: >
+#    Aliya has been swimming since freshman year of high school, specializing in the 50 free, 100 free, and 100 back.
+#  academic_highlights:
+#    - Just transferred to the U, looking forward to oncoming adventures
+#  athletic_highlights:
+#    - "Miscellaneous":
+#      - Santa Barbara triathlon 4th place
+#  best_times:
+#    - 50 free - 26.04 (2014 CA CIF)
+#    - 100 Free - 56.42 (2014 CA CIF)
+#    - 100 back - 1:03.80 (2014 CC JO championships)
 
 - last_name: Hash
   first_name: Lauren
@@ -436,6 +436,27 @@
 
 - last_name: Pryor
   first_name: Alexandra
+  given_name: Xandra
+  year: Junior
+  events: Fly, IM
+  hometown: Salt Lake City, UT
+  school: Highland HS
+  majors:
+    - Biomedical Engineering
+  bio: >
+    Xandra loves the team and the close-knit friendship found within the team. She also likes food.
+  academic_highlights:
+    - Deans list past 3 years
+  athletic_highlights:
+    - "2015-16":
+      - 15th place 100 IM, East Coast Collegiate Swim & Dive Club Championships
+    - "High School":
+      - 2 and 3rd place high school state championships
+  best_times:
+    - 100 Fly - 1:01.6 (Utah high school 4A state 2014)
+    - 200 IM - 2:19.5 (Utah high school state)
+    - 100 free - 58.6 (high school meet)
+    - 100 breast - 1:11 (senior state)
 
 - last_name: Romanovskaya Robinson
   first_name: Yekaterina
