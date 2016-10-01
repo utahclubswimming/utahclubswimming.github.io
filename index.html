@@ -4,56 +4,65 @@ title: Home
 permalink: /
 ---
 
-<div class="row 200%">
-    <div class="12u">
-        <!-- Blog -->
-            <section class="box blog">
-                <h2 class="major"><span>Recent Blog Posts</span></h2>
-                <div>
-                    <div class="row">
-                        {% assign featured_post = site.posts | first %}
-                        {% if site.posts.size == 1 %}
-                        <div class="12u">
-                        {% else %}
-                        <div class="9u 12u(mobile)">
-                        {% endif %}
-                            <div class="content content-left">
-                                <article class="box post">
-                                    <header>
-                                        <h3><a href="{{ featured_post.url }}">{{ featured_post.title }}</a></h3>
-                                        <p class="post-meta">{{ featured_post.date | date: "%B %-d, %Y" }}{% if featured_post.author %} • {{ featured_post.author }}{% endif %}</p>
-                                    </header>
-                                    {% if featured_post.image %}
-                                    <a href="{{ featured_post.url }}" class="image featured"><img src="{{ site.image_url }}/{{ featured_post.image }}" alt="" /></a>
-                                    {% endif %}
-                                    {{ featured_post.excerpt }}
-                                    <a href="{{ featured_post.url }}" class="button">Continue Reading</a>
-                                </article>
-                            </div>
-                        </div>
-                        <div class="3u 12u(mobile)">
-                            <div class="sidebar">
-                                <ul class="divided">
-                                    {% for post in site.posts | limit: 6 %}
-                                    {% if forloop.first %}
-                                        <!-- We skip the first post. -->
-                                        {% continue %}
-                                    {% endif %}
-                                    <li>
-                                        <article class="box post-summary">
-                                            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-                                            <ul class="meta">
-                                                <li class="icon fa-clock-o">{{ post.date | date: "%B %-d, %Y" }}</li>
-                                                {% if post.author %}<li class="icon fa-comment">{{ post.author }}</li>{% endif %}
-                                            </ul>
+<div id="main-wrapper">
+    <div style="padding: 3em;"></div>
+    <h2 class="major" style="margin-bottom: 0;"><span>Rocky Mountain Invitational</span></h2>
+    <img src="{{ site.image_url }}/2016-rmi-banner.png" alt="" />
+    <div id="main" class="container" style="padding-top: 0;">
+        <div class="row 200%">
+            <div class="12u">
+            </div>
+            <div class="12u">
+                <!-- Blog -->
+                    <section class="box blog">
+                        <h2 class="major"><span>Recent Blog Posts</span></h2>
+                        <div>
+                            <div class="row">
+                                {% assign featured_post = site.posts | first %}
+                                {% if site.posts.size == 1 %}
+                                <div class="12u">
+                                {% else %}
+                                <div class="9u 12u(mobile)">
+                                {% endif %}
+                                    <div class="content content-left">
+                                        <article class="box post">
+                                            <header>
+                                                <h3><a href="{{ featured_post.url }}">{{ featured_post.title }}</a></h3>
+                                                <p class="post-meta">{{ featured_post.date | date: "%B %-d, %Y" }}{% if featured_post.author %} • {{ featured_post.author }}{% endif %}</p>
+                                            </header>
+                                            {% if featured_post.image %}
+                                            <a href="{{ featured_post.url }}" class="image featured"><img src="{{ site.image_url }}/{{ featured_post.image }}" alt="" /></a>
+                                            {% endif %}
+                                            {{ featured_post.excerpt }}
+                                            <a href="{{ featured_post.url }}" class="button">Continue Reading</a>
                                         </article>
-                                    </li>
-                                    {% endfor %}
-                                </ul>
+                                    </div>
+                                </div>
+                                <div class="3u 12u(mobile)">
+                                    <div class="sidebar">
+                                        <ul class="divided">
+                                            {% for post in site.posts | limit: 6 %}
+                                            {% if forloop.first %}
+                                                <!-- We skip the first post. -->
+                                                {% continue %}
+                                            {% endif %}
+                                            <li>
+                                                <article class="box post-summary">
+                                                    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                                                    <ul class="meta">
+                                                        <li class="icon fa-clock-o">{{ post.date | date: "%B %-d, %Y" }}</li>
+                                                        {% if post.author %}<li class="icon fa-comment">{{ post.author }}</li>{% endif %}
+                                                    </ul>
+                                                </article>
+                                            </li>
+                                            {% endfor %}
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </section>
+                    </section>
+            </div>
+        </div>
     </div>
 </div>
