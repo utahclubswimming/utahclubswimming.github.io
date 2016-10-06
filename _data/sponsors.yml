@@ -1,13 +1,34 @@
-- name: Prince Designs
-  logo: sponsors/prince_designs.png
-  url: http://princedesigns.co
-- name: Hand & Orthopedic Physical Therapy Specialists
-  logo: sponsors/hand-and-orthopedic.png
-  url: http://www.handandortho.com/
+# 2015 Sponsors
+#- name: Prince Designs
+#  logo: sponsors/prince_designs.png
+#  url: http://princedesigns.co
+#- name: Hand & Orthopedic Physical Therapy Specialists
+#  logo: sponsors/hand-and-orthopedic.png
+#  url: http://www.handandortho.com/
+#- name: The Morgan Family
+#  logo: sponsors/morganfamily_logo.png
+#- name: FJF Construction & Associates
+#  logo: sponsors/fjf.png
+#- name: The American Lung Association in Utah
+#  logo: sponsors/american-lung-association.jpg
+#  url: http://www.lung.org/about-us/local-associations/utah.html
+
+# 2016 Sponsors
+- name: Laco Technologies
+  logo: sponsors/2016-laco-technologies.png
+  url: http://www.lacotech.com
+- name: Morton Salt
+  logo: sponsors/2016-morton-salt.png
+  url: http://www.mortonsalt.com
+- name: Resource Management, Inc.
+  logo: sponsors/2016-resource-management-inc.png
+  url: http://www.rminc.com
+- name: University Federal Credit Union
+  logo: sponsors/2016-ufcu.png
+  url: https://www.ucreditu.com
+- name: The Hise Family
+  logo: sponsors/2016-hise-family.png
 - name: The Morgan Family
-  logo: sponsors/morganfamily_logo.png
-- name: FJF Construction & Associates
-  logo: sponsors/fjf.png
-- name: The American Lung Association in Utah
-  logo: sponsors/american-lung-association.jpg
-  url: http://www.lung.org/about-us/local-associations/utah.html
+  logo: sponsors/2016-morgan-family.png
+- name: The Pryor Family
+  logo: sponsors/2016-pryor-family.png
