@@ -1,320 +1,196 @@
 - event: 50 Free
   women:
+    - name: Belle Stobbie
+      time: "26.56"
+    - name: Hope Feliciano
+      time: "28.41"
     - name: Melissa Hofmann
-      time: "25.78"
-    - name: Al Jamora
-      time: "26.41"
-    - name: Xandra Pryor
-      time: "27.07"
-    - name: Polly Creveling
-      time: "27.95"
-    - name: Katierose McMahon
-      time: "28.95"
+      time: "28.54"
+    - name: Baiely Price
+      time: "30.34"
+    - name: Rachel DeFilippis
+      time: "30.81"
   men:
-    - name: Ethan Beseris
-      time: "22.75"
-    - name: Connor Morgan
-      time: "22.77"
-    - name: Jarom Chamberlain
-      time: "22.82"
-    - name: Philipp Hojnacki
-      time: "22.98"
-    - name: Sam Hise
-      time: "23.73"
+    - name: Edgar Gallehugh
+      time: "23.31"
+    - name: Makai Smith
+      time: "23.62"
+    - name: Sam Raber
+      time: "23.90"
+    - name: Aki Arlington
+      time: "24.50"
+    - name: Nick Skorut
+      time: "24.68"
 - event: 100 Free
   women:
+    - name: Belle Stobbie
+      time: "58.68"
+    - name: Hope Feliciano
+      time: "1:02.12"
     - name: Melissa Hofmann
-      time: "56.84"
-    - name: Xandra Pryor
-      time: "58.20"
-    - name: Al Jamora
-      time: "58.51"
-    - name: Katierose McMahon
-      time: "1:03.69"
-    - name: Megan Dearden
-      time: "1:03.89"
+      time: "1:06.32"
+    - name: Rachel DeFilippis
+      time: "1:08.14"
+    - name: Bailey Price
+      time: "1:09.64"
   men:
-    - name: Jarom Chamberlain
-      time: "48.81"
+    - name: Makai Smith
+      time: "52.98"
+    - name: Sam Raber
+      time: "53.18"
     - name: Ethan Beseris
-      time: "49.99"
-    - name: Connor Morgan
-      time: "51.02"
-    - name: Sam Hise
-      time: "52.11"
-    - name: Philipp Hojnacki
-      time: "54.23"
+      time: "53.54"
+    - name: Edgar Gallehugh
+      time: "53.96"
+    - name: Mathew Beseris
+      time: "57.49"
 - event: 200 Free
   women:
-    - name: Megan Dearden
-      time: "2:11.47"
-    - name: Janey Heyman
-      time: "2:25.16"
-    - name: Ina Hoang
-      time: "2:39.33"
+    - name: Belle Stobbie
+      time: "2:08.29"
   men:
-    - name: Ethan Beseris
-      time: "1:56.10"
-    - name: Sam Hise
-      time: "1:56.93"
-    - name: Connor Morgan
-      time: "1:59.62"
-    - name: Jonathan Buckendorf
-      time: "2:02.64"
-    - name: Cameron Quackenbush
-      time: "2:02.78"
+    - name: Sam Raber
+      time: "2:02.33"
+    - name: Logan Garcia
+      time: "2:05.40"
+    - name: John Wagner
+      time: "2:13.77"
+    - name: Kevin Hemmersmeier
+      time: "2:46.82"
 - event: 500 Free
   women:
-    - name: Megan Dearden
-      time: "5:52.51"
-    - name: Polly Creveling
-      time: "6:03.65"
-    - name: Janey Heyman
-      time: "6:33.50"
-    - name: Melissa Hofmann
-      time: "6:49.00"
   men:
-    - name: Cameron Quackenbush
-      time: "5:32.68"
+    - name: Logan Garcia
+      time: "5:28.11"
     - name: Connor Morgan
-      time: "5:38.15"
-    - name: Sam Hise
-      time: "5:59.77"
-    - name: Jeppesen Feliciano
-      time: "6:22.56"
-    - name: Ian Pradhan
-      time: "6:33.19"
+      time: "5:43.26"
 - event: 1000 Free
+  women:
+  men:
 - event: 1650 Free
   women:
-    - name: Megan Dearden
-      time: "21:14.18"
-    - name: Al Jamora
-      time: "21:44.74"
-    - name: Elena Chong
-      time: "22:12.24"
   men:
-    - name: Matt Bird
-      time: "22:29.39"
-    - name: Dylan Noaker
-      time: "27:56.83"
 - event: 50 Back
   women:
+    - name: Chloe Betts
+      time: "33.21"
     - name: Melissa Hofmann
-      time: "30.08"
-    - name: Polly Creveling
-      time: "32.74"
+      time: "34.43"
     - name: Megan Dearden
-      time: "31.92"
-    - name: Al Jamora
-      time: "32.08"
-    - name: Elena Chong
-      time: "32.93"
+      time: "35.50"
+    - name: Mabel Castillo
+      time: "1:00.72"
   men:
     - name: Connor Morgan
-      time: "25.59"
-    - name: Ethan Beseris
-      time: "27.63"
-    - name: Sam Hise
-      time: "30.70"
-    - name: Nathan Nicolodemos
-      time: "31.59"
-    - name: Jeppesen Feliciano
-      time: "32.06"
+      time: "28.61"
+    - name: Mathew Beseris
+      time: "30.31"
+    - name: Nick Skorut
+      time: "34.19"
+    - name: Nathan Nocolodemos
+      time: "34.75"
 - event: 100 Back
   women:
-    - name: Melissa Hofmann
-      time: "1:05.79"
-    - name: Al Jamora
-      time: "1:07.15"
+    - name: Chloe Betts
+      time: "1:11.05"
     - name: Megan Dearden
-      time: "1:07.26"
-    - name: Janey Heyman
-      time: "1:17.10"
+      time: "1:21.30"
+    - name: Nadja Sasivarevic
+      time: "1:30.83"
   men:
     - name: Connor Morgan
-      time: "54.20"
-    - name: Jarom Chamberlain
-      time: "55.33"
-    - name: Ethan Beseris
-      time: "58.51"
-    - name: Sam Hise
-      time: "1:05.23"
-    - name: Ian Pradhan
-      time: "1:10.03"
+      time: "1:02.18"
+    - name: Nick Skorut
+      time: "1:06.86"
+    - name: Austin Tew
+      time: "1:09.07"
 - event: 200 Back
   women:
-    - name: Megan Dearden
-      time: "2:26.51"
   men:
-    - name: Connor Morgan
-      time: "1:56.69"
-    - name: Ian Pradhan
-      time: "2:30.02"
 - event: 50 Breast
   women:
-    - name: Al Jamora
-      time: "34.50"
-    - name: Polly Creveling
-      time: "37.50"
-    - name: Ina Hoang
-      time: "42.31"
   men:
     - name: Jeppesen Feliciano
-      time: "28.97"
-    - name: Connor Morgan
-      time: "30.14"
-    - name: Matt Bird
-      time: "30.84"
-    - name: Jaxon Roller
-      time: "31.97"
-    - name: Cameron Quackenbush
-      time: "34.52"
+      time: "31.39"
+    - name: Mathew Beseris
+      time: "34.12"
+    - name: David Bore
+      time: "47.12"
 - event: 100 Breast
   women:
-    - name: Al Jamora
-      time: "1:18.53"
     - name: Xandra Pryor
-      time: "1:18.73"
-    - name: Megan Dearden
-      time: "1:25.92"
-    - name: Katierose McMahon
-      time: "1:31.49"
-    - name: Maddie Walters
-      time: "1:34.12"
+      time: "1:19.45"
+    - name: Nadja Sasivarevic
+      time: "1:32.37"
   men:
     - name: Jeppesen Feliciano
-      time: "1:04.60"
-    - name: Connor Morgan
-      time: "1:05.83"
-    - name: Matt Bird
-      time: "1:06.92"
-    - name: Jarom Chamberlain
-      time: "1:09.08"
-    - name: Cameron Quackenbush
-      time: "1:14.60"
+      time: "1:08.90"
+    - name: Makai Smith
+      time: "1:08.99"
+    - name: Logan Garcia
+      time: "1:12.93"
+    - name: Devon Ziegler
+      time: "1:15.11"
 - event: 200 Breast
   women:
-    - name: Xandra Pryor
-      time: "2:37.63"
-    - name: Megan Dearden
-      time: "2:59.94"
   men:
-    - name: Jeppesen Feliciano
-      time: "2:28.47"
-    - name: Cameron Quackenbush
-      time: "2:32.54"
-    - name: Matt Bird
-      time: "2:42.31"
-    - name: Kevin Hemmersmeier
-      time: "3:19.21"
 - event: 50 Fly
   women:
     - name: Xandra Pryor
-      time: "30.11"
-    - name: Al Jamora
-      time: "30.69"
-    - name: Megan Dearden
-      time: "30.82"
-    - name: Janey Heyman
-      time: "31.17"
-    - name: Melissa Hofmann
-      time: "31.74"
+      time: "32.26"
+    - name: Mabel Castillo
+      time: "1:11.69"
   men:
-    - name: Jarom Chamberlain
-      time: "25.04"
+    - name: Austin Tew
+      time: "25.52"
     - name: Ethan Beseris
-      time: "25.73"
-    - name: Connor Morgan
-      time: "26.55"
-    - name: Philipp Hojnacki
-      time: "26.76"
+      time: "27.46"
+    - name: Jackson Knowles
+      time: "29.17"
     - name: Sam Hise
-      time: "27.22"
+      time: "29.44"
+    - name: David Bore
+      time: "41.04"
 - event: 100 Fly
   women:
-    - name: Xandra Pryor  
-      time: "1:02.92"
-    - name: Janey Heyman
-      time: "1:12.25"
-    - name: Megan Dearden
-      time: "1:14.75"
-    - name: Melissa Hofmann
-      time: "1:20.00"
   men:
-    - name: Jarom Chamberlain
-      time: "54.61"
+    - name: Austin Tew
+      time: "55.40"
+    - name: John Wagner
+      time: "59.78"
     - name: Ethan Beseris
-      time: "55.54"
-    - name: Cameron Quackenbush
-      time: "1:01.21"
-    - name: Jeppesen Feliciano
-      time: "1:07.38"
-    - name: John Esquivel
-      time: "1:17.54"
+      time: "1:01.31"
+    - name: Sam Raber
+      time: "1:02.31"
+    - name: Nick Skorut
+      time: "1:11.04"
 - event: 200 Fly
   women:
-    - name: Xandra Pryor
-      time: "2:33.94"
-    - name: Melissa Hofmann
-      time: "2:52.32"
   men:
-    - name: Jarom Chamberlain
-      time: "2:06.86"
-    - name: Ethan Beseris
-      time: "2:12.50"
 - event: 100 IM
   women:
     - name: Xandra Pryor
-      time: "1:03.71"
-    - name: Al Jamora
-      time: "1:08.76"
-    - name: Polly Creveling
-      time: "1:08.88"
+      time: "1:07.00"
+    - name: Chloe Betts
+      time: "1:11.09"
+    - name: Hope Feliciano
+      time: "1:12.47"
     - name: Megan Dearden
-      time: "1:11.76"
-    - name: Janey Heyman
-      time: "1:12.57"
+      time: "1:12.61"
+    - name: Bailey Price
+      time: "1:19.72"
   men:
     - name: Jarom Chamberlain
-      time: "55.30"
-    - name: Connor Morgan
-      time: "56.15"
-    - name: Ethan Beseris
-      time: "59.17"
-    - name: Philipp Hojnacki
-      time: "1:03.06"
-    - name: Cameron Quackenbush
-      time: "1:03.45"
+      time: "1:01.37"
+    - name: Mathew Beseris
+      time: "1:08.18"
+    - name: Jeppesen Feliciano
+      time: "1:08.09"
+    - name: Danesh Ajioka
+      time: "1:08.59"
 - event: 200 IM
   women:
-    - name: Xandra Pryor
-      time: "2:24.22"
-    - name: Megan Dearden
-      time: "2:26.58"
-    - name: Janey Heyman
-      time: "2:37.15"
-    - name: Katierose McMahon
-      time: "2:46.68"
   men:
-    - name: Connor Morgan
-      time: "2:04.41"
-    - name: Ethan Beseris
-      time: "2:17.10"
-    - name: Cameron Quackenbush
-      time: "2:22.12"
-    - name: Jeppesen Feliciano
-      time: "2:27.10"
-    - name: Matt Bird
-      time: "2:27.40"
 - event: 400 IM
   women:
-    - name: Megan Dearden
-      time: "5:13.35"
   men:
-    - name: Connor Morgan
-      time: "4:55.52"
-    - name: Jeppesen Feliciano
-      time: "5:22.00"
-    - name: Matt Bird
-      time: "5:23.18"
