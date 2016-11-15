@@ -1,67 +1,83 @@
 - event: 50 Free
   women:
+    - name: Melissa Hofmann
+      time: "26.50"
     - name: Belle Stobbie
       time: "26.56"
     - name: Hope Feliciano
-      time: "28.41"
-    - name: Melissa Hofmann
-      time: "28.54"
+      time: "27.03"
     - name: Baiely Price
-      time: "30.34"
+      time: "28.42"
     - name: Rachel DeFilippis
-      time: "30.81"
+      time: "30.19"
   men:
     - name: Edgar Gallehugh
-      time: "23.31"
+      time: "22.43"
     - name: Makai Smith
-      time: "23.62"
-    - name: Sam Raber
-      time: "23.90"
-    - name: Aki Arlington
-      time: "24.50"
-    - name: Nick Skorut
-      time: "24.68"
+      time: "22.54"
+    - name: Mathew Beseris
+      time: "22.99"
+    - name: Connor MOrgan
+      time: "23.11"
+    - name: Ethan Beseris
+      time: "23.41"
 - event: 100 Free
   women:
     - name: Belle Stobbie
       time: "58.68"
-    - name: Hope Feliciano
-      time: "1:02.12"
     - name: Melissa Hofmann
-      time: "1:06.32"
-    - name: Rachel DeFilippis
-      time: "1:08.14"
+      time: "1:00.51"
+    - name: Hope Feliciano
+      time: "1:00.78"
     - name: Bailey Price
-      time: "1:09.64"
+      time: "1:04.82"
+    - name: Rachel DeFilippis
+      time: "1:05.98"
   men:
     - name: Makai Smith
-      time: "52.98"
+      time: "49.94"
     - name: Sam Raber
-      time: "53.18"
-    - name: Ethan Beseris
-      time: "53.54"
+      time: "50.10"
     - name: Edgar Gallehugh
-      time: "53.96"
-    - name: Mathew Beseris
-      time: "57.49"
+      time: "50.14"
+    - name: Ethan Beseris
+      time: "50.83"
+    - name: Connor Morgan
+      time: "51.40"
 - event: 200 Free
   women:
     - name: Belle Stobbie
       time: "2:08.29"
+    - name: Hope Feliciano
+      time: "2:15.40"
+    - name: Rachel DeFilippis
+      time: "2:22.10"
+    - name: Ainsley Stoneman
+      time: "2:53.67"
   men:
     - name: Sam Raber
-      time: "2:02.33"
+      time: "1:50.92"
     - name: Logan Garcia
-      time: "2:05.40"
+      time: "1:54.36"
+    - name: Connor Morgan
+      time: "1:56.27"
     - name: John Wagner
-      time: "2:13.77"
-    - name: Kevin Hemmersmeier
-      time: "2:46.82"
+      time: "1:57.48"
+    - name: Sam Hise
+      time: "2:03.11"
 - event: 500 Free
   women:
+    - name: Megan Dearden
+      time: "6:11.57"
   men:
+    - name: Sam Raber
+      time: "5:11.79"
     - name: Logan Garcia
-      time: "5:28.11"
+      time: "5:14.91"
+    - name: Kyle Darling
+      time: "5:16.50"
+    - name: Cameron Quackenbush
+      time: "5:31.26"
     - name: Connor Morgan
       time: "5:43.26"
 - event: 1000 Free
@@ -70,107 +86,155 @@
 - event: 1650 Free
   women:
   men:
+    - name: Logan Garcia
+      time: "18.36.16"
 - event: 50 Back
   women:
+    - name: Megan Dearden
+      time: "31.64"
+    - name: Melissa Hofmann
+      time: "31.97"
     - name: Chloe Betts
       time: "33.21"
-    - name: Melissa Hofmann
-      time: "34.43"
-    - name: Megan Dearden
-      time: "35.50"
+    - name: Valerie Samaniego
+      time: "35.36"
     - name: Mabel Castillo
       time: "1:00.72"
   men:
     - name: Connor Morgan
-      time: "28.61"
-    - name: Mathew Beseris
-      time: "30.31"
+      time: "26.37"
     - name: Nick Skorut
-      time: "34.19"
-    - name: Nathan Nocolodemos
-      time: "34.75"
+      time: "26.77"
+    - name: Kyle Darling
+      time: "26.85"
+    - name: Jarom Chamberlain
+      time: "27.39"
+    - name: John Wagner
+      time: "28.41"
 - event: 100 Back
   women:
+    - name: Melissa Hofmann
+      time: "1:10.72"
     - name: Chloe Betts
       time: "1:11.05"
     - name: Megan Dearden
-      time: "1:21.30"
+      time: "1:15.32"
     - name: Nadja Sasivarevic
       time: "1:30.83"
   men:
     - name: Connor Morgan
-      time: "1:02.18"
+      time: "56.50"
+    - name: Kyle Darling
+      time: "57.79"
     - name: Nick Skorut
-      time: "1:06.86"
-    - name: Austin Tew
-      time: "1:09.07"
+      time: "58.35"
+    - name: Sam Raber
+      time: "1:00.82"
+    - name: Ethan Beseris
+      time: "1:01.68"
 - event: 200 Back
   women:
+    - name: Xandra Pryor
+      time: "2:20.72"
+    - name: Megan Dearden
+      time: "2:33.78"
   men:
+    - name: Connor Morgan
+      time: "2:05.30"
+    - name: Kyle Darling
+      time: "2:06.28"
+    - name: John Wagner
+      time: "2:20.40"
 - event: 50 Breast
   women:
+    - name: Valerie Sama
+      time: "35.40"
+    - name: Bailey Price
+      time: "38.07"
   men:
+    - name: Logan Garcia
+      time: "31.22"
     - name: Jeppesen Feliciano
       time: "31.39"
     - name: Mathew Beseris
-      time: "34.12"
-    - name: David Bore
-      time: "47.12"
+      time: "32.41"
+    - name: Cole Fordham
+      time: "35.35"
+    - name: Danesh Ajioka
+      time: "35.72"
 - event: 100 Breast
   women:
     - name: Xandra Pryor
-      time: "1:19.45"
+      time: "1:13.33"
+    - name: Valerie Samaniego
+      time: "1:20.96"
     - name: Nadja Sasivarevic
-      time: "1:32.37"
+      time: "1:26.88"
   men:
+    - name: Makai Smith
+      time: "1:05.76"
+    - name: Connor Morgan
+      time: "1:06.40"
     - name: Jeppesen Feliciano
       time: "1:08.90"
-    - name: Makai Smith
-      time: "1:08.99"
     - name: Logan Garcia
-      time: "1:12.93"
-    - name: Devon Ziegler
-      time: "1:15.11"
+      time: "1:09.55"
+    - name: Cameron Quackenbush
+      time: "1:14.13"
 - event: 200 Breast
   women:
+    - name: Xandra Pryor
+      time: "2:38.05"
+    - name: Megan Dearden
+      time: "3:08.34"
   men:
+    - name: Cameron Quackenbush
+      time: "2:38.63"
+    - name: Guy Watson
+      time: "3:16.37"
+    - name: Kevin Hemmersmeier
+      time: "3:25.50"
 - event: 50 Fly
   women:
     - name: Xandra Pryor
-      time: "32.26"
+      time: "29.49"
     - name: Mabel Castillo
       time: "1:11.69"
   men:
+    - name: John Wagner
+      time: "25.46"
     - name: Austin Tew
       time: "25.52"
+    - name: Nick Skorut
+      time: "25.67"
     - name: Ethan Beseris
-      time: "27.46"
-    - name: Jackson Knowles
-      time: "29.17"
-    - name: Sam Hise
-      time: "29.44"
-    - name: David Bore
-      time: "41.04"
+      time: "25.72"
+    - name: Logan Garcia
+      time: "27.50"
 - event: 100 Fly
   women:
+    - name: Xandra Pryor
+      time: "1:04.71"
   men:
     - name: Austin Tew
-      time: "55.40"
-    - name: John Wagner
-      time: "59.78"
-    - name: Ethan Beseris
-      time: "1:01.31"
+      time: "54.70"
     - name: Sam Raber
-      time: "1:02.31"
+      time: "55.29"
+    - name: John Wagner
+      time: "57.76"
+    - name: Ethan Beseris
+      time: "58.94"
     - name: Nick Skorut
-      time: "1:11.04"
+      time: "59.46"
 - event: 200 Fly
   women:
   men:
+    - name: Austin Tew
+      time: "2:18.86"
 - event: 100 IM
   women:
     - name: Xandra Pryor
-      time: "1:07.00"
+      time: "1:05.59"
     - name: Chloe Betts
       time: "1:11.09"
     - name: Hope Feliciano
@@ -178,19 +242,39 @@
     - name: Megan Dearden
       time: "1:12.61"
     - name: Bailey Price
-      time: "1:19.72"
+      time: "1:18.60"
   men:
+    - name: Sab Raber
+      time: "59.18"
     - name: Jarom Chamberlain
       time: "1:01.37"
+    - name: Danesh Ajioka
+      time: "1:03.52"
     - name: Mathew Beseris
-      time: "1:08.18"
+      time: "1:07.18"
     - name: Jeppesen Feliciano
       time: "1:08.09"
-    - name: Danesh Ajioka
-      time: "1:08.59"
 - event: 200 IM
   women:
+    - name: Xandra Pryor
+      time: "2:23.64"
+    - name: Megan Dearden
+      time: "2:35.12"
   men:
+    - name: Connor Morgan
+      time: "2:09.96"
+    - name: Logan Garcia
+      time: "2:10.06"
+    - name: Ethan Beseris
+      time: "2:19.09"
+    - name: Ben Stewart
+      time: "2:25.09"
+    - name: Ray Reynolds
+      time: "2:32.49"
 - event: 400 IM
   women:
+    - name: Xandra Pryor
+      time: "5:13.72"
+    - name: Megan Dearden
+      time: "5:44.11"
   men:

@@ -15,8 +15,8 @@
 - event: 50 Free
   woman_name: Al Jamora
   woman_time: "25.36"
-  man_name: Ethan Beseris
-  man_time: "22.75"
+  man_name: Edgar Gallehugh
+  man_time: "22.43"
 - event: 100 Free
   woman_name: Melissa Hofmann
   woman_time: "56.83"
@@ -25,19 +25,19 @@
 - event: 200 Free
   woman_name: Belle Stobbie
   woman_time: "2:08.29"
-  man_name: Ethan Beseris
-  man_time: "1:56.10"
+  man_name: Sam Raber
+  man_time: "1:50.92"
 - event: 500 Free
   woman_name: Megan Dearden
   woman_time: "5:52.51"
-  man_name: Logan Garcia
-  man_time: "5:28.11"
+  man_name: Sam Raber
+  man_time: "5:11.79"
 - event: 1000 Free
 - event: 1650 Free
   woman_name: Megan Dearden
   woman_time: "21:14.18"
-  man_name: Matt Bird
-  man_time: "20:54.42"
+  man_name: Logan Garcia
+  man_time: "18:36.16"
 - event: 50 Back
   woman_name: Melissa Hofmann
   woman_time: "29.98"
@@ -49,8 +49,8 @@
   man_name: Connor Morgan
   man_time: "54.20"
 - event: 200 Back
-  woman_name: Megan Dearden
-  woman_time: "2:26.51"
+  woman_name: Xandra Pryor
+  woman_time: "2:20.72"
   man_name: Connor Morgan
   man_time: "1:56.69"
 - event: 50 Breast
@@ -69,8 +69,8 @@
   man_name: Jeppesen Feliciano
   man_time: "2:28.47"
 - event: 50 Fly
-  woman_name: Janey Heyman
-  woman_time: "29.83"
+  woman_name: Xandra Pryor
+  woman_time: "29.49"
   man_name: Jarom Chamberlain
   man_time: "25.04"
 - event: 100 Fly
@@ -90,7 +90,7 @@
   man_time: "55.30"
 - event: 200 IM
   woman_name: Xandra Pryor
-  woman_time: "2:24.22"
+  woman_time: "2:23.64"
   man_name: Connor Morgan
   man_time: "2:04.41"
 - event: 400 IM
@@ -99,25 +99,25 @@
   man_name: Connor Morgan
   man_time: "4:55.52"
 - event: 200 Free Relay
-  woman_name: Hofmann, McMahon, Heyman, Pryor
-  woman_time: "1:50.48"
-  man_name: Hise, Morgan, Chamberlain, Beseris
-  man_time: "1:33.71"
+  woman_name: H Feliciano, Price, Hofmann, X Pryor
+  woman_time: "1:50.18"
+  man_name: Morgan, M Beseris, E Beseris, Raber
+  man_time: "1:31.29"
 - event: 400 Free Relay
-  woman_name: Pryor, McMahon, Heyman, Hofmann
+  woman_name: X Pryor, McMahon, Heyman, Hofmann
   woman_time: "4:03.13"
-  man_name: Bird, Quackenbush, Bird, Hise
-  man_time: "3:32.09"
+  man_name: Morgan, M Beseris, Raber, E Beseris
+  man_time: "3:23.32"
 - event: 800 Free Relay
   man_name: Bird, Morgan, Quackenbush, Hise
   man_time: "7:53.37"
 - event: 200 Medley Relay
-  woman_name: Hofmann, Pryor, Heyman, McMahon
-  woman_time: "2:03.86"
-  man_name: Morgan, Feliciano, Chamberlain, Beseris
+  woman_name: Hofmann, X Pryor, Price, H Feliciano
+  woman_time: "2:03.57"
+  man_name: Morgan, J Feliciano, Chamberlain, E Beseris
   man_time: "1:40.85"
 - event: 400 Medley Relay
-  woman_name: Hofmann, Pryor, Heyman, McMahon
+  woman_name: Hofmann, X Pryor, Heyman, McMahon
   woman_time: "4:34.79"
-  man_name: Morgan, Feliciano, Chamberlain, Beseris
+  man_name: Morgan, J Feliciano, Chamberlain, E Beseris
   man_time: "3:42.05"
