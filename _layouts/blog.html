@@ -22,7 +22,7 @@
                                         <section>
                                             <h2 class="major"><span>Recent Posts</span></h2>
                                             <ul class="divided">
-                                                {% for post in site.posts | limit: 3 %}
+                                                {% for post in site.posts limit: 3 %}
                                                 <li>
                                                     <article class="box post-summary">
                                                         <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
