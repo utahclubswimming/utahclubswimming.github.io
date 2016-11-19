@@ -5,7 +5,7 @@
   info: >
     As Chairman, Megan is in charge of managing the Marketing Board meetings
     and ensuring that all tasks are completed in a timely manner.
-# - position: Fundraising Coordinator
+#- position: Fundraising Coordinator
 - position: Graphic Designer
   contact: design@utahclubswimming.com
   name: Ethan Beseris
@@ -13,13 +13,7 @@
   info: >
     Utilizing his detail-oriented nature, Ethan develops all graphics needed by
     the team – including our Swoop-and-U logo!
-- position: Photographer
-  contact: photography@utahclubswimming.com
-  name: Ina Hoang
-  image: marketing/ina.jpg
-  info: >
-    Ina's responsibility is to catalog team events and adventures. These
-    photographs are used both for graphic design and to keep a team history.
+#- position: Photographer
 - position: Recruitment Coordinator
   contact: recruitment@utahclubswimming.com
   name: Sam Hise
@@ -35,7 +29,7 @@
   info: >
     Melissa manages all social media posts and content (Facebook, Instagram,
     Twitter, etc.). This allows for greater outreach to our followers and fans.
-# - position: Videographer
+#- position: Videographer
 - position: Website Administrator
   contact: webarchitect@utahclubswimming.com
   name: Pierce Darragh
