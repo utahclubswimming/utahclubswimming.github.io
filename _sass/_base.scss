@@ -862,6 +862,10 @@
             &:first-child {
                 border-top: 0;
             }
+
+            &.clickable-row {
+                cursor: pointer;
+            }
         }
 
         td {
@@ -952,12 +956,6 @@
             }
         }
 
-        &.roster {
-            tr.clickable-row {
-                cursor: pointer;
-            }
-        }
-
         /* Shared styles */
         &.roster tbody:hover td, &.records tbody:hover td {
             opacity: 0.65;
@@ -1002,7 +1000,7 @@
         }
 
         &.contact {
-            width: 50%;
+            width: 75%;
             margin-left: auto;
             margin-right: auto;
             font-size: 1.25em;

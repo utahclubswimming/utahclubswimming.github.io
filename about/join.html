@@ -1,0 +1,93 @@
+---
+layout: about
+title: Join
+permalink: /about/join/
+---
+
+<article class="box page-content">
+
+    <header>
+        <h2>How to Join</h2>
+        <p>Become part of something</p>
+    </header>
+
+    <section>
+        <span class="image featured"><img src="{{ site.image_url }}/banner.jpg" alt="" /></span>
+        <p>
+            Anyone with a valid Campus Recreation Services membership is eligible to
+            become a part of our team, including students, faculty, staff, and alumni.
+            Simply show up to any <a href="{{ site.baseurl }}/schedule/">team practice</a>
+            you can make it to, and the officer of the day will explain the procedure
+            from there. We meet at the
+            <a href="http://campusrec.utah.edu/facilities/">George S. Eccles Student Life Center</a>,
+            located just below Legacy Bridge and north of the Marriott Honors Community.
+        </p>
+    </section>
+
+</article>
+
+<article class="box page-content">
+
+    <header>
+        <h2><a name="dues">Dues</a></h2>
+        <p>How much it costs</p>
+    </header>
+
+    <section>
+        <p>
+            Dues may be paid online <a href="{{ site.baseurl }}/store/">here</a> or by check or card in-person by
+            <a href="mailto:treasurer@utahclubswimming.com">contacting the treasurer</a> and setting up a
+            time to meet.
+        </p>
+
+        {% for destination in site.data.dues %}
+        <table class="dues">
+            <thead>
+            <th colspan="2">{{ destination.destination }}</th>
+            </thead>
+            {% for due in destination.dues %}
+            <tr>
+                <th>{{ due.reason }}</th>
+                <td>{{ due.cost }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+        {% endfor %}
+    </section>
+
+</article>
+
+<article class="box page-content">
+
+    <header>
+        <h2><a name="forms">Forms</a></h2>
+        <p>All paperwork you need to join the team</p>
+    </header>
+
+    <section>
+        <p>
+            The tryout form of previous years has been replaced with a much simpler form. Just
+            show up to practice and an officer will explain the procedure to you!
+        </p>
+        <p>
+            The Defensive Driving Certification must be completed by all license-holding members
+            for safety reasons. Click the link and then put "University of Utah" for the agency.
+            Follow the instructions and answer the questions as you go. If you have any concerns,
+            <a href="mailto:vicepresident@utahclubswimming.com">contact the club's vice president</a>.
+        </p>
+
+        <table class="forms">
+            {% for form in site.data.forms %}
+            <tr>
+                <th>{{ form.name }}</td>
+                {% if form.url %}
+                <td><a href="{{ form.url }}" class="button">Get It</a></td>
+                {% else %}
+                <td><a href="#" class="button alt no-click">Unavailable</a></td>
+                {% endif %}
+            </tr>
+            {% endfor %}
+        </table>
+    </section>
+
+</article>

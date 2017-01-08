@@ -1,0 +1,72 @@
+---
+layout: team
+title: Depth Chart
+permalink: /team/depth/
+---
+
+<article class="box page-content">
+
+    <header>
+        <h2>Depth Chart</h2>
+        <p>Top times from the current season</p>
+    </header>
+
+</article>
+
+<div class="row">
+    {% for chart in site.data.depth %}
+    <div class="12u">
+        <section>
+            <h3>{{ chart.event }}</h3>
+        </section>
+    </div>
+    <div class="6u 12u(mobile)">
+        <section>
+            <table class="depth">
+                <thead>
+                    <tr>
+                        <th colspan="3">Women</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for swimmer in chart.women %}
+                        {% if forloop.first %}
+                        <tr class="first">
+                        {% else %}
+                        <tr>
+                        {% endif %}
+                            <td class="pos">{{ forloop.index }}</td>
+                            <td class="name">{{ swimmer.name }}</td>
+                            <td class="time">{{ swimmer.time }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </section>
+    </div>
+    <div class="6u 12u(mobile)">
+        <section>
+            <table class="depth">
+                <thead>
+                    <tr>
+                        <th colspan="3">Men</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for swimmer in chart.men %}
+                        {% if forloop.first %}
+                        <tr class="first">
+                        {% else %}
+                        <tr>
+                        {% endif %}
+                            <td class="pos">{{ forloop.index }}</td>
+                            <td class="name">{{ swimmer.name }}</td>
+                            <td class="time">{{ swimmer.time }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </section>
+    </div>
+    {% endfor %}
+</div>

@@ -1,59 +1,14 @@
 - title: Home
   url: /
 
-- title: About
-  url: /about/
-  sublinks:
-    - title: About the Team
-      url: /about/
-    - title: History
-      url: /about/#history
-    - title: How to Join
-      url: /join/
-
 - title: Blog
   url: /blog/
 
-- title: Schedule
-  url: /schedule/
-  sublinks:
-    - title: Practice Schedule
-      url: /schedule/#practice
-    - title: Meet Schedule
-      url: /schedule/#meets
+- title: About
+  url: /about/
 
-- title: Results
-  url: /records/
-  sublinks:
-    - title: Team Records
-      url: /records/
-    - title: Depth Chart
-      url: /records/depth/
+- title: Schedules
+  url: /schedule/
 
 - title: Our Team
   url: /team/
-  sublinks:
-    - title: Team Roster
-      url: /team/
-    - title: Executive Board
-      url: /team/officers/
-    - title: Marketing Board
-      url: /team/marketing/
-    - title: Alumni
-      url: /team/alumni/
-
-- title: Sponsors
-  url: /sponsors/
-
-- title: Join
-  url: /join/
-  sublinks:
-    - title: Join the Team
-      url: /join/
-    - title: Dues
-      url: /join/#dues
-    - title: Forms
-      url: /join/#forms
-
-- title: Contact
-  url: /contact/

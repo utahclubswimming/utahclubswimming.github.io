@@ -1,24 +1,23 @@
 ---
-layout: default
+layout: team
 title: Marketing Board
 permalink: /team/marketing/
 ---
 
+<article class="box page-content">
+
+    <header>
+        <h2>Marketing Board</h2>
+        <p>The people behind the team's public image</p>
+    </header>
+
+    <section class="cover-photo">
+        <img src="{{ site.image_url }}/marketing/2016-17-marketing-group-photo.jpg" />
+    </section>
+
+</article>
+
 <div class="row">
-    <div class="12u">
-        <div class="content">
-
-            <article class="box page-content">
-
-                <header>
-                    <h2>Marketing Board</h2>
-                    <p>The people behind the team's public image</p>
-                </header>
-
-            </article>
-        </div>
-    </div>
-
     {% for member in site.data.marketing %}
     <div class="4u 12u(mobile)">
         <div class="officer">
@@ -39,14 +38,4 @@ permalink: /team/marketing/
     </div>
     {% endif %}
     {% endfor %}
-
-    <div class="12u">
-        <div class="content">
-            <article class="box page-content">
-                <section class="cover-photo">
-                    <img src="{{ site.image_url }}/marketing/2016-17-marketing-group-photo.jpg" />
-                </section>
-            </article>
-        </div>
-    </div>
 </div>

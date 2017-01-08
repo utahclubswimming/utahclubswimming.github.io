@@ -1,0 +1,108 @@
+---
+layout: about
+title: Contact Us
+permalink: /about/contact/
+---
+
+<article class="box page-content">
+
+    <header>
+        <h2>Contact Us</h2>
+        <p>Need to get ahold of the team? Look no further!</p>
+    </header>
+
+    <section>
+        <h3>Options</h3>
+        <p>
+            The team officers work hard to ensure that all questions are answered
+            quickly and fully. We are accessible through email and on most forms of
+            social media.
+        </p>
+        <p>
+            Additionally, you can find an officer on-deck at any of our
+            <a href="{{ site.baseurl }}/schedule/">scheduled practice
+            times</a>.
+        </p>
+    </section>
+
+</article>
+
+<!-- Contact Info -->
+
+<article class="box page-content">
+
+    <section class="feature-list small">
+        <div class="row">
+            <div class="6u 12u(mobile)">
+                <section>
+                    <h3 class="icon fa-home">Mailing Address</h3>
+                    <p>
+                        Utah Club Swimming<br />
+                        1836 Student Life Way<br />
+                        Salt Lake City, UT 84112
+                    </p>
+                </section>
+            </div>
+            <div class="6u 12u(mobile)">
+                <section>
+                    <h3 class="icon fa-comment">Social</h3>
+                    <p>
+                        {% if site.facebook_username %}
+                        <a href="https://www.facebook.com/{{ site.facebook_username }}">facebook: {{ site.facebook_username }}</a><br />
+                        {% endif %}
+                        {% if site.twitter_username %}
+                        <a href="https://twitter.com/{{ site.twitter_username }}">twitter: @{{ site.twitter_username }}</a><br />
+                        {% endif %}
+                        {% if site.instagram_username %}
+                        <a href="https://instagram.com/{{ site.instagram_username }}">insta: @{{ site.instagram_username }}</a><br />
+                        {% endif %}
+                        {% if site.flickr_username %}
+                        <a href="https://www.flickr.com/photos/{{ site.flickr_username }}">flickr: {{ site.flickr_username }}</a><br />
+                        {% endif %}
+                    </p>
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="6u 12u(mobile)">
+                <section>
+                    <h3 class="icon fa-envelope">Email</h3>
+                    <p>
+                        <a href="mailto:{{ site.email }}">{{ site.contact_email }}</a>
+                    </p>
+                </section>
+            </div>
+            <div class="6u 12u(mobile)">
+                <section>
+                    <h3 class="icon fa-phone">Phone</h3>
+                    <p>
+                        {{ site.contact }}: {{ site.contact_phone }}
+                    </p>
+                </section>
+            </div>
+        </div>
+    </section>
+</article>
+
+<!-- Officer Contact -->
+
+<article class="box page-content">
+
+    <header>
+        <h2>Officer Contact</h2>
+        <p>For touching base with specific officers</p>
+    </header>
+
+</article>
+
+<table class="contact">
+    <tbody>
+        {% for officer in site.data.officers %}
+        {% assign email = officer.contact %}
+        <tr>
+            <td class="position">{{ officer.position }}</td>
+            <td><!-- Empty Middle Column --></td>
+            <td class="contact"><a class="icon fa-envelope" href="mailto:{{ email }}"> {{ officer.name }}</a></td>
+        </tr>
+        {% endfor %}
+</table>

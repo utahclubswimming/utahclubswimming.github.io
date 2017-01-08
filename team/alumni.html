@@ -1,0 +1,41 @@
+---
+layout: team
+title: Alumni
+permalink: /team/alumni/
+---
+
+<article class="box page-content">
+
+    <header>
+        <h2>Alumni</h2>
+        <p>Former teammates</p>
+    </header>
+
+    {% for group in site.data.alumni %}
+    <section>
+
+        <h3>{{ group.year }}</h3>
+
+        <table class="roster">
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Event(s)</th>
+                <th>Hometown</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% assign sorted_alumni = (group.members|sort:'name') %}
+            {% for alum in sorted_alumni %}
+            <tr>
+                <td>{{ alum.name }}</td>
+                <td>{{ alum.events }}</td>
+                <td>{{ alum.hometown }}</td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </section>
+    {% endfor %}
+
+</article>

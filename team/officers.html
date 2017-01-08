@@ -1,24 +1,23 @@
 ---
-layout: default
+layout: team
 title: Officers
 permalink: /team/officers/
 ---
 
+<article class="box page-content">
+
+    <header>
+        <h2>Executive Board</h2>
+        <p>Team leadership</p>
+    </header>
+
+    <section class="cover-photo">
+        <img src="{{ site.image_url }}/officers/2016-17-officers-group-photo.jpg" />
+    </section>
+
+</article>
+
 <div class="row">
-    <div class="12u">
-        <div class="content">
-
-            <article class="box page-content">
-
-                <header>
-                    <h2>Executive Board</h2>
-                    <p>Team leadership positions</p>
-                </header>
-
-            </article>
-        </div>
-    </div>
-
     {% for officer in site.data.officers %}
     <div class="4u 12u(mobile)">
         <div class="officer">
@@ -39,14 +38,4 @@ permalink: /team/officers/
     </div>
     {% endif %}
     {% endfor %}
-
-    <div class="12u">
-        <div class="content">
-            <article class="box page-content">
-                <section class="cover-photo">
-                    <img src="{{ site.image_url }}/officers/2016-17-officers-group-photo.jpg" />
-                </section>
-            </article>
-        </div>
-    </div>
 </div>
