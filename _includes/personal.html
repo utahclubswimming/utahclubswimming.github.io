@@ -7,7 +7,8 @@
 
         <article class="box personal profile">
             <!-- Looks for the image "members/first_name-middle_initial-last_name.jpg". -->
-            <img src="{{ site.image_url }}/members/{{ member_lower_name }}.jpg" alt="No headshot found" onError="this.onerror=null;this.src='{{ site.image_url }}/logos/minimal.png';" />
+            <!-- looks for {{ member.headshot }} -->
+            <img src="{{ site.image_url }}/{{ member.headshot }}" alt="No headshot found" onError="this.onerror=null;this.src='{{ site.image_url }}/logos/minimal.png';" />
 
             <header>
                 <h2>{{ member.first_name }}{% if member.middle_initial %} {{ member.middle_initial }}{% endif %}{% if member.given_name %} "{{ member.given_name }}"{% endif %} {{ member.last_name }}</h2>
