@@ -613,6 +613,7 @@
 
         &.contact {
             cursor: default;
+            float: right;
 
             li {
                 @include vendor('transition', 'top .15s ease-in-out');
@@ -733,10 +734,6 @@
             color: $list_meta_text;
 
             li {
-                position: relative;
-                display: inline-block;
-                margin-left: 1em;
-
                 a {
                     color: inherit;
                     outline: 0;
@@ -863,7 +860,7 @@
                 border-top: 0;
             }
 
-            &.clickable-row {
+            clickable-row {
                 cursor: pointer;
             }
         }
@@ -953,6 +950,12 @@
                     color: $table_depth_first_row_text;
                     font-weight: bold;
                 }
+            }
+        }
+
+        &.roster {
+            tr.clickable-row {
+                cursor: pointer;
             }
         }
 
@@ -1840,6 +1843,7 @@
                 }
 
                 &.contact {
+                    float: none;
                     li {
                         margin: 0 0.25em 0.35em 0;
                         top: 0 !important;

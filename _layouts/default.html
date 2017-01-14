@@ -1,17 +1,17 @@
-<!DOCTYPE html>
-<html>
-    {% include head.html %}
-    {% include navigation.html %}
-    <body>
-        <div id="page-wrapper">
-            {% include header.html %}
-            <div id="main-wrapper">
-                <div id="main" class="container">
-                    {{ content }}
-                </div>
+---
+layout: boring
+---
+
+<body>
+    <div id="page-wrapper">
+        {% include navigation.html %}
+        {% include header.html %}
+        <div id="main-wrapper">
+            <div id="main" class="container">
+                {{ content }}
             </div>
-            {% include footer.html %}
         </div>
-        {% include scripts.html %}
-    </body>
-</html>
+        {% include footer.html %}
+    </div>
+    {% include scripts.html %}
+</body>

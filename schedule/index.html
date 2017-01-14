@@ -36,87 +36,46 @@ permalink: /schedule/
         </p>
     </section>
 
-
     <section>
         <table class="schedule">
             <thead>
-                <tr>
-                    <th><!-- Blank for a space in the corner. --></th>
-                    <th><!-- Blank for a space in the corner. --></th>
-                    {% for entry in site.data.schedule %}
-                    <th>{{ entry.day }}</th>
-                    {% endfor %}
-                </tr>
+            <tr>
+                <th><!-- Blank for a space in the corner. --></th>
+                <th><!-- Blank for a space in the corner. --></th>
+                <th>Morning</th>
+                <th>Evening</th>
+            </tr>
             </thead>
             <tbody>
-                <!-- Morning -->
-                <tr>
-                    <!-- Morning Times -->
-                    <th rowspan="3">Morning</th>
-                    <th>Time</th>
-                    {% for entry in site.data.schedule %}
-                    {% assign time = (entry.morning | map: 'time') %}
-                    <td>{{ time }}</td>
-                    {% endfor %}
-                </tr>
-                <tr>
-                    <!-- Morning Locations -->
-                    <th>Location</th>
-                    {% for entry in site.data.schedule %}
-                    {% assign location = (entry.morning | map: 'location') %}
-                    <td>{{ location }}</td>
-                    {% endfor %}
-                </tr>
-                <!--<tr>-->
-                    <!--&lt;!&ndash; Morning Leaders &ndash;&gt;-->
-                    <!--<th>Leader</th>-->
-                    <!--{% for entry in site.data.schedule %}-->
-                    <!--{% assign leader = (entry.morning | map: 'leader') %}-->
-                    <!--<td>{{ leader }}</td>-->
-                    <!--{% endfor %}-->
-                <!--</tr>-->
-                <tr>
-                    <!-- Morning Styles -->
-                    <th>Style</th>
-                    {% for entry in site.data.schedule %}
-                    {% assign style = (entry.morning | map: 'style') %}
-                    <td>{{ style }}</td>
-                    {% endfor %}
-                </tr>
-                <!-- Evening -->
-                <tr>
-                    <!-- Evening Times -->
-                    <th rowspan="3">Evening</th>
-                    <th>Time</th>
-                    {% for entry in site.data.schedule %}
-                    {% assign time = (entry.evening | map: 'time') %}
-                    <td>{{ time }}</td>
-                    {% endfor %}
-                </tr>
-                <tr>
-                    <!-- Evening Locations -->
-                    <th>Location</th>
-                    {% for entry in site.data.schedule %}
-                    {% assign location = (entry.evening | map: 'location') %}
-                    <td>{{ location }}</td>
-                    {% endfor %}
-                </tr>
-                <!--<tr>-->
-                    <!--&lt;!&ndash; Evening Leaders &ndash;&gt;-->
-                    <!--<th>Leader</th>-->
-                    <!--{% for entry in site.data.schedule %}-->
-                    <!--{% assign leader = (entry.evening | map: 'leader') %}-->
-                    <!--<td>{{ leader }}</td>-->
-                    <!--{% endfor %}-->
-                <!--</tr>-->
-                <tr>
-                    <!-- Evening Styles -->
-                    <th>Style</th>
-                    {% for entry in site.data.schedule %}
-                    {% assign style = (entry.evening | map: 'style') %}
-                    <td>{{ style }}</td>
-                    {% endfor %}
-                </tr>
+            {% for practice in site.data.schedule %}
+            {% assign morning_time = (practice.morning | map: 'time') %}
+            {% assign evening_time = (practice.evening | map: 'time') %}
+            {% assign morning_location = (practice.morning | map: 'location') %}
+            {% assign evening_location = (practice.evening | map: 'location') %}
+            {% assign morning_style = (practice.morning | map: 'style') %}
+            {% assign evening_style = (practice.evening | map: 'style') %}
+            {% unless forloop.first == true %}
+            <tr>
+                <th colspan="4"></th>
+            </tr>
+            {% endunless %}
+            <tr>
+                <th rowspan="3">{{ practice.day }}</th>
+                <th>Time</th>
+                <td>{{ morning_time }}</td>
+                <td>{{ evening_time }}</td>
+            </tr>
+            <tr>
+                <th>Location</th>
+                <td>{{ morning_location }}</td>
+                <td>{{ evening_location }}</td>
+            </tr>
+            <tr>
+                <th>Style</th>
+                <td>{{ morning_style }}</td>
+                <td>{{ evening_style }}</td>
+            </tr>
+            {% endfor %}
             </tbody>
         </table>
     </section>

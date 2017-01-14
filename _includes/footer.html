@@ -1,40 +1,72 @@
 <footer id="footer" class="container">
     <div class="row 200%">
-        <div class="6u 12u(mobile)">
+        <div class="12u">
 
-            <!-- Contact -->
             <section>
-                <h2 class="major"><span>Get in touch</span></h2>
-                <ul class="contact">
-                    {% if site.facebook_username %}
-                    <li><a class="icon fa-facebook" href="https://www.facebook.com/{{ site.facebook_username }}"><span class="label">Facebook</span></a></li>
+                <h2 class="major"><span>Sponsors</span></h2>
+
+                <div class="row">
+                    {% for sponsor in site.data.sponsors %}
+                    <div class="3u">
+                        <div class="sponsor">
+                            {% if sponsor.logo %}
+                            {% if sponsor.url %}
+                            <a href="{{ sponsor.url }}">
+                                {% endif %}
+                                <span class="image fit"><img src="{{ site.image_url }}/{{ sponsor.logo }}" /></span>
+                                {% if sponsor.url %}
+                            </a>
+                            {% endif %}
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% capture index %}{% cycle 1, 2, 3, 4 %}{% endcapture %}
+                    {% if index == "4" %}
+                    <div class="12u" style="padding: 0;">
+                    </div>
                     {% endif %}
-                    {% if site.twitter_username %}
-                    <li><a class="icon fa-twitter" href="https://twitter.com/{{ site.twitter_username }}"><span class="label">Twitter</span></a></li>
-                    {% endif %}
-                    {% if site.instagram_username %}
-                    <li><a class="icon fa-instagram" href="https://instagram.com/{{ site.instagram_username }}"><span class="label">Instagram</span></a></li>
-                    {% endif %}
-                    {% if site.flickr_username %}
-                    <li><a class="icon fa-flickr" href="https://www.flickr.com/photos/{{ site.flickr_username }}"><span class="label">Flickr</span></a></li>
-                    {% endif %}
-                    <li><a class="icon fa-envelope" href="{{ site.baseurl }}/contact/"><span class="label">Contact</span></a></li>
-                </ul>
+                    {% endfor %}
+                </div>
             </section>
 
         </div>
-        <div class="6u 12u(mobile)">
-            <section>
-                <h2 class="major"><span>Help us out</span></h2>
-                <a href="{{ site.baseurl }}/donate/" class="button donate">Donate</a>
-            </section>
-        </div>
-    </div>
 
-    <!-- Copyright -->
-    <div id="copyright">
-        <ul class="menu">
-            <li>&copy; 2017 University of Utah Club Swim Team. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-        </ul>
+        <div class="12u">
+
+            <section>
+                <h2 class="major">&zwnj;</h2>
+
+                <div class="row">
+
+                    <div class="6u 12u(mobile)">
+                        <ul class="contact">
+                            {% if site.facebook_username %}
+                            <li><a class="icon fa-facebook" href="https://www.facebook.com/{{ site.facebook_username }}"><span class="label">Facebook</span></a></li>
+                            {% endif %}
+                            {% if site.twitter_username %}
+                            <li><a class="icon fa-twitter" href="https://twitter.com/{{ site.twitter_username }}"><span class="label">Twitter</span></a></li>
+                            {% endif %}
+                            {% if site.instagram_username %}
+                            <li><a class="icon fa-instagram" href="https://instagram.com/{{ site.instagram_username }}"><span class="label">Instagram</span></a></li>
+                            {% endif %}
+                            {% if site.flickr_username %}
+                            <li><a class="icon fa-flickr" href="https://www.flickr.com/photos/{{ site.flickr_username }}"><span class="label">Flickr</span></a></li>
+                            {% endif %}
+                            <li><a class="icon fa-envelope" href="{{ site.baseurl }}/about/contact/"><span class="label">Contact</span></a></li>
+                        </ul>
+                        <a href="{{ site.baseurl }}/donate/" class="button donate">Donate</a>
+                    </div>
+
+                    <div class="6u 12u(mobile)">
+                        <ul class="menu">
+                            <li>&copy; 2017 University of Utah Club Swim Team. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
     </div>
 </footer>

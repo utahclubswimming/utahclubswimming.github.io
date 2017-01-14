@@ -2,8 +2,10 @@
   url: /register/
 - name: Constitution
   url: /files/constitution_2016.pdf
+- name: Spring 2017 Information Packet
+  url: /files/2017-spring-info-packet.pdf
 #- name: ECC Nationals Registration Form
-#  url: /files/nationals_registration_2015-16.pdf
+#  url: /files/2016-spring-nationals-registration.pdf
 - name: US Masters Membership
   url: https://www.usms.org/reg/
 - name: Defensive Driving Certification

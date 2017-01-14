@@ -1,69 +1,46 @@
-<!DOCTYPE HTML>
-<!--
-    TXT by HTML5 UP
-    html5up.net | @n33co
-    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-    {% include head.html %}
-    {% include navigation.html %}
-    <body>
-        <div id="page-wrapper">
-            {% include header.html %}
-            <div id="main-wrapper">
-                <div id="main" class="container">
-                    <div class="row">
-                        <div class="3u 12u(mobile)">
-                            <div class="sidebar">
+---
+layout: default
+---
 
-                                <!-- Sidebar -->
+<div class="row">
+    <div class="3u 12u(mobile)">
+        <div class="sidebar">
 
-                                    <!-- Recent Posts -->
-                                        <section>
-                                            <h2 class="major"><span>Recent Posts</span></h2>
-                                            <ul class="divided">
-                                                {% for post in site.posts limit: 3 %}
-                                                <li>
-                                                    <article class="box post-summary">
-                                                        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-                                                        <ul class="meta">
-                                                            <li class="icon fa-clock-o">{{ post.date | date: "%B %-d, %Y" }}</li>
-                                                            {% if post.author %}<li class="icon fa-comment">{{ post.author }}</li>{% endif %}
-                                                        </ul>
-                                                    </article>
-                                                </li>
-                                                {% endfor %}
-                                            </ul>
-                                            <a href="{{ site.baseurl }}/blog/" class="button alt">Browse Archives</a>
-                                        </section>
+            <section>
+                <h2 class="major"><span>Recent Posts</span></h2>
+                <ul class="divided">
+                    {% for post in site.posts limit: 3 %}
+                    <li>
+                        <article class="box post-summary">
+                            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                            <ul class="meta">
+                                <li class="icon fa-clock-o">{{ post.date | date: "%B %-d, %Y" }}</li>
+                                {% if post.author %}<li class="icon fa-comment">{{ post.author }}</li>{% endif %}
+                            </ul>
+                        </article>
+                    </li>
+                    {% endfor %}
+                </ul>
+                <a href="{{ site.baseurl }}/blog/" class="button alt">Browse Archives</a>
+            </section>
 
-                                    <!-- Blog description -->
-                                        <section>
-                                            <h2 class="major"><span>About the Blog</span></h2>
-                                            <a href="{{ site.baseurl }}/" class="image featured"><img src="{{ site.image_url }}/logos/black.jpg" alt="" /></a>
-                                            <p>
-                                                This is the blog of The University of Utah Club Swim Team. Here you can keep up with our
-                                                goings-on and see what sorts of events we have planned coming up.
-                                            </p>
-                                            <a href="{{ site.baseurl }}/about/" class="button alt">Learn more</a>
-                                        </section>
+            <section>
+                <h2 class="major"><span>About the Blog</span></h2>
+                <a href="{{ site.baseurl }}/" class="image featured"><img src="{{ site.image_url }}/logos/black.jpg" alt="" /></a>
+                <p>
+                    This is the blog of The University of Utah Club Swim Team. Here you can keep up with our
+                    goings-on and see what sorts of events we have planned coming up.
+                </p>
+                <a href="{{ site.baseurl }}/about/" class="button alt">Learn more</a>
+            </section>
 
-                            </div>
-                        </div>
-                        <div class="9u 12u(mobile) important(mobile)">
-                            <div class="content content-right">
-
-                                <!-- Content -->
-
-                                {{ content}}
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {% include footer.html %}
         </div>
-        {% include scripts.html %}
-    </body>
-</html>
+    </div>
+    <div class="9u 12u(mobile)">
+        <div class="content content-right">
+
+            {{ content }}
+
+        </div>
+    </div>
+</div>
