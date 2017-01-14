@@ -4,11 +4,14 @@
 - title: Blog
   url: /blog/
 
-- title: About
-  url: /about/
+- title: Our Team
+  url: /team/
+
+- title: Results
+  url: /results/
 
 - title: Schedules
   url: /schedule/
 
-- title: Our Team
-  url: /team/
+- title: About
+  url: /about/
