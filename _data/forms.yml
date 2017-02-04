@@ -1,7 +1,7 @@
 - name: Registration Form
   url: /register/
 - name: Constitution
-  url: /files/constitution_2016.pdf
+  url: /files/2016-17-constitution.pdf
 - name: Spring 2017 Information Packet
   url: /files/2017-spring-info-packet.pdf
 #- name: ECC Nationals Registration Form
