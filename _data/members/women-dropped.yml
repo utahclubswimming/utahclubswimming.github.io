@@ -1,0 +1,43 @@
+- last_name: Heyman
+  first_name: Janey
+  middle_initial: C
+  year: Junior
+  events: Fly, IM
+  hometown: Santa Cruz, CA
+  school: Saratoga HS
+  majors:
+    - Parks, Recreation, and Tourism
+  minors:
+    - Environmental and Sustainability Studies
+  bio: >
+    Janey has been swimming competitively for 12 years and is excited to continue swimming with the University of Utah
+    Club Swim Team.
+  academic_highlights:
+    - Dean's List
+    - Urban Ecology and Sustainability Scholar
+    - Undergraduate Student Advisory Committee
+    - Recreation and Parks Society
+  athletic_highlights:
+    - "Miscellaneous":
+      - SF Nike Half Marathon finisher
+      - Alcatraz Invitational finisher
+  best_times:
+    - 100 Fly - 1:01.7 (Central Coast Sectionals 2014)
+    - 200 IM - 2:17.4 (Central Coast Sectionals 2014)
+
+- last_name: Samaniego
+  first_name: Valerie
+  year: Sophomore
+  events: Breast, IM
+  hometown: Pomona, CA
+  school: Lynn University
+  majors:
+    - Athletic Training
+  bio: >
+    Valerie began her swimming career in Freshman year of high school and competed in the state competitions. After
+    graduation she was recruited to go swim for Lynn University in south Florida.
+  athletic_highlights:
+    - "Pre-U of U":
+      - Competed in the Sunshine State Conference
+  best_times:
+    - 100 Breast 1:12:00 (Sunshine State Conference)
