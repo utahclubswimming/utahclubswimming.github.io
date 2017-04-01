@@ -1,0 +1,40 @@
+- amount: $50
+  rewards:
+    - Meet information packets
+- amount: $100
+  rewards:
+    - Logo on team website
+    - Rewards from previous tiers
+- amount: $200
+  rewards:
+    - Logo on team banner
+    - Rewards from previous tiers
+- amount: $400
+  name: Bronze Tier
+  rewards:
+    - Logo on schedule poster
+    - Rewards from previous tiers
+- amount: $700
+  name: Silver Tier
+  rewards:
+    - Logo on marketing materials for annual Rocky Mountain Invitational
+    - Loudspeaker shout-outs throughout the Rocky Mountain Invitational meet
+    - Ability to set up booth outside Rocky Mountain Invitational
+    - Rewards from Bronze Tier and below
+- amount: $900
+  name: Gold Tier
+  rewards:
+    - Logo on Rocky Mountain Invitational commemorative meet T-shirt
+    - Rewards from Silver Tier and below
+- amount: $3000
+  name: Red Tier
+  purpose: Purchase suits for the entire team
+  rewards:
+    - Logo on team swimwear, which will be worn at every meet
+    - Rewards from Gold Tier and below
+- amount: $5000
+  name: Black Tier
+  purpose: Purchase deck bags for the entire team
+  rewards:
+    - Logo on team bags, used at practices, around campus, and at meets
+    - Rewards from Red Tier and below

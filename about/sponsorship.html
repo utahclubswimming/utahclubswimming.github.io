@@ -11,4 +11,35 @@ permalink: /about/sponsorship/
         <p>How you can help fund our team</p>
     </header>
 
+    <section>
+        <p>
+            Each year, our team accepts sponsorships from companies, families, and individuals to help fund the
+            ongoing costs of running the team. Money raised from sponsorship is used for paying for pool facilities
+            for the season, operational expenses, basic team apparel, league membership dues, and various other
+            expenses for the team.
+        </p>
+        <ul>
+            {% for tier in site.data.sponsorship_tiers %}
+            <li><h3>{% if tier.name %}{{ tier.name }}{% else %}{{ tier.amount }} Tier{% endif %}</h3>
+                <ul style="padding-left: 2em">
+                    {% if tier.purpose %}
+                    <li><strong>Purpose</strong>
+                        <ul style="padding-left: 2em; margin-bottom: 0;" class="default">
+                            <li>{{ tier.purpose }}</li>
+                        </ul>
+                    </li>
+                    {% endif %}
+                    <li><strong>Rewards</strong>
+                        <ul style="padding-left: 2em; margin-bottom: 0;" class="default">
+                            {% for reward in tier.rewards %}
+                            <li>{{ reward }}</li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            {% endfor %}
+        </ul>
+    </section>
+
 </article>
